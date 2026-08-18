@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality, taste, freshness, and preparation.",
+      "action": "Implement a comprehensive kitchen audit, including ingredient sourcing review, standardized recipe adherence checks, and regular taste tests by management. Provide targeted training for kitchen staff on consistency and quality control.",
+      "category": "food",
+      "expected_impact": "Significant improvement in customer satisfaction with food, leading to higher repeat visits and positive word-of-mouth."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff interactions, including poor attitude, unhelpfulness, and lack of attentiveness.",
+      "action": "Develop and implement a mandatory customer service training program for all front-of-house staff, focusing on positive attitude, proactive attentiveness, and conflict resolution. Consider incentive programs for excellent service and review staffing levels during peak hours.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, increased positive reviews regarding service, and improved staff morale."
+    },
+    {
+      "priority": 3,
+      "issue": "Customers perceive prices as too high, indicating poor value for money.",
+      "action": "Conduct a competitive pricing analysis and evaluate current menu item portion sizes and ingredient costs. Consider introducing value-oriented specials, combo deals, or slightly adjusting portion sizes/pricing to better align with customer expectations and market value. Clearly communicate the quality and value of ingredients.",
+      "category": "pricing",
+      "expected_impact": "Improved perception of value, potentially increasing order volume and customer loyalty, while maintaining profitability."
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times for seating, ordering, and food delivery.",
+      "action": "Optimize kitchen workflow and staffing schedules to match peak demand. Implement a digital waitlist system or reservation tool. Train staff on efficient order taking and table turnover. Consider pre-bussing or assigning specific roles during busy periods.",
+      "category": "operations",
+      "expected_impact": "Reduced customer frustration, improved table turnover, and a smoother dining experience, leading to higher customer satisfaction."
+    },
+    {
+      "priority": 5,
+      "issue": "Negative or unappealing restaurant atmosphere.",
+      "action": "Conduct a walk-through audit of the dining area to identify outdated decor, maintenance needs, and potential noise issues. Implement a phased refresh plan for decor, address lighting and music levels, and ensure regular maintenance.",
+      "category": "operations",
+      "expected_impact": "A more pleasant and inviting dining environment, enhancing the overall customer experience and encouraging longer stays."
+    },
+    {
+      "priority": 6,
+      "issue": "General dissatisfaction from minor operational shortcomings not fitting specific categories.",
+      "action": "Implement a daily pre-opening checklist for all areas (front and back of house) to ensure all operational details are covered. Encourage staff to proactively identify and resolve minor issues before they impact customers.",
+      "category": "operations",
+      "expected_impact": "Reduction in minor complaints and an overall improvement in the consistency of the customer experience."
+    },
+    {
+      "priority": 7,
+      "issue": "Issues with restaurant cleanliness.",
+      "action": "Establish and enforce a detailed daily, weekly, and monthly cleaning schedule for all areas, including restrooms, dining surfaces, and kitchen. Assign specific staff responsibilities and conduct regular spot checks.",
+      "category": "operations",
+      "expected_impact": "A consistently clean and hygienic environment, preventing negative health perceptions and improving customer comfort."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

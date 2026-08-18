@@ -1,0 +1,15 @@
+{
+  "business_name": "LOVE Grille",
+  "business_id": "4Env6uGYxMhXFKPfcuzUuQ",
+  "run_config": {
+    "provider": "groq (openai-compatible)",
+    "base_url": "https://api.groq.com/openai/v1",
+    "primary_model": "llama-3.3-70b-versatile",
+    "fallback_model": "llama-3.1-8b-instant"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {}
+}

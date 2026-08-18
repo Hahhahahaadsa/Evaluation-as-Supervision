@@ -1,0 +1,150 @@
+{
+  "business_name": "Scarpetta",
+  "business_id": "2qVZiMB22YPC2HCM62Gnbw",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [
+    "frequency_corrected:food_quality:0.4->0.28",
+    "frequency_corrected:staff_attitude:0.34->0.22",
+    "frequency_corrected:pricing:0.28->0.18",
+    "frequency_corrected:wait_time:0.16->0.11"
+  ],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.004672897196261682,
+        "contradictions": [
+          "review cFnRZ0K599YaBnsKLcomSg: 4 stars but labelled 'negative'"
+        ]
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed_with_warning",
+      "flags": [
+        "frequency_corrected:food_quality:0.4->0.28",
+        "frequency_corrected:staff_attitude:0.34->0.22",
+        "frequency_corrected:pricing:0.28->0.18",
+        "frequency_corrected:wait_time:0.16->0.11"
+      ],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Inconsistent or poor food quality.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.4,
+            "recomputed_frequency": 0.2757009345794392
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "Unfriendly or unhelpful staff attitude.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.34,
+            "recomputed_frequency": 0.22429906542056074
+          },
+          {
+            "index": 2,
+            "aspect": "pricing",
+            "description": "Perceived high prices or poor value for money.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.28,
+            "recomputed_frequency": 0.1822429906542056
+          },
+          {
+            "index": 3,
+            "aspect": "wait_time",
+            "description": "Long wait times for service or food.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.16,
+            "recomputed_frequency": 0.10747663551401869
+          },
+          {
+            "index": 4,
+            "aspect": "ambience",
+            "description": "Unpleasant or uninviting ambience.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.12,
+            "recomputed_frequency": 0.0794392523364486
+          },
+          {
+            "index": 5,
+            "aspect": "other",
+            "description": "Issues with 'other' aspects (e.g., specific items not fittin",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.11,
+            "recomputed_frequency": 0.07476635514018691
+          },
+          {
+            "index": 6,
+            "aspect": "cleanliness",
+            "description": "Poor cleanliness.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.01,
+            "recomputed_frequency": 0.009345794392523364
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 969.39,
+  "stratum": "p90"
+}

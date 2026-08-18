@@ -1,0 +1,71 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "LOVE Grille",
+  "sample_size": 73,
+  "executive_summary": "The analysis of 73 reviews for LOVE Grille reveals key areas for improvement, including poor food quality, high prices, long wait times, and poor staff attitude. Implementing quality control processes, reviewing pricing strategies, developing staff training programs, and optimizing service processes can lead to significant improvements in customer satisfaction.",
+  "key_findings": [
+    "Poor food quality is a major concern, mentioned in 30.1% of reviews",
+    "High prices are a significant issue, mentioned in 30.1% of reviews",
+    "Long wait times are a problem, mentioned in 13.7% of reviews",
+    "Poor staff attitude is a concern, mentioned in 20.5% of reviews"
+  ],
+  "root_causes": [
+    {
+      "pattern": "Poor food quality",
+      "cause": "Inadequate food preparation or ingredient quality",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "High prices",
+      "cause": "Inefficient cost management or overpricing strategy",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Long wait times",
+      "cause": "Inadequate staffing or inefficient service processes",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Poor staff attitude",
+      "cause": "Inadequate staff training or poor management",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Poor food quality due to inadequate food preparation or ingredient quality",
+      "action": "Implement a quality control process for food preparation and ingredient sourcing, and provide additional training to kitchen staff",
+      "category": "food",
+      "expected_impact": "20-30% improvement in customer satisfaction with food quality"
+    },
+    {
+      "priority": 2,
+      "issue": "High prices due to inefficient cost management or overpricing strategy",
+      "action": "Conduct a thorough review of menu pricing and cost structure, and consider implementing a pricing strategy that balances profitability with customer affordability",
+      "category": "pricing",
+      "expected_impact": "15-25% improvement in customer satisfaction with pricing"
+    },
+    {
+      "priority": 3,
+      "issue": "Poor staff attitude due to inadequate staff training or poor management",
+      "action": "Develop and implement a comprehensive staff training program that focuses on customer service and communication skills, and provide ongoing coaching and feedback to staff",
+      "category": "service",
+      "expected_impact": "20-30% improvement in customer satisfaction with staff attitude and service"
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times due to inadequate staffing or inefficient service processes",
+      "action": "Analyze service processes and identify opportunities for improvement, and consider increasing staffing levels during peak periods to reduce wait times",
+      "category": "operations",
+      "expected_impact": "15-25% reduction in wait times and improvement in customer satisfaction with service speed"
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a limited sample size of 73 reviews",
+    "The analysis may not capture all aspects of the customer experience",
+    "The recommendations are based on general industry best practices and may require adaptation to the specific context of LOVE Grille"
+  ],
+  "status": "success",
+  "error_detail": null
+}

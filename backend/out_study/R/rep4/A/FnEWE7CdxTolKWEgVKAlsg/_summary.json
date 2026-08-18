@@ -1,0 +1,138 @@
+{
+  "business_name": "Nomzilla! Sushi Et Cetera",
+  "business_id": "FnEWE7CdxTolKWEgVKAlsg",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Customers frequently complain about the poor quality of food",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.24,
+            "recomputed_frequency": 0.2570093457943925
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "There are recurring complaints about the staff's negative or",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.15,
+            "recomputed_frequency": 0.18691588785046728
+          },
+          {
+            "index": 2,
+            "aspect": "pricing",
+            "description": "Many reviews indicate that the pricing is too high or not ju",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.11,
+            "recomputed_frequency": 0.1588785046728972
+          },
+          {
+            "index": 3,
+            "aspect": "other",
+            "description": "General negative experiences not fitting into specific categ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.1,
+            "recomputed_frequency": 0.1261682242990654
+          },
+          {
+            "index": 4,
+            "aspect": "wait_time",
+            "description": "Customers often experience long wait times for service or fo",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.06,
+            "recomputed_frequency": 0.07476635514018691
+          },
+          {
+            "index": 5,
+            "aspect": "ambience",
+            "description": "The restaurant's atmosphere or environment receives negative",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.03,
+            "recomputed_frequency": 0.04205607476635514
+          },
+          {
+            "index": 6,
+            "aspect": "cleanliness",
+            "description": "Concerns are raised about the cleanliness of the establishme",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.01,
+            "recomputed_frequency": 0.018691588785046728
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 742.54,
+  "stratum": "p90"
+}

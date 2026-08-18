@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pandas
+pydantic
+python-dotenv
+rapidfuzz
+openai
+langchain
+langgraph
+fuzzywuzzy 
+python-levenshtein
+langchain-openai
+pytest
+scikit-learn  # eval Tier 2: sentiment accuracy + per-aspect macro-F1

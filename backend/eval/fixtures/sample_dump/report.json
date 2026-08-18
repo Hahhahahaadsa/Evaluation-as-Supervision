@@ -1,0 +1,44 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Example Bistro",
+  "sample_size": 12,
+  "executive_summary": "Based on 12 sampled reviews for Example Bistro, the priority actions are: Address wait time: Kitchen and front-of-house appear understaffed during peak hours; Address staff attitude: Staff may be undertrained in customer service or overworked during rushes",
+  "key_findings": [
+    "Long wait times reported consistently across reviews",
+    "Staff attitude issues recurring across multiple reviews"
+  ],
+  "root_causes": [
+    {
+      "pattern": "Long wait times reported consistently across reviews",
+      "cause": "Kitchen and front-of-house appear understaffed during peak hours",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Staff attitude issues recurring across multiple reviews",
+      "cause": "Staff may be undertrained in customer service or overworked during rushes",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Kitchen and front-of-house appear understaffed during peak hours",
+      "action": "Address wait time: Kitchen and front-of-house appear understaffed during peak hours",
+      "category": "operations",
+      "expected_impact": "Reduce wait time complaints"
+    },
+    {
+      "priority": 2,
+      "issue": "Staff may be undertrained in customer service or overworked during rushes",
+      "action": "Address staff attitude: Staff may be undertrained in customer service or overworked during rushes",
+      "category": "service",
+      "expected_impact": "Reduce staff attitude complaints"
+    }
+  ],
+  "limitations": [
+    "Analysis is based on a random sample of up to 100 reviews and may not represent every customer.",
+    "Sentiment and aspect labels are produced automatically and may contain classification errors."
+  ],
+  "status": "success",
+  "error_detail": null
+}

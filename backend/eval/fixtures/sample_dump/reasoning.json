@@ -1,0 +1,43 @@
+{
+  "patterns": [
+    {
+      "description": "Long wait times reported consistently across reviews",
+      "aspect": "wait_time",
+      "frequency": 0.5,
+      "evidence_review_ids": [
+        "EXAMPLE_rev_0001",
+        "EXAMPLE_rev_0002",
+        "EXAMPLE_rev_0004",
+        "EXAMPLE_rev_0007",
+        "EXAMPLE_rev_0008",
+        "EXAMPLE_rev_0010"
+      ]
+    },
+    {
+      "description": "Staff attitude issues recurring across multiple reviews",
+      "aspect": "staff_attitude",
+      "frequency": 0.42,
+      "evidence_review_ids": [
+        "EXAMPLE_rev_0001",
+        "EXAMPLE_rev_0004",
+        "EXAMPLE_rev_0005",
+        "EXAMPLE_rev_0007",
+        "EXAMPLE_rev_0010"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Long wait times reported consistently across reviews",
+      "cause": "Kitchen and front-of-house appear understaffed during peak hours",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Staff attitude issues recurring across multiple reviews",
+      "cause": "Staff may be undertrained in customer service or overworked during rushes",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,141 @@
+{
+  "business_name": "Izzo's Illegal Burrito",
+  "business_id": "ZGznjpkqi6a_It4lAgCnYw",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 92,
+        "n_success": 92,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 92,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Customers frequently report dissatisfaction with the quality",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.51,
+            "recomputed_frequency": 0.5108695652173914
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "A significant number of reviews highlight negative experienc",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.34,
+            "recomputed_frequency": 0.33695652173913043
+          },
+          {
+            "index": 2,
+            "aspect": "cleanliness",
+            "description": "Several customers express concerns about the restaurant's cl",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.18,
+            "recomputed_frequency": 0.18478260869565216
+          },
+          {
+            "index": 3,
+            "aspect": "wait_time",
+            "description": "Customers frequently complain about long wait times for serv",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.13,
+            "recomputed_frequency": 0.13043478260869565
+          },
+          {
+            "index": 4,
+            "aspect": "pricing",
+            "description": "A notable number of reviews indicate that customers find the",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.11,
+            "recomputed_frequency": 0.10869565217391304
+          },
+          {
+            "index": 5,
+            "aspect": "other",
+            "description": "Several reviews mention general negative experiences or unsp",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.11,
+            "recomputed_frequency": 0.10869565217391304
+          },
+          {
+            "index": 6,
+            "aspect": "ambience",
+            "description": "Some customers are dissatisfied with the restaurant's atmosp",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.05,
+            "recomputed_frequency": 0.05434782608695652
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "these recommendation issues do not trace back to any reasoning pattern or root cause: ['Unhygienic restaurant conditions.', 'Unpleasant or uninviting restaurant atmosphere.']",
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": [
+          "Unhygienic restaurant conditions.",
+          "Unpleasant or uninviting restaurant atmosphere."
+        ]
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 313.66,
+  "stratum": "p75"
+}

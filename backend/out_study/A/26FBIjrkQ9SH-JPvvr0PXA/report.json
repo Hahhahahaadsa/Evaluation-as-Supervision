@@ -1,0 +1,97 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Shagor Indian Cuisine",
+  "sample_size": 34,
+  "executive_summary": "An analysis of 34 customer reviews for Shagor Indian Cuisine reveals significant issues primarily concerning food quality, perceived value for money, and staff service. Customers frequently report dissatisfaction with inconsistent food preparation and high prices that don't match the experience. Additionally, staff attitude and the restaurant's ambiance and cleanliness are recurring negative points. Key recommendations include a comprehensive kitchen audit to standardize food quality, re-evaluating pricing, and implementing mandatory customer service training for staff to improve the overall dining experience.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food, indicating potential inconsistencies or issues with preparation.",
+    "Multiple customers experienced rude, unhelpful, or inattentive staff.",
+    "The restaurant's atmosphere or physical environment is frequently described negatively, including issues with decor or general upkeep.",
+    "Customers often feel the prices are too high or do not reflect good value for money.",
+    "Several reviews mention excessive wait times for service or food.",
+    "A noticeable number of reviews highlight issues with the restaurant's cleanliness."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food, indicating potential inconsistencies or issues with preparation.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or issues with recipe execution and quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Multiple customers experienced rude, unhelpful, or inattentive staff.",
+      "cause": "Lack of proper staff training in customer service, low staff morale, or insufficient management oversight and accountability.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "The restaurant's atmosphere or physical environment is frequently described negatively, including issues with decor or general upkeep.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, excessive noise levels, or a general lack of maintenance and cleanliness in the dining area.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers often feel the prices are too high or do not reflect good value for money.",
+      "cause": "Pricing strategy not aligned with the perceived quality or quantity of food/service, leading customers to feel the overall experience doesn't justify the cost.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews mention excessive wait times for service or food.",
+      "cause": "Understaffing during peak hours, inefficient kitchen operations, poor table management, or inadequate order processing systems.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A noticeable number of reviews highlight issues with the restaurant's cleanliness.",
+      "cause": "Insufficient cleaning protocols, lack of staff attention to hygiene standards, or inadequate regular maintenance of facilities.",
+      "confidence": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation.",
+      "action": "Implement a comprehensive kitchen audit, including standardizing recipes, training staff on consistent preparation techniques, and sourcing higher-quality ingredients where necessary. Establish daily taste tests and quality checks for all dishes.",
+      "category": "food",
+      "expected_impact": "Significantly improve food consistency and taste, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Customer perception of poor value for money due to high pricing.",
+      "action": "Conduct a competitive pricing analysis and re-evaluate menu pricing. Consider offering value-added options (e.g., combo deals, loyalty programs) or slightly increasing portion sizes/ingredient quality to better justify current prices.",
+      "category": "pricing",
+      "expected_impact": "Enhance customer perception of value, reduce price-related complaints, and potentially increase sales volume."
+    },
+    {
+      "priority": 3,
+      "issue": "Rude, unhelpful, or inattentive staff.",
+      "action": "Implement mandatory customer service training for all front-of-house staff, focusing on attentiveness, politeness, and problem-solving. Introduce a system for regular performance feedback and recognition, and ensure management actively monitors staff interactions.",
+      "category": "service",
+      "expected_impact": "Improve the overall dining experience, foster a more welcoming atmosphere, and reduce negative reviews related to staff interactions."
+    },
+    {
+      "priority": 4,
+      "issue": "Negative perception of the restaurant's atmosphere and physical environment.",
+      "action": "Conduct a full assessment of the dining area's decor, lighting, and seating comfort. Prioritize minor updates like fresh paint, improved lighting, and comfortable seating, or consider a phased renovation plan for a more significant refresh.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting and pleasant dining environment, enhancing the overall customer experience and encouraging longer stays."
+    },
+    {
+      "priority": 5,
+      "issue": "Excessive wait times for service or food.",
+      "action": "Analyze peak hour staffing levels and kitchen workflow. Implement a system for better table management (e.g., reservation software, host training) and optimize kitchen processes to reduce food preparation times. Consider cross-training staff to assist during busy periods.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improve service efficiency, and enhance the overall dining flow, leading to a smoother experience."
+    },
+    {
+      "priority": 6,
+      "issue": "Issues with restaurant cleanliness.",
+      "action": "Establish and enforce a daily, weekly, and monthly cleaning checklist for all areas (dining room, restrooms, kitchen). Conduct regular spot checks by management and provide staff with clear guidelines and necessary cleaning supplies.",
+      "category": "operations",
+      "expected_impact": "Significantly improve the restaurant's hygiene standards, eliminate negative cleanliness reviews, and create a more appealing and safe environment for customers."
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a sample size of 34 reviews, which may not fully represent all customer experiences.",
+    "Review data is qualitative and subjective, reflecting individual opinions rather than objective metrics.",
+    "The analysis does not account for operational data (e.g., sales figures, staff turnover) that could provide additional context."
+  ],
+  "status": "success",
+  "error_detail": null
+}

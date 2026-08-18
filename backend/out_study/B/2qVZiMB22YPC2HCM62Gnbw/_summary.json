@@ -1,0 +1,22 @@
+{
+  "business_name": "Scarpetta",
+  "business_id": "2qVZiMB22YPC2HCM62Gnbw",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": null,
+  "phase": "B",
+  "mode": "enforce",
+  "wall_clock_s": 819.85,
+  "stratum": "p90"
+}

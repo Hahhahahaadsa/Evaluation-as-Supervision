@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Negative staff experiences (rudeness, unhelpfulness, lack of attentiveness).",
+      "action": "Implement a comprehensive customer service training program focusing on empathy, active listening, and proactive attentiveness. Simultaneously, review and adjust staffing levels to prevent burnout and ensure adequate coverage during peak hours.",
+      "category": "service",
+      "expected_impact": "Significantly improved customer satisfaction, increased positive interactions, and enhanced overall dining experience, leading to better reviews and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative atmosphere/environment (noise, outdated decor, general discomfort).",
+      "action": "Conduct an audit of the restaurant's decor, lighting, and sound levels. Plan for updates to create a more modern and comfortable aesthetic, consider sound-dampening solutions (e.g., acoustic panels, softer furnishings), and optimize seating arrangements to reduce overcrowding.",
+      "category": "operations",
+      "expected_impact": "A more inviting and comfortable dining environment, encouraging customers to stay longer and enjoy their experience, thereby improving overall satisfaction and perception of value."
+    },
+    {
+      "priority": 3,
+      "issue": "Cleanliness and hygiene problems.",
+      "action": "Develop and strictly enforce a detailed daily, weekly, and monthly cleaning checklist for all areas, including dining room, restrooms, and kitchen. Increase the frequency of cleaning shifts or assign dedicated staff for continuous maintenance during operating hours, and conduct regular, unannounced cleanliness inspections.",
+      "category": "operations",
+      "expected_impact": "Elevated hygiene standards, a visibly cleaner environment, and improved customer confidence in the restaurant's overall quality and safety."
+    },
+    {
+      "priority": 4,
+      "issue": "Prices perceived as too high or not offering good value for money.",
+      "action": "Conduct a competitive pricing analysis against similar establishments and review menu item portion sizes and ingredient costs. Consider introducing value-oriented specials, combo deals, or a loyalty program, and clearly communicate the quality of ingredients or unique aspects that justify pricing.",
+      "category": "pricing",
+      "expected_impact": "Increased customer perception of value, potentially leading to higher sales volume and improved competitiveness without necessarily lowering prices across the board."
+    },
+    {
+      "priority": 5,
+      "issue": "Excessive waiting times for service or food.",
+      "action": "Analyze peak hours to optimize staffing schedules for both front-of-house and kitchen teams. Streamline kitchen workflow and station setup to improve efficiency, and implement a more robust reservation or table management system. Train staff to proactively communicate wait times and offer small gestures for extended waits.",
+      "category": "operations",
+      "expected_impact": "Reduced customer frustration, improved flow of service, and a more positive dining experience, leading to better reviews and increased table turnover."
+    },
+    {
+      "priority": 6,
+      "issue": "Dissatisfaction with food quality (taste, freshness, preparation).",
+      "action": "Standardize all recipes with clear instructions and portion control. Implement a robust quality control process for all incoming ingredients and outgoing dishes. Provide ongoing training for kitchen staff on cooking techniques and food safety, and explore options for sourcing higher-quality or fresher ingredients.",
+      "category": "food",
+      "expected_impact": "Improved consistency and quality of dishes, leading to higher customer satisfaction, increased repeat business, and a stronger reputation for culinary excellence."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

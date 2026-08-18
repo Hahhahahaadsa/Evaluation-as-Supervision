@@ -1,0 +1,97 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Izzo's Illegal Burrito",
+  "sample_size": 92,
+  "executive_summary": "An analysis of 92 customer reviews for Izzo's Illegal Burrito reveals critical areas for improvement, primarily centered on food quality, staff service, and restaurant cleanliness. Over half of the reviews express dissatisfaction with food quality, followed by significant concerns regarding staff attitude and hygiene. Addressing these core issues through targeted operational changes and staff development is essential to enhance customer satisfaction and improve the restaurant's overall reputation.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food, indicating issues with taste, freshness, or preparation.",
+    "A significant number of reviews highlight negative interactions or poor service from staff members.",
+    "Concerns about the restaurant's cleanliness, including the dining area or restrooms, are a recurring issue.",
+    "Customers consistently experience long wait times for seating, ordering, or receiving their food.",
+    "Many customers feel that the pricing is too high, especially considering the perceived value or quality of the offerings.",
+    "Several reviews mention general negative experiences that do not fit into specific categories, indicating broader dissatisfaction."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or lack of stringent quality control in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A significant number of reviews highlight negative interactions or poor service from staff members.",
+      "cause": "Insufficient staff training, low employee morale, or inadequate staffing levels leading to overworked and stressed employees.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Concerns about the restaurant's cleanliness, including the dining area or restrooms, are a recurring issue.",
+      "cause": "Lax cleaning protocols, insufficient cleaning staff, or lack of management oversight on hygiene standards.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers consistently experience long wait times for seating, ordering, or receiving their food.",
+      "cause": "Operational inefficiencies in the kitchen or front-of-house, understaffing during peak hours, or poor table management.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Many customers feel that the pricing is too high, especially considering the perceived value or quality of the offerings.",
+      "cause": "Pricing strategy not aligned with the perceived quality of food and service, leading to poor value for money perception.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Several reviews mention general negative experiences that do not fit into specific categories, indicating broader dissatisfaction.",
+      "cause": "Overall operational shortcomings or a general lack of attention to the complete customer experience.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation.",
+      "action": "Implement a comprehensive kitchen audit, including ingredient sourcing review, standardized recipe adherence checks, and daily taste tests by a senior chef. Provide targeted training for kitchen staff on consistency and quality control.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food taste, freshness, and consistency, leading to higher customer satisfaction and repeat visits."
+    },
+    {
+      "priority": 2,
+      "issue": "Poor staff attitude and service quality.",
+      "action": "Launch a mandatory customer service training program focusing on empathy, communication, and conflict resolution. Conduct a staff morale survey and review staffing levels during peak hours to address potential understaffing.",
+      "category": "service",
+      "expected_impact": "Enhanced customer interactions, improved service perception, and a more positive dining experience."
+    },
+    {
+      "priority": 3,
+      "issue": "Substandard restaurant cleanliness.",
+      "action": "Develop and enforce a detailed daily and weekly cleaning checklist for all areas (dining, restrooms, kitchen). Assign specific staff responsibilities and conduct regular management inspections to ensure compliance.",
+      "category": "operations",
+      "expected_impact": "A cleaner, more inviting environment, improving customer comfort and perception of hygiene standards."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive customer wait times.",
+      "action": "Analyze peak hour traffic patterns and kitchen order flow. Implement a new table management system or reservation tool, and adjust staffing schedules to ensure adequate coverage during busy periods. Cross-train front-of-house staff to assist with various tasks.",
+      "category": "operations",
+      "expected_impact": "Reduced wait times, smoother service flow, and improved customer satisfaction with efficiency."
+    },
+    {
+      "priority": 5,
+      "issue": "Poor perceived value for money.",
+      "action": "Conduct a competitive pricing analysis and a cost-benefit analysis of menu items. Consider introducing value-oriented specials or slightly adjusting portion sizes/ingredient quality to better align price with perceived value, especially after addressing food quality issues.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially increasing sales and reducing price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "General dissatisfaction with the overall customer experience.",
+      "action": "Implement a customer feedback system (e.g., digital surveys, comment cards) to capture specific details of 'other' negative experiences. Conduct a holistic review of the entire customer journey from arrival to departure to identify overlooked pain points.",
+      "category": "operations",
+      "expected_impact": "Identification and resolution of subtle issues contributing to overall dissatisfaction, leading to a more cohesive positive experience."
+    }
+  ],
+  "limitations": [
+    "This analysis is based on a sample of 92 reviews, which may not fully represent all customer experiences.",
+    "The insights are derived from textual data and may be subject to interpretation.",
+    "The analysis does not include operational data or financial metrics, which could provide additional context."
+  ],
+  "status": "success",
+  "error_detail": null
+}

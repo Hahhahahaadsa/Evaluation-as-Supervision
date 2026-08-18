@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and potentially low-quality ingredients.",
+      "action": "Implement a comprehensive kitchen audit, including ingredient sourcing review, standardized recipe adherence checks, and regular taste tests by management. Provide targeted training for kitchen staff on consistency and quality control.",
+      "category": "food",
+      "expected_impact": "Significant improvement in customer satisfaction with food taste and quality, leading to repeat business and positive reviews."
+    },
+    {
+      "priority": 2,
+      "issue": "Poor staff attitude and service quality.",
+      "action": "Develop and implement mandatory customer service training for all front-of-house staff, focusing on empathy, problem-solving, and professional communication. Conduct anonymous staff surveys to gauge morale and address underlying issues like understaffing or unfair workload distribution.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, reduced negative service complaints, and improved staff morale."
+    },
+    {
+      "priority": 3,
+      "issue": "Excessive waiting times for service and food.",
+      "action": "Analyze peak hour staffing levels for both kitchen and front-of-house, adjusting schedules or hiring as needed. Implement a new order management system or optimize current kitchen workflow processes to improve efficiency and reduce bottlenecks.",
+      "category": "operations",
+      "expected_impact": "Shorter wait times, improved customer flow, and increased table turnover, leading to higher customer satisfaction and potential revenue growth."
+    },
+    {
+      "priority": 4,
+      "issue": "Perceived poor value for money due to high pricing relative to quality/service.",
+      "action": "Conduct a competitive pricing analysis of similar restaurants in the area. Re-evaluate menu pricing in conjunction with the improved food quality and service (from previous actions). Consider offering value-added promotions or clearly communicating ingredient quality to justify prices.",
+      "category": "pricing",
+      "expected_impact": "Customers perceive better value, leading to fewer pricing complaints and potentially increased sales."
+    },
+    {
+      "priority": 5,
+      "issue": "Undefined or inconsistent operational standards leading to varied customer experiences.",
+      "action": "Implement a comprehensive operational standards manual covering all aspects of the restaurant, from opening to closing procedures, service steps, and cleanliness checks. Conduct regular management walk-throughs and mystery shopper programs to ensure adherence.",
+      "category": "operations",
+      "expected_impact": "Greater consistency in service delivery and overall restaurant experience, reducing general dissatisfaction."
+    },
+    {
+      "priority": 6,
+      "issue": "Inadequate restaurant cleanliness and hygiene.",
+      "action": "Establish a detailed daily, weekly, and monthly cleaning checklist for all areas (dining room, restrooms, kitchen). Assign specific staff responsibilities and implement regular management checks to ensure compliance.",
+      "category": "operations",
+      "expected_impact": "Improved hygiene standards, enhanced customer comfort, and reduced health code risks."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Systemic operational inefficiencies, general decline in service standards, or a combination of minor issues across different aspects contributing to overall dissatisfaction.",
+      "action": "Conduct a comprehensive operational audit covering all customer touchpoints (order taking, food delivery, cleanliness, staff interaction, ambiance) to identify specific bottlenecks and areas for improvement. Implement a continuous improvement program.",
+      "category": "operations",
+      "expected_impact": "Address underlying systemic issues, leading to a significant improvement in overall customer satisfaction and a reduction in general negative feedback."
+    },
+    {
+      "priority": 2,
+      "issue": "Inadequate staff training in customer service and conflict resolution, potential understaffing leading to employee stress, or insufficient management oversight.",
+      "action": "Implement mandatory, recurring customer service training for all front-of-house staff, focusing on communication, empathy, and conflict resolution. Review staffing levels during peak hours and ensure adequate management presence.",
+      "category": "service",
+      "expected_impact": "Improve staff professionalism and friendliness, leading to more positive customer interactions and a better overall dining experience."
+    },
+    {
+      "priority": 3,
+      "issue": "Outdated or poorly maintained interior, inadequate attention to creating a comfortable and inviting environment, or poor noise management.",
+      "action": "Allocate budget for minor renovations or decor updates (e.g., fresh paint, new lighting, comfortable seating). Invest in sound-dampening solutions or adjust music levels to manage noise.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting and comfortable dining environment, enhancing the overall customer experience and encouraging longer stays."
+    },
+    {
+      "priority": 4,
+      "issue": "Insufficient cleaning protocols, lack of dedicated staff for cleanliness maintenance, or poor training on hygiene standards.",
+      "action": "Develop and enforce a detailed daily/weekly cleaning checklist for all areas (dining room, restrooms, kitchen, entrance). Assign specific staff responsibilities for cleanliness checks throughout shifts and provide refresher training on hygiene.",
+      "category": "operations",
+      "expected_impact": "Significantly improve hygiene standards, eliminate a major source of negative feedback, and enhance customer perception of the restaurant's quality."
+    },
+    {
+      "priority": 5,
+      "issue": "Pricing strategy that does not align with the perceived value of food quality, portion sizes, or overall service, or uncompetitive pricing compared to similar establishments.",
+      "action": "Conduct a competitive pricing analysis and evaluate menu item profitability. Consider adjusting portion sizes, enhancing presentation, or introducing value-oriented specials to better align price with perceived value.",
+      "category": "pricing",
+      "expected_impact": "Increase customer perception of value, potentially leading to higher sales and reduced complaints about pricing."
+    },
+    {
+      "priority": 6,
+      "issue": "Understaffing in both front-of-house and kitchen, inefficient order processing, or poor table management during peak hours.",
+      "action": "Analyze peak hour traffic and adjust staffing schedules accordingly for both kitchen and FOH. Implement a more efficient order management system (e.g., POS optimization, kitchen display system) and train staff on effective table turnover strategies.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improve service efficiency, and enhance customer satisfaction during busy periods."
+    },
+    {
+      "priority": 7,
+      "issue": "Inconsistent food preparation, issues with ingredient freshness or quality, or lack of rigorous quality control in the kitchen.",
+      "action": "Standardize recipes and cooking procedures, conduct regular checks on ingredient freshness and supplier quality, and implement a strict quality control process for every dish before it leaves the kitchen.",
+      "category": "food",
+      "expected_impact": "Ensure consistent high quality and taste of food, leading to improved customer satisfaction and positive reviews for the core product."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

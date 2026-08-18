@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation, including taste, freshness, and execution.",
+      "action": "Implement a comprehensive kitchen audit, including ingredient sourcing review, standardized recipe adherence checks, and daily taste tests by a senior chef. Provide targeted training for kitchen staff on consistency and quality control.",
+      "category": "food",
+      "expected_impact": "Significant improvement in customer satisfaction with food taste, freshness, and overall quality, leading to higher repeat visits and positive reviews."
+    },
+    {
+      "priority": 2,
+      "issue": "Poor staff service and attitude, characterized by unfriendliness, inattentiveness, or lack of professionalism.",
+      "action": "Develop and implement a mandatory customer service training program for all front-of-house staff, focusing on attentiveness, friendliness, and problem-solving. Increase management presence on the floor during peak hours for real-time coaching and oversight.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, reduced negative service complaints, and improved staff morale and professionalism."
+    },
+    {
+      "priority": 3,
+      "issue": "Customer perception of poor value for money, with prices deemed too high for the offering.",
+      "action": "Conduct a competitive pricing analysis and a menu engineering review. Consider adjusting portion sizes, introducing value-oriented specials, or clearly communicating the quality/sourcing of ingredients to justify pricing.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially leading to increased sales and reduced price-related complaints."
+    },
+    {
+      "priority": 4,
+      "issue": "General dissatisfaction stemming from various minor, unaddressed issues across the customer journey.",
+      "action": "Implement a customer feedback system (e.g., comment cards, QR code surveys) to capture specific minor issues. Conduct regular staff meetings to discuss feedback and brainstorm small, continuous improvements across all touchpoints.",
+      "category": "operations",
+      "expected_impact": "Identification and resolution of numerous small pain points, leading to an overall smoother and more satisfying customer experience."
+    },
+    {
+      "priority": 5,
+      "issue": "Excessive customer waiting times for seating, ordering, or receiving food.",
+      "action": "Analyze peak hour traffic and staffing levels. Optimize kitchen workflow and order-to-delivery times. Implement a reservation system or a more efficient table management process to reduce seating wait times.",
+      "category": "operations",
+      "expected_impact": "Reduced customer frustration, improved table turnover, and a more efficient service flow, especially during busy periods."
+    },
+    {
+      "priority": 6,
+      "issue": "Unappealing or uncomfortable restaurant ambience due to outdated decor, poor maintenance, or environmental factors.",
+      "action": "Conduct an internal audit of the dining area's decor, lighting, seating comfort, and noise levels. Prioritize small, impactful improvements like updating lighting, adding sound dampening, or refreshing decor elements.",
+      "category": "operations",
+      "expected_impact": "A more pleasant and comfortable dining environment, enhancing the overall customer experience and encouraging longer stays."
+    },
+    {
+      "priority": 7,
+      "issue": "Inadequate restaurant cleanliness, impacting customer confidence and experience.",
+      "action": "Establish and enforce a daily and weekly cleaning checklist for all areas (dining room, restrooms, kitchen). Schedule regular deep cleaning and implement a manager-led inspection routine before opening and during shifts.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner and more hygienic environment, boosting customer confidence and satisfaction."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

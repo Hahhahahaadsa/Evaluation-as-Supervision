@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of low-quality ingredients, or lack of attention to culinary standards.",
+      "action": "Implement a comprehensive kitchen audit, including ingredient quality checks, standardized recipe adherence, and regular taste tests by management. Provide targeted training for kitchen staff on consistency and presentation.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food consistency, taste, and overall quality, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staff training, low staff morale, or understaffing leading to rushed and stressed service interactions.",
+      "action": "Conduct mandatory customer service training for all front-of-house staff, focusing on attentiveness, friendliness, and conflict resolution. Implement a staff feedback mechanism and consider incentives for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience through improved staff interactions, leading to better reviews and a more welcoming atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Inadequate cleaning protocols, insufficient cleaning staff, or lack of regular maintenance and oversight.",
+      "action": "Establish daily, weekly, and monthly cleaning checklists for all areas (dining room, restrooms, kitchen, entrance). Assign clear responsibilities and conduct regular spot checks by management to ensure adherence.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner and more hygienic environment, improving customer comfort and perception of the restaurant's standards."
+    },
+    {
+      "priority": 4,
+      "issue": "Understaffing (both kitchen and front-of-house), inefficient order processing systems, or poor kitchen management leading to bottlenecks.",
+      "action": "Analyze peak hour staffing levels for both kitchen and front-of-house. Implement a new order management system or optimize existing one, and cross-train staff to assist during busy periods.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, leading to a smoother dining experience and increased table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Misalignment between perceived value and cost, or a pricing strategy that is not competitive with the quality or quantity offered.",
+      "action": "Conduct a competitive pricing analysis and review menu item costs, portion sizes, and ingredient quality. Consider offering value-driven specials or slightly adjusting prices/portions to better align with customer expectations.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value for money, potentially increasing sales and reducing price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "Cumulative effect of multiple minor issues, or specific uncaptured negative experiences that contribute to overall dissatisfaction.",
+      "action": "Implement a customer feedback system (e.g., comment cards, digital surveys) to capture specific details of 'other' negative experiences. Hold weekly team meetings to review feedback and identify recurring minor issues.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of minor issues before they escalate, contributing to overall customer satisfaction."
+    },
+    {
+      "priority": 7,
+      "issue": "Poor interior design, lack of maintenance, uncomfortable seating, excessive noise, or an uninviting general atmosphere.",
+      "action": "Conduct an internal audit of the dining environment, focusing on lighting, music, seating comfort, and decor. Consider minor aesthetic upgrades or sound dampening solutions to improve the overall atmosphere.",
+      "category": "operations",
+      "expected_impact": "A more pleasant and inviting dining environment, enhancing the overall customer experience and encouraging longer stays."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

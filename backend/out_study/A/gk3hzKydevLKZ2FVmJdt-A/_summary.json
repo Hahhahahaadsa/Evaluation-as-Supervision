@@ -1,0 +1,152 @@
+{
+  "business_name": "Nora Lee's",
+  "business_id": "gk3hzKydevLKZ2FVmJdt-A",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [
+    "frequency_corrected:food_quality:0.63->0.39",
+    "frequency_corrected:staff_attitude:0.49->0.27",
+    "frequency_corrected:wait_time:0.31->0.18",
+    "frequency_corrected:pricing:0.28->0.16",
+    "frequency_corrected:other:0.23->0.14",
+    "frequency_corrected:ambience:0.17->0.09"
+  ],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed_with_warning",
+      "flags": [
+        "frequency_corrected:food_quality:0.63->0.39",
+        "frequency_corrected:staff_attitude:0.49->0.27",
+        "frequency_corrected:wait_time:0.31->0.18",
+        "frequency_corrected:pricing:0.28->0.16",
+        "frequency_corrected:other:0.23->0.14",
+        "frequency_corrected:ambience:0.17->0.09"
+      ],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Customers frequently complain about the quality of the food.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.63,
+            "recomputed_frequency": 0.3925233644859813
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "There are recurring issues with the staff's attitude or serv",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.49,
+            "recomputed_frequency": 0.26635514018691586
+          },
+          {
+            "index": 2,
+            "aspect": "wait_time",
+            "description": "Customers often experience long wait times.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.31,
+            "recomputed_frequency": 0.17757009345794392
+          },
+          {
+            "index": 3,
+            "aspect": "pricing",
+            "description": "The pricing is consistently perceived as too high or not off",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.28,
+            "recomputed_frequency": 0.1588785046728972
+          },
+          {
+            "index": 4,
+            "aspect": "other",
+            "description": "Other miscellaneous negative issues are reported.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.23,
+            "recomputed_frequency": 0.14018691588785046
+          },
+          {
+            "index": 5,
+            "aspect": "ambience",
+            "description": "The restaurant's atmosphere or environment receives negative",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.17,
+            "recomputed_frequency": 0.09345794392523364
+          },
+          {
+            "index": 6,
+            "aspect": "cleanliness",
+            "description": "Concerns about the cleanliness of the establishment are note",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.04,
+            "recomputed_frequency": 0.02336448598130841
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 846.98,
+  "stratum": "p90"
+}

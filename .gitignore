@@ -1,0 +1,64 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.vite/
+
+# Local datasets and generated files
+backend/data/raw/*
+backend/data/processed/*
+!backend/data/raw/.gitkeep
+!backend/data/processed/.gitkeep
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.csv
+*.jsonl
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Claude context (CLAUDE.md is tracked as a project doc — see repo root)
+.claude/
+
+# Local debug/trace scripts
+backend/trace_agents.py
+backend/trace_agents_live.py
+
+
+
+.env.example
+
+# eval CLI output artifacts (generated, not source)
+backend/eval/**/tier1_report.json
+backend/eval/**/tier2_scores.json
+backend/eval/**/tier3_scores.json
+# Track the local (Ollama) env profile alongside .env.example
+!.env.local.example
+
+# Paper drafts (local only — not for GitHub)
+docs/paper/

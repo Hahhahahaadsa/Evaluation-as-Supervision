@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Negative staff attitude (rudeness, unhelpfulness, inattentiveness).",
+      "action": "Implement mandatory customer service training for all front-of-house staff, focusing on empathy, attentiveness, and conflict resolution. Introduce a staff recognition program for excellent service.",
+      "category": "service",
+      "expected_impact": "Significantly improve customer interactions and overall dining experience, reducing a major source of complaints."
+    },
+    {
+      "priority": 2,
+      "issue": "Poor cleanliness standards (tables, restrooms, general areas).",
+      "action": "Develop and enforce daily/weekly cleaning checklists for all areas, including restrooms and dining surfaces. Assign specific staff for regular spot checks during service hours and conduct monthly deep cleans.",
+      "category": "operations",
+      "expected_impact": "Enhance hygiene, improve customer comfort, and elevate the restaurant's perceived quality and professionalism."
+    },
+    {
+      "priority": 3,
+      "issue": "Unpleasant, outdated, or uncomfortable restaurant ambience.",
+      "action": "Conduct a professional assessment of the dining area's decor, lighting, seating comfort, and noise levels. Prioritize cost-effective updates (e.g., fresh paint, new lighting, comfortable chair cushions) and address any major maintenance issues.",
+      "category": "facilities",
+      "expected_impact": "Create a more inviting and comfortable dining environment, attracting new customers and improving retention."
+    },
+    {
+      "priority": 4,
+      "issue": "Broad, unspecified customer dissatisfaction indicating inconsistent service delivery and operational standards.",
+      "action": "Implement a comprehensive 'Guest Experience Audit' covering all customer touchpoints from arrival to departure. Use findings to refine service standards and create a continuous improvement plan across all operational areas.",
+      "category": "operations",
+      "expected_impact": "Address systemic inconsistencies, leading to a holistic improvement in customer satisfaction and a reduction in general negative feedback."
+    },
+    {
+      "priority": 5,
+      "issue": "Customers perceive pricing as too high or not offering good value for money.",
+      "action": "Conduct a detailed menu engineering analysis to assess profitability and perceived value of each dish. Consider introducing value-focused specials, adjusting portion sizes, or slightly modifying ingredient quality to better justify prices.",
+      "category": "pricing",
+      "expected_impact": "Align pricing with customer expectations, improve perceived value, and potentially optimize menu profitability."
+    },
+    {
+      "priority": 6,
+      "issue": "Long waiting times for seating, ordering, or receiving food.",
+      "action": "Analyze staffing levels during peak hours and optimize kitchen workflow to reduce bottlenecks. Implement a digital table management system and train staff on efficient order taking and delivery processes.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improve operational efficiency, and enhance the overall dining experience."
+    },
+    {
+      "priority": 7,
+      "issue": "Inconsistent or unsatisfactory food quality.",
+      "action": "Develop and enforce strict standardized recipes and portion controls for all dishes. Implement a daily taste-test and quality check protocol for all dishes before service, involving kitchen management.",
+      "category": "food",
+      "expected_impact": "Ensure consistent high-quality food, meeting customer expectations and strengthening the restaurant's culinary reputation."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

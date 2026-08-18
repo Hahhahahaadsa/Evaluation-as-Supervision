@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of sub-par ingredients, or lack of adherence to recipes.",
+      "action": "Implement a mandatory 2-week culinary retraining program for all kitchen staff focusing on standardized recipes, portion control, and ingredient quality checks. Source 3 new, higher-quality local suppliers for key ingredients within 30 days.",
+      "category": "food",
+      "expected_impact": "Significant improvement in taste, consistency, and overall food quality, leading to higher customer satisfaction and repeat visits."
+    },
+    {
+      "priority": 2,
+      "issue": "Inadequate staff training, insufficient staffing levels, or poor management oversight regarding customer service.",
+      "action": "Launch a comprehensive customer service training module for all front-of-house staff, including role-playing scenarios for handling difficult customers and proactive attentiveness. Implement a daily pre-shift briefing to reinforce service standards and address specific feedback.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, reduced complaints about rudeness/inattentiveness, and improved staff morale."
+    },
+    {
+      "priority": 3,
+      "issue": "Misalignment between pricing strategy and perceived value (food quality, portion size, service, ambience).",
+      "action": "Conduct a detailed competitive analysis of menu pricing against 5 local competitors, focusing on similar dishes and portion sizes. Based on findings, adjust 3-5 key menu item prices or enhance their perceived value (e.g., slightly larger portion, premium side option) within 45 days.",
+      "category": "pricing",
+      "expected_impact": "Customers will perceive better value for money, potentially increasing order frequency and overall sales."
+    },
+    {
+      "priority": 4,
+      "issue": "Understaffing during peak hours, inefficient kitchen workflow, or poor table management.",
+      "action": "Analyze sales data to identify peak hours and adjust staffing schedules to ensure adequate coverage (e.g., add one server and one kitchen assistant during dinner rush). Implement a digital table management system to optimize seating and reduce wait times.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times for seating and food, leading to a smoother dining experience and increased table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Diverse range of minor operational issues or specific product complaints not fitting other categories.",
+      "action": "Establish a weekly 'Operational Review' meeting with key staff (manager, head chef, lead server) to review all miscellaneous customer feedback and internal operational reports, assigning clear owners and deadlines for resolution.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and swift resolution of minor issues, preventing them from escalating into recurring problems."
+    },
+    {
+      "priority": 6,
+      "issue": "Outdated decor, uncomfortable environment, or issues with noise levels/overall atmosphere.",
+      "action": "Allocate a small budget ($500-$1000) for immediate, low-cost ambience improvements such as updating lighting fixtures, adding plants, or improving background music. Research sound-dampening solutions for future investment.",
+      "category": "ambience",
+      "expected_impact": "A more inviting and comfortable dining environment, enhancing the overall customer experience."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

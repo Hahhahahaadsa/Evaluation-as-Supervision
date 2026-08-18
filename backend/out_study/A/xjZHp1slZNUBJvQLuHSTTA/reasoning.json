@@ -1,0 +1,40 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report negative experiences with staff attitude.",
+      "aspect": "staff_attitude",
+      "frequency": 0.2857,
+      "evidence_review_ids": [
+        "7-zP-OmgB1xKjpGf-BvlFA",
+        "Q0cmXdynIedpVUa3g_bAFw",
+        "X2ewMXHnN35mmP4tMypBbg",
+        "yq2Pst8l8nsSVjuA6_o_dA"
+      ]
+    },
+    {
+      "description": "The restaurant's atmosphere or decor is consistently described negatively.",
+      "aspect": "ambience",
+      "frequency": 0.2857,
+      "evidence_review_ids": [
+        "B80VdMlcktsJuTN-ysjrKw",
+        "E_-_ZkPX2Ig7NolVtFbJ2Q",
+        "EjLJPNu6cs3tTwe7Tcyr_w",
+        "Q0cmXdynIedpVUa3g_bAFw"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report negative experiences with staff attitude.",
+      "cause": "Inadequate staff training, low staff morale, or insufficient staffing leading to stress and poor service.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "The restaurant's atmosphere or decor is consistently described negatively.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, or general lack of upkeep contributing to an uninviting atmosphere.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

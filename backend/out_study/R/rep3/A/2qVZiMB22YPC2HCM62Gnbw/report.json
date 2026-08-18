@@ -1,0 +1,96 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Scarpetta",
+  "sample_size": 214,
+  "executive_summary": "Analysis of 214 customer reviews for Scarpetta reveals significant dissatisfaction primarily concerning food quality, staff service, and perceived value for money. Long wait times and ambience also contribute to negative experiences. Key recommendations focus on improving kitchen consistency, enhancing staff training, re-evaluating pricing, and optimizing operations to address these core issues and improve overall customer satisfaction.",
+  "key_findings": [
+    "Customers frequently complain about the quality of the food.",
+    "There are recurring issues with the staff's attitude or service.",
+    "Many customers find the pricing to be too high or not offering good value.",
+    "Customers often experience long wait times for service or food.",
+    "The restaurant's atmosphere or environment receives negative feedback."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently complain about the quality of the food.",
+      "cause": "Inconsistent food preparation, low-quality ingredients, or lack of attention to detail in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "There are recurring issues with the staff's attitude or service.",
+      "cause": "Insufficient staff training, low morale, or understaffing leading to overwhelmed employees.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Many customers find the pricing to be too high or not offering good value.",
+      "cause": "Pricing not aligned with perceived food quality, portion sizes, or overall dining experience. Could also be due to increased ingredient costs not justified by the final product.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers often experience long wait times for service or food.",
+      "cause": "Understaffing (kitchen or front-of-house), inefficient order processing, or poor table management during peak hours.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "The restaurant's atmosphere or environment receives negative feedback.",
+      "cause": "Lack of maintenance, outdated decor, overcrowding, or noise issues.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Miscellaneous negative feedback not fitting other categories (e.g., specific dish issues, operational problems).",
+      "cause": "Lack of attention to minor operational details, specific menu item failures, or general disorganization.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, low-quality ingredients, or lack of attention to detail in the kitchen.",
+      "action": "Implement a comprehensive kitchen audit to standardize recipes, cooking procedures, and portion control. Source higher-quality, consistent ingredients and conduct regular taste tests.",
+      "category": "food",
+      "expected_impact": "Significantly improve overall food quality, leading to higher customer satisfaction and positive reviews."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staff training, low morale, or understaffing leading to overwhelmed employees.",
+      "action": "Develop and implement a mandatory customer service training program focusing on attitude, attentiveness, and problem-solving. Evaluate staffing levels during peak hours and consider incentives to boost morale.",
+      "category": "service",
+      "expected_impact": "Enhance the dining experience through improved staff interactions, fostering customer loyalty and positive word-of-mouth."
+    },
+    {
+      "priority": 3,
+      "issue": "Pricing not aligned with perceived food quality, portion sizes, or overall dining experience.",
+      "action": "Conduct a competitive pricing analysis against similar establishments. Re-evaluate menu item costs, portion sizes, and consider introducing value-focused promotions or combo meals to improve perceived value.",
+      "category": "pricing",
+      "expected_impact": "Increase customer perception of value for money, potentially attracting a broader customer base and boosting sales volume."
+    },
+    {
+      "priority": 4,
+      "issue": "Understaffing (kitchen or front-of-house), inefficient order processing, or poor table management during peak hours.",
+      "action": "Optimize staff scheduling to ensure adequate coverage during peak times. Streamline kitchen workflow and implement a more efficient order management system. Train hosts/managers on effective table turnover strategies.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times for seating, ordering, and food delivery, leading to a smoother dining experience and higher table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Lack of maintenance, outdated decor, overcrowding, or noise issues.",
+      "action": "Conduct a full assessment of the restaurant's interior and exterior for maintenance needs and decor updates. Explore solutions for noise reduction and re-evaluate seating arrangements to prevent overcrowding.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting and comfortable dining environment, encouraging longer stays and repeat visits."
+    },
+    {
+      "priority": 6,
+      "issue": "Lack of attention to minor operational details, specific menu item failures, or general disorganization.",
+      "action": "Establish a system for staff to report minor operational issues or specific dish feedback daily. Conduct weekly operational checklists and assign accountability for addressing recurring 'other' issues.",
+      "category": "operations",
+      "expected_impact": "Improve overall operational efficiency and address small pain points before they escalate, leading to a more polished customer experience."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on publicly available customer reviews, which may not represent the entire customer base.",
+    "Sentiment and aspect extraction are automated and may occasionally misinterpret nuanced language.",
+    "The data reflects past experiences and may not account for recent operational changes."
+  ],
+  "status": "success",
+  "error_detail": null
+}

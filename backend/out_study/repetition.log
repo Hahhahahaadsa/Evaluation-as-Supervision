@@ -1,0 +1,92 @@
+Repetition study — 5 business(es) x 5 repetition(s) in observe mode.
+  p50  _cXaVePsZOiKlXwsQ8vcxA Red Lobster
+  p75  ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito
+  p90  FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera
+  p90  o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles
+  p90  2qVZiMB22YPC2HCM62Gnbw Scarpetta
+
+=== repetition 1/5 — 0 done, 5 to run ===
+[1.1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 165.02s, would_retry=-
+[1.2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 313.66s, would_retry=['strategy_agent']
+[1.3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 696.35s, would_retry=-
+[1.4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 1104.92s, would_retry=['reasoning_agent']
+[1.5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+    ok: 214 reviews, 911.49s, would_retry=['reasoning_agent', 'report_agent']
+=== repetition 2/5 — 0 done, 5 to run ===
+[2.1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 155.94s, would_retry=-
+[2.2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 310.98s, would_retry=-
+[2.3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 688.33s, would_retry=-
+[2.4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 830.59s, would_retry=-
+[2.5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 969.39s, would_retry=-
+=== repetition 3/5 — 0 done, 5 to run ===
+[3.1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 145.05s, would_retry=-
+[3.2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 288.9s, would_retry=-
+[3.3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 805.08s, would_retry=['reasoning_agent']
+[3.4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 696.19s, would_retry=-
+[3.5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 919.63s, would_retry=-
+=== repetition 4/5 — 0 done, 5 to run ===
+[4.1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 191.85s, would_retry=-
+[4.2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 274.81s, would_retry=['strategy_agent']
+[4.3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 742.54s, would_retry=-
+[4.4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 800.91s, would_retry=-
+[4.5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 828.8s, would_retry=-
+=== repetition 5/5 — 0 done, 5 to run ===
+[5.1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 153.08s, would_retry=-
+[5.2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 345.72s, would_retry=['strategy_agent']
+[5.3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+    ok: 214 reviews, 849.57s, would_retry=['reasoning_agent']
+[5.4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 818.22s, would_retry=['reasoning_agent']
+[5.5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 926.23s, would_retry=-
+
+Repetition study finished. Checkpoints under out_study\R/rep*/A/checkpoint.jsonl

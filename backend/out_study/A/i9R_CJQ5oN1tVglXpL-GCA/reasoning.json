@@ -1,0 +1,123 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report issues with the quality of the food, indicating inconsistency or general dissatisfaction with taste, preparation, or ingredients.",
+      "aspect": "food_quality",
+      "frequency": 0.21,
+      "evidence_review_ids": [
+        "3GkG-g-IkKW0poV5dY311A",
+        "3THDbACgFXq3XzuagOoMdQ",
+        "3t0lj1MB_42CPBPfZl4elA",
+        "E8EF_MXp6ty8BW3jOUwpfQ",
+        "GzX0LstWo2LxXIucYlXdtA",
+        "KHh5CeqwVkHLolv-rbH9eQ",
+        "OWSXxGrmk64kY1RnsPP1eQ",
+        "SSvLPN3VUDBIyGPDnSUwEA",
+        "UEyDXSes5p0FAhu2EtdhNw",
+        "VaVS5ezME6yRw0T7wBwWSA",
+        "fhawMoy-esI_k3YSvTU58g",
+        "iuIvMqNZCv2BMKEVEaFjUQ",
+        "lSmRsRrjzvWhrdiutF4saA",
+        "lkdV6Pb1uEDuopmL8EClnQ",
+        "oHsIOM2dsGdrtfkskT_YXg",
+        "qnuJgYleISGdEEtCalafIw",
+        "rVEMoXbk811bbNcLelhWRA",
+        "tgyCrhzUfoL7F_bWfuLDDA",
+        "ziYRgV7gBkWGWSeDrythwg"
+      ]
+    },
+    {
+      "description": "The restaurant's ambiance or atmosphere is often described negatively, suggesting issues with decor, comfort, or overall dining environment.",
+      "aspect": "ambience",
+      "frequency": 0.09,
+      "evidence_review_ids": [
+        "1s9ghFBAZgsQCY4dRcGZ2w",
+        "1ygwR1VhUwlPoGlgyVWSdQ",
+        "7_dhmRTkm3zgcWJFFXYa_g",
+        "8fbYxaK5u6_VGtr42-DDLw",
+        "OWSXxGrmk64kY1RnsPP1eQ",
+        "Oc_ae4ZUdceYR9lw5Zdq5w",
+        "SSvLPN3VUDBIyGPDnSUwEA",
+        "iHnIXeiv9oZniBoRkePDug"
+      ]
+    },
+    {
+      "description": "Customers frequently express dissatisfaction with the pricing, perceiving it as too high or not offering good value for money.",
+      "aspect": "pricing",
+      "frequency": 0.09,
+      "evidence_review_ids": [
+        "1ygwR1VhUwlPoGlgyVWSdQ",
+        "Oc_ae4ZUdceYR9lw5Zdq5w",
+        "VaVS5ezME6yRw0T7wBwWSA",
+        "iHnIXeiv9oZniBoRkePDug",
+        "lSmRsRrjzvWhrdiutF4saA",
+        "si_ufdYKcN76LkQbZz3ZhA",
+        "tgyCrhzUfoL7F_bWfuLDDA",
+        "bzKnBLX7OoYpo7nT91gR1g"
+      ]
+    },
+    {
+      "description": "There are recurring complaints about the staff's attitude, indicating issues with friendliness, attentiveness, or professionalism.",
+      "aspect": "staff_attitude",
+      "frequency": 0.03,
+      "evidence_review_ids": [
+        "fL2sXPlZR7YjA19pnqQkEg",
+        "i8bf1tp8z64lMoY9VRixxQ",
+        "si_ufdYKcN76LkQbZz3ZhA"
+      ]
+    },
+    {
+      "description": "Customers occasionally report long wait times, suggesting inefficiencies in service delivery or kitchen operations.",
+      "aspect": "wait_time",
+      "frequency": 0.03,
+      "evidence_review_ids": [
+        "VaVS5ezME6yRw0T7wBwWSA",
+        "iHnIXeiv9oZniBoRkePDug",
+        "lkdV6Pb1uEDuopmL8EClnQ"
+      ]
+    },
+    {
+      "description": "Concerns about cleanliness are mentioned, pointing to potential issues with hygiene standards in the restaurant.",
+      "aspect": "cleanliness",
+      "frequency": 0.02,
+      "evidence_review_ids": [
+        "fL2sXPlZR7YjA19pnqQkEg",
+        "si_ufdYKcN76LkQbZz3ZhA"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report issues with the quality of the food, indicating inconsistency or general dissatisfaction with taste, preparation, or ingredients.",
+      "cause": "Lack of standardized cooking procedures, insufficient training for kitchen staff, poor ingredient sourcing, or inconsistent quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "The restaurant's ambiance or atmosphere is often described negatively, suggesting issues with decor, comfort, or overall dining environment.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, noise issues, or lack of attention to the overall dining environment.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers frequently express dissatisfaction with the pricing, perceiving it as too high or not offering good value for money.",
+      "cause": "Menu prices not aligning with perceived food quality or portion sizes, or general market competitiveness.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "There are recurring complaints about the staff's attitude, indicating issues with friendliness, attentiveness, or professionalism.",
+      "cause": "Insufficient staff training in customer service, low staff morale, or understaffing leading to stress.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers occasionally report long wait times, suggesting inefficiencies in service delivery or kitchen operations.",
+      "cause": "Understaffing, inefficient order processing, kitchen delays, or poor table management.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Concerns about cleanliness are mentioned, pointing to potential issues with hygiene standards in the restaurant.",
+      "cause": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance checks.",
+      "confidence": "high"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

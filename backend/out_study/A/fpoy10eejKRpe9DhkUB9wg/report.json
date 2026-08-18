@@ -1,0 +1,57 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Original Bake At Home Pizza",
+  "sample_size": 14,
+  "executive_summary": "An analysis of 14 customer reviews for Original Bake At Home Pizza reveals significant dissatisfaction with food quality (29% of reviews) and perceived high pricing/poor value (14%). Additionally, 14% of reviews cite unspecified negative experiences. Key recommendations include implementing daily food quality checks, reviewing pricing against competitors, and investigating the root causes of 'other' negative feedback to improve overall customer satisfaction and value perception.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food.",
+    "Several reviews indicate that customers find the pricing to be too high or not offering good value.",
+    "A recurring pattern of unspecified negative experiences categorized as 'other', suggesting issues not fitting into standard categories."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation, use of lower quality ingredients, or lack of attention to detail in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews indicate that customers find the pricing to be too high or not offering good value.",
+      "cause": "Pricing strategy not aligned with perceived value, or high operational costs being passed onto the customer.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A recurring pattern of unspecified negative experiences categorized as 'other', suggesting issues not fitting into standard categories.",
+      "cause": "Could be related to ambiance, cleanliness, noise levels, or specific incidents not covered by other categories, requiring further investigation into review content.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and potential use of lower-grade ingredients leading to customer dissatisfaction.",
+      "action": "Implement a mandatory daily taste test and visual inspection for all menu items by the Head Chef before each service. Simultaneously, review current ingredient suppliers for cost-effective options that meet higher quality standards, and provide refresher training to kitchen staff on standardized recipes and plating.",
+      "category": "food",
+      "expected_impact": "A significant increase in customer satisfaction and repeat visits due to consistently high-quality and delicious dishes, reducing negative food-related reviews by at least 50%."
+    },
+    {
+      "priority": 2,
+      "issue": "Customers perceive current pricing as too high or not offering good value for money.",
+      "action": "Conduct a detailed competitive analysis of menu pricing against 3-5 direct competitors within a 2-mile radius. Based on findings, adjust prices for 3-5 key menu items or introduce a new 'Value Combo' meal option to enhance perceived value without compromising quality.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially leading to increased order frequency and a reduction in price-related complaints by 25%."
+    },
+    {
+      "priority": 3,
+      "issue": "Unspecified negative customer experiences ('other') are impacting overall satisfaction, indicating hidden operational or environmental issues.",
+      "action": "Analyze the full text of reviews associated with the 'other' category (e.g., review IDs: 6tv9BLWC0lMSaiegoEda8Q, SwSP5XbVWTx1z4e_N1kNYA) to pinpoint specific recurring themes (e.g., noise, cleanliness, specific staff interactions). Based on this, develop targeted solutions, such as implementing a noise reduction strategy or enhancing cleaning protocols.",
+      "category": "operations",
+      "expected_impact": "Identification and resolution of previously hidden issues, leading to a more comfortable and positive dining environment and a reduction in vague negative feedback."
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a small sample size of 14 reviews, which may not fully represent the entire customer base or capture all potential issues.",
+    "The 'other' category of negative feedback requires further manual investigation to identify specific root causes."
+  ],
+  "status": "success",
+  "error_detail": null
+}

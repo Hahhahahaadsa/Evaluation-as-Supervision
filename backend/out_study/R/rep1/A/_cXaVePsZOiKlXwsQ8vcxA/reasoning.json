@@ -1,0 +1,133 @@
+{
+  "patterns": [
+    {
+      "description": "A significant number of customers are dissatisfied with the food quality.",
+      "aspect": "food_quality",
+      "frequency": 0.47,
+      "evidence_review_ids": [
+        "5q8emsh_D_y5eN70R7yheA",
+        "AVmA4GdbBGji5mH8fNzh5g",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GB3DBfxLpq542Uje7sOQPA",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "h7tdi4NUlWOH-r3h0-DM9Q",
+        "w3vM0_C7xCc_e2MbwDjtrw",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "Customers frequently experience negative or unhelpful staff attitude.",
+      "aspect": "staff_attitude",
+      "frequency": 0.41,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "3JZKiIPR5XJK7aDWjkaOnQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "8Hb9IwXRdLXZoeZHwTw-QA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA",
+        "h7tdi4NUlWOH-r3h0-DM9Q"
+      ]
+    },
+    {
+      "description": "Customers frequently report long wait times.",
+      "aspect": "wait_time",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "ASy1okqMEczBRPY5z0azMA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "P0REzIg3ndSVthg8M8mOuA",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA"
+      ]
+    },
+    {
+      "description": "Several customers find the pricing to be too high or not good value.",
+      "aspect": "pricing",
+      "frequency": 0.18,
+      "evidence_review_ids": [
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "baTUJG2Chi_mpNP2Ua-cHA"
+      ]
+    },
+    {
+      "description": "A notable number of reviews mention other unspecified negative issues.",
+      "aspect": "other",
+      "frequency": 0.15,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w"
+      ]
+    },
+    {
+      "description": "Some customers report issues with cleanliness.",
+      "aspect": "cleanliness",
+      "frequency": 0.06,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AVmA4GdbBGji5mH8fNzh5g"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "A significant number of customers are dissatisfied with the food quality.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or issues with recipe execution.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers frequently experience negative or unhelpful staff attitude.",
+      "cause": "Inadequate staff training on customer service, insufficient staffing leading to overworked and stressed employees, or poor management oversight.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers frequently report long wait times.",
+      "cause": "Understaffing during peak hours, inefficient kitchen operations, or poor order management system.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Several customers find the pricing to be too high or not good value.",
+      "cause": "Pricing not aligned with perceived food quality or portion sizes, or competitive pricing analysis not being conducted.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A notable number of reviews mention other unspecified negative issues.",
+      "cause": "General operational inefficiencies, lack of attention to detail in overall customer experience, or specific uncaptured issues.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Some customers report issues with cleanliness.",
+      "cause": "Insufficient cleaning protocols, lack of regular maintenance, or inadequate staff training on hygiene standards.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

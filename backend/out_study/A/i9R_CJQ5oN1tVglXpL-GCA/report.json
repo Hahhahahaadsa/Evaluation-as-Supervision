@@ -1,0 +1,97 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Indy Asian Cuisine",
+  "sample_size": 92,
+  "executive_summary": "Indy Asian Cuisine faces significant challenges primarily with food quality, which is cited in 21% of reviews, followed by negative feedback on ambiance (9%) and pricing (9%). Other issues include staff attitude, wait times, and cleanliness. Addressing these core areas through standardized procedures, operational improvements, and staff training is crucial for enhancing customer satisfaction and improving the restaurant's overall reputation and value perception.",
+  "key_findings": [
+    "Customers frequently report issues with the quality of the food, indicating inconsistency or general dissatisfaction with taste, preparation, or ingredients (21% of reviews).",
+    "The restaurant's ambiance or atmosphere is often described negatively, suggesting issues with decor, comfort, or overall dining environment (9% of reviews).",
+    "Customers frequently express dissatisfaction with the pricing, perceiving it as too high or not offering good value for money (9% of reviews).",
+    "There are recurring complaints about the staff's attitude, indicating issues with friendliness, attentiveness, or professionalism (3% of reviews).",
+    "Customers occasionally report long wait times, suggesting inefficiencies in service delivery or kitchen operations (3% of reviews).",
+    "Concerns about cleanliness are mentioned, pointing to potential issues with hygiene standards in the restaurant (2% of reviews)."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report issues with the quality of the food, indicating inconsistency or general dissatisfaction with taste, preparation, or ingredients.",
+      "cause": "Lack of standardized cooking procedures, insufficient training for kitchen staff, poor ingredient sourcing, or inconsistent quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "The restaurant's ambiance or atmosphere is often described negatively, suggesting issues with decor, comfort, or overall dining environment.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, noise issues, or lack of attention to the overall dining environment.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers frequently express dissatisfaction with the pricing, perceiving it as too high or not offering good value for money.",
+      "cause": "Menu prices not aligning with perceived food quality or portion sizes, or general market competitiveness.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "There are recurring complaints about the staff's attitude, indicating issues with friendliness, attentiveness, or professionalism.",
+      "cause": "Insufficient staff training in customer service, low staff morale, or understaffing leading to stress.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers occasionally report long wait times, suggesting inefficiencies in service delivery or kitchen operations.",
+      "cause": "Understaffing, inefficient order processing, kitchen delays, or poor table management.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Concerns about cleanliness are mentioned, pointing to potential issues with hygiene standards in the restaurant.",
+      "cause": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance checks.",
+      "confidence": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent or poor food quality leading to customer dissatisfaction.",
+      "action": "Develop and strictly enforce standardized recipes and cooking procedures for all menu items. Conduct mandatory retraining for all kitchen staff on these procedures and implement daily taste tests and quality checks for ingredients and prepared dishes by a senior chef or manager.",
+      "category": "food",
+      "expected_impact": "Significantly improve food consistency and taste, leading to higher customer satisfaction, reduced complaints, and enhanced reputation."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative or unappealing dining ambiance affecting the overall customer experience.",
+      "action": "Conduct a full audit of the restaurant's decor, lighting, and seating comfort. Prioritize immediate, cost-effective improvements such as updated lighting fixtures, comfortable cushions, and minor decor changes (e.g., fresh paint, plants), while planning for a larger renovation if budget allows.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting and comfortable dining environment, enhancing the overall customer experience and encouraging longer stays and repeat visits."
+    },
+    {
+      "priority": 3,
+      "issue": "Customers perceive pricing as too high or not offering good value for money.",
+      "action": "Analyze current menu pricing against competitor offerings and customer perceived value, especially in light of food quality. Consider adjusting portion sizes, introducing value-focused specials or combo deals, or enhancing presentation to better justify existing prices, particularly after improving food quality.",
+      "category": "pricing",
+      "expected_impact": "Improve customer perception of value, potentially increasing sales and reducing price-related complaints, especially once food quality is consistently high."
+    },
+    {
+      "priority": 4,
+      "issue": "Poor staff attitude, including lack of friendliness, attentiveness, or professionalism.",
+      "action": "Implement a comprehensive customer service training program for all front-of-house staff, focusing on active listening, empathy, attentiveness, and conflict resolution. Regularly check in with staff to address morale issues and ensure adequate staffing levels during peak hours to reduce stress.",
+      "category": "service",
+      "expected_impact": "Elevate the overall service experience, leading to more positive customer interactions, higher satisfaction, and improved staff retention."
+    },
+    {
+      "priority": 5,
+      "issue": "Long customer wait times due to operational inefficiencies.",
+      "action": "Conduct a detailed workflow analysis of kitchen operations and front-of-house service. Implement new order processing systems (e.g., digital order taking), optimize kitchen station layouts for efficiency, and adjust staffing schedules to better match demand, particularly during peak hours.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improve operational efficiency, and enhance the overall dining experience, especially during busy periods."
+    },
+    {
+      "priority": 6,
+      "issue": "Subpar hygiene and cleanliness standards in the restaurant.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning checklist for all areas, including restrooms, dining areas, and kitchen. Assign clear responsibilities to staff, conduct regular unannounced spot checks, and ensure adequate cleaning supplies and staff are available.",
+      "category": "operations",
+      "expected_impact": "Significantly improve the restaurant's hygiene standards, boosting customer confidence, ensuring a safe and pleasant dining environment, and complying with health regulations."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on online customer reviews, which may not represent the entire customer base and can be subjective.",
+    "The sample size of 92 reviews, while indicative, may not capture all nuances of customer experience.",
+    "Review data reflects past experiences and may not account for recent operational changes."
+  ],
+  "status": "success",
+  "error_detail": null
+}

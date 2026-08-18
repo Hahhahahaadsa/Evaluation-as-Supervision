@@ -1,0 +1,152 @@
+[
+  {
+    "name": "schema_validity:analysis",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all valid"
+  },
+  {
+    "name": "schema_validity:reasoning",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "schema_validity:strategy",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "schema_validity:report",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "groundedness:Customers frequently report dissatisfact:evidence_exists",
+    "passed": false,
+    "score": 0.9655172413793104,
+    "detail": "evidence_review_ids not found in analysis: ['SKXs-JiPXpVnAwcXhA5wA']"
+  },
+  {
+    "name": "groundedness:Customers frequently report dissatisfact:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "28/28 evidence reviews actually carry aspect 'food_quality'"
+  },
+  {
+    "name": "groundedness:Customers frequently report dissatisfact:frequency",
+    "passed": true,
+    "score": 0.9997397260273972,
+    "detail": "claimed=0.397, recomputed=0.40 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:A significant number of customers percei:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:A significant number of customers percei:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "28/28 evidence reviews actually carry aspect 'pricing'"
+  },
+  {
+    "name": "groundedness:A significant number of customers percei:frequency",
+    "passed": true,
+    "score": 0.9995616438356164,
+    "detail": "claimed=0.384, recomputed=0.38 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:A notable portion of reviews mention uns:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:A notable portion of reviews mention uns:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "20/20 evidence reviews actually carry aspect 'other'"
+  },
+  {
+    "name": "groundedness:A notable portion of reviews mention uns:frequency",
+    "passed": true,
+    "score": 0.999972602739726,
+    "detail": "claimed=0.274, recomputed=0.27 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:Customers frequently report negative int:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:Customers frequently report negative int:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "16/16 evidence reviews actually carry aspect 'staff_attitude'"
+  },
+  {
+    "name": "groundedness:Customers frequently report negative int:frequency",
+    "passed": true,
+    "score": 0.9998219178082192,
+    "detail": "claimed=0.219, recomputed=0.22 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:Several customers complain about excessi:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:Several customers complain about excessi:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "9/9 evidence reviews actually carry aspect 'wait_time'"
+  },
+  {
+    "name": "groundedness:Several customers complain about excessi:frequency",
+    "passed": true,
+    "score": 0.9997123287671232,
+    "detail": "claimed=0.123, recomputed=0.12 (tolerance=0.05)"
+  },
+  {
+    "name": "strategy_traceability:issue_traced",
+    "passed": true,
+    "score": 1.0,
+    "detail": "5/5 recommendation issues trace back to a reasoning pattern/root cause"
+  },
+  {
+    "name": "strategy_traceability:priority_order",
+    "passed": true,
+    "score": 1.0,
+    "detail": "4/4 adjacent priority pairs are frequency-ordered (higher priority = higher frequency)"
+  },
+  {
+    "name": "report_subset:root_causes",
+    "passed": true,
+    "score": 1.0,
+    "detail": "5/5 report root causes found verbatim upstream"
+  },
+  {
+    "name": "report_subset:recommendations",
+    "passed": true,
+    "score": 1.0,
+    "detail": "5/5 report recommendations found verbatim upstream"
+  },
+  {
+    "name": "report_subset:key_findings",
+    "passed": true,
+    "score": 1.0,
+    "detail": "5/5 key findings resemble an upstream pattern (soft check, threshold 0.35)"
+  },
+  {
+    "name": "completion_status",
+    "passed": true,
+    "score": 1.0,
+    "detail": "status=complete"
+  }
+]

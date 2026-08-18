@@ -1,0 +1,34 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Poor food quality due to inadequate food preparation or ingredient quality",
+      "action": "Implement a quality control process for food preparation and ingredient sourcing, and provide additional training to kitchen staff",
+      "category": "food",
+      "expected_impact": "20-30% improvement in customer satisfaction with food quality"
+    },
+    {
+      "priority": 2,
+      "issue": "High prices due to inefficient cost management or overpricing strategy",
+      "action": "Conduct a thorough review of menu pricing and cost structure, and consider implementing a pricing strategy that balances profitability with customer affordability",
+      "category": "pricing",
+      "expected_impact": "15-25% improvement in customer satisfaction with pricing"
+    },
+    {
+      "priority": 3,
+      "issue": "Poor staff attitude due to inadequate staff training or poor management",
+      "action": "Develop and implement a comprehensive staff training program that focuses on customer service and communication skills, and provide ongoing coaching and feedback to staff",
+      "category": "service",
+      "expected_impact": "20-30% improvement in customer satisfaction with staff attitude and service"
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times due to inadequate staffing or inefficient service processes",
+      "action": "Analyze service processes and identify opportunities for improvement, and consider increasing staffing levels during peak periods to reduce wait times",
+      "category": "operations",
+      "expected_impact": "15-25% reduction in wait times and improvement in customer satisfaction with service speed"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,134 @@
+{
+  "patterns": [
+    {
+      "description": "Consistent issues with food quality, including taste, preparation, or freshness.",
+      "aspect": "food_quality",
+      "frequency": 0.47,
+      "evidence_review_ids": [
+        "5q8emsh_D_y5eN70R7yheA",
+        "AVmA4GdbBGji5mH8fNzh5g",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GB3DBfxLpq542Uje7sOQPA",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "h7tdi4NUlWOH-r3h0-DM9Q",
+        "w3vM0_C7xCc_e2MbwDjtrw",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "Frequent complaints about staff attitude, including rudeness, unhelpfulness, or lack of attentiveness.",
+      "aspect": "staff_attitude",
+      "frequency": 0.41,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "3JZKiIPR5XJK7aDWjkaOnQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "8Hb9IwXRdLXZoeZHwTw-QA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA",
+        "h7tdi4NUlWOH-r3h0-DM9Q"
+      ]
+    },
+    {
+      "description": "Customers frequently experience long wait times for seating, ordering, or food delivery.",
+      "aspect": "wait_time",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "ASy1okqMEczBRPY5z0azMA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "P0REzIg3ndSVthg8M8mOuA",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA"
+      ]
+    },
+    {
+      "description": "Perception of high or unfair pricing for the quality or quantity of food/service received.",
+      "aspect": "pricing",
+      "frequency": 0.21,
+      "evidence_review_ids": [
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "Recurring unspecified negative experiences that don't fit into other categories.",
+      "aspect": "other",
+      "frequency": 0.15,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ"
+      ]
+    },
+    {
+      "description": "Occasional issues with restaurant cleanliness, such as dirty tables or restrooms.",
+      "aspect": "cleanliness",
+      "frequency": 0.06,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AVmA4GdbBGji5mH8fNzh5g"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Consistent issues with food quality, including taste, preparation, or freshness.",
+      "cause": "Inconsistent cooking standards, poor ingredient sourcing, lack of quality control, or untrained kitchen staff.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Frequent complaints about staff attitude, including rudeness, unhelpfulness, or lack of attentiveness.",
+      "cause": "Inadequate staff training, low staff morale, insufficient staffing leading to burnout, or poor management oversight.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers frequently experience long wait times for seating, ordering, or food delivery.",
+      "cause": "Understaffing, inefficient order processing, poor kitchen workflow, or inadequate capacity management during peak hours.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Perception of high or unfair pricing for the quality or quantity of food/service received.",
+      "cause": "Pricing not aligned with perceived value, high ingredient costs passed to customers, or lack of competitive pricing strategy.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Recurring unspecified negative experiences that don't fit into other categories.",
+      "cause": "Vague operational issues or specific isolated incidents not captured by standard categories.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Occasional issues with restaurant cleanliness, such as dirty tables or restrooms.",
+      "cause": "Inadequate cleaning protocols, insufficient cleaning staff, or lack of regular maintenance.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

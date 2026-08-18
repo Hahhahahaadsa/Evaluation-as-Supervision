@@ -1,0 +1,83 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "El Folklor Restaurant",
+  "sample_size": 34,
+  "executive_summary": "An analysis of 34 customer reviews for El Folklor Restaurant reveals significant issues primarily concerning food quality, negative staff interactions, and general operational inefficiencies. Customers also reported excessive wait times and dissatisfaction with the ambiance. Key recommendations focus on immediate improvements in kitchen quality control, comprehensive staff training, and a thorough operational audit to enhance the overall customer experience and address underlying issues.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food, indicating potential issues with preparation, ingredients, or consistency.",
+    "Several reviews highlight negative interactions with staff or issues related to their attitude and service.",
+    "A notable number of reviews mention general negative experiences or unspecified 'other' issues, which could point to broader operational problems or a combination of minor dissatisfactions.",
+    "Customers occasionally experience excessive wait times, suggesting potential inefficiencies in service delivery or kitchen operations.",
+    "A few reviews indicate dissatisfaction with the restaurant's atmosphere or physical environment."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food, indicating potential issues with preparation, ingredients, or consistency.",
+      "cause": "Inconsistent food preparation, use of lower quality ingredients, or issues with recipe execution and quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews highlight negative interactions with staff or issues related to their attitude and service.",
+      "cause": "Lack of comprehensive staff training in customer service, insufficient staffing leading to employee stress, or inadequate management oversight of service standards.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A notable number of reviews mention general negative experiences or unspecified 'other' issues, which could point to broader operational problems or a combination of minor dissatisfactions.",
+      "cause": "This broad category suggests underlying operational inefficiencies, which could be a combination of the other identified issues (food, staff, wait times) or other unmentioned factors like cleanliness, order accuracy, or general disorganization.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Customers occasionally experience excessive wait times, suggesting potential inefficiencies in service delivery or kitchen operations.",
+      "cause": "Understaffing during peak hours, inefficient kitchen workflow, or poor order management and communication between front-of-house and kitchen staff.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A few reviews indicate dissatisfaction with the restaurant's atmosphere or physical environment.",
+      "cause": "Neglect of restaurant decor, uncomfortable seating arrangements, poor lighting, or general lack of upkeep in the dining area.",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation, potentially due to poor ingredients or recipe execution.",
+      "action": "Implement a daily kitchen quality control checklist for all dishes, conduct weekly taste tests with management, and review ingredient supplier contracts for higher quality options. Provide refresher training on recipe adherence for kitchen staff.",
+      "category": "food",
+      "expected_impact": "Significant improvement in dish consistency and taste, leading to higher customer satisfaction and fewer food-related complaints."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff interactions and service issues, stemming from inadequate training or oversight.",
+      "action": "Develop and implement a mandatory 2-hour customer service excellence training program for all front-of-house staff, focusing on empathy, active listening, and conflict resolution. Increase management presence on the floor during peak hours for real-time coaching and support.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more welcoming atmosphere, leading to better reviews and repeat business."
+    },
+    {
+      "priority": 3,
+      "issue": "Undefined operational inefficiencies leading to general negative experiences ('other' issues).",
+      "action": "Conduct a comprehensive 360-degree operational audit over two weeks, including staff interviews, customer journey mapping, and a cleanliness/maintenance check. Implement a suggestion box for both staff and customers to gather specific feedback on 'other' issues.",
+      "category": "operations",
+      "expected_impact": "Identification and resolution of hidden operational bottlenecks, leading to an overall smoother and more positive customer experience."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive customer wait times, indicating inefficiencies in service delivery or kitchen operations.",
+      "action": "Analyze sales data to identify peak hours and adjust staffing levels (both kitchen and front-of-house) accordingly. Implement a new kitchen display system (KDS) to streamline order flow and improve communication between FOH and BOH.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, improved table turnover, and increased operational efficiency during busy periods."
+    },
+    {
+      "priority": 5,
+      "issue": "Dissatisfaction with the restaurant's atmosphere or physical environment.",
+      "action": "Conduct a detailed walkthrough of the dining area, restrooms, and entrance. Prioritize and execute immediate repairs (e.g., lighting, wobbly tables) and plan for a minor decor refresh (e.g., new paint, updated artwork, comfortable seating options) within the next 3 months.",
+      "category": "operations",
+      "expected_impact": "A more inviting and comfortable dining environment, enhancing the overall customer experience and perception of the restaurant."
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a relatively small sample size of 34 reviews, which may not fully represent the entire customer base or capture all nuances of customer sentiment.",
+    "The findings are derived solely from textual review data and do not include direct customer surveys or operational data."
+  ],
+  "status": "success",
+  "error_detail": null
+}

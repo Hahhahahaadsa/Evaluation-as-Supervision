@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and specific dishes not meeting customer expectations.",
+      "action": "Implement mandatory standardized recipe cards and cooking procedures for all kitchen staff. Conduct weekly taste tests and quality checks led by the head chef. Review and standardize ingredient sourcing from approved, consistent suppliers.",
+      "category": "food",
+      "expected_impact": "Significant improvement in dish consistency and overall food quality, leading to higher customer satisfaction, reduced complaints, and increased repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative interactions with staff, including rudeness or unhelpfulness.",
+      "action": "Develop and implement a comprehensive customer service training program for all front-of-house staff, focusing on empathy, active listening, conflict resolution, and proactive service. Introduce a staff recognition program for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more welcoming atmosphere, directly reducing negative service-related reviews and fostering positive word-of-mouth."
+    },
+    {
+      "priority": 3,
+      "issue": "General dissatisfaction stemming from various unspecified issues or an unpleasant atmosphere.",
+      "action": "Conduct a thorough internal operational audit, including mystery shopper visits and direct customer feedback surveys (e.g., QR code feedback at tables), to identify specific 'minor' pain points in ambiance, flow, or overlooked service aspects.",
+      "category": "operations",
+      "expected_impact": "Uncover and address hidden operational inefficiencies or environmental factors, leading to a more cohesive, comfortable, and pleasant overall dining experience, thereby reducing general dissatisfaction."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive wait times for seating, ordering, or food delivery.",
+      "action": "Analyze peak hour traffic data to optimize staffing levels for both kitchen and front-of-house. Implement a digital table management system and train staff on efficient order taking, food preparation, and delivery processes to streamline service flow.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, improved table turnover, and a smoother dining experience, especially during busy periods, leading to higher customer satisfaction and operational efficiency."
+    },
+    {
+      "priority": 5,
+      "issue": "Customer perception of high pricing relative to the value offered.",
+      "action": "Conduct a competitive pricing analysis and a menu engineering review to assess profitability and perceived value. Consider offering value-added options (e.g., combo deals, loyalty programs) or slightly adjusting prices on specific items, ensuring perceived value aligns with cost.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value for money, potentially increasing sales, reducing price-related complaints, and attracting a broader customer base."
+    },
+    {
+      "priority": 6,
+      "issue": "Problems with restaurant cleanliness.",
+      "action": "Establish daily, weekly, and monthly cleaning checklists for all areas (dining room, restrooms, kitchen) with assigned staff and manager sign-offs. Schedule regular deep cleaning services and conduct spot checks throughout shifts.",
+      "category": "operations",
+      "expected_impact": "A consistently clean and hygienic environment, enhancing customer comfort and overall dining experience, and improving the restaurant's reputation for hygiene."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,24 @@
+{
+  "business_name": "Nomzilla! Sushi Et Cetera",
+  "business_id": "FnEWE7CdxTolKWEgVKAlsg",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {
+    "strategy_agent": 1
+  },
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": null,
+  "phase": "B",
+  "mode": "enforce",
+  "wall_clock_s": 716.89,
+  "stratum": "p90"
+}

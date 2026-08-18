@@ -1,0 +1,109 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Izzo's Illegal Burrito",
+  "sample_size": 92,
+  "executive_summary": "An analysis of 92 customer reviews for Izzo's Illegal Burrito reveals significant dissatisfaction primarily driven by poor food quality (51% of reviews), negative staff attitude (34%), and concerns about cleanliness (18%). These issues are likely rooted in inconsistent food preparation, inadequate staff training, and insufficient hygiene protocols. Addressing these core areas through kitchen audits, comprehensive staff training, and improved cleaning standards is crucial for enhancing customer experience and business performance.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food, citing issues with taste, preparation, or freshness (51% of reviews).",
+    "A significant number of reviews highlight negative experiences with staff attitude, including unfriendliness, lack of attentiveness, or poor service (34% of reviews).",
+    "Several customers express concerns about the restaurant's cleanliness, including dirty tables, floors, or general unhygienic conditions (18% of reviews).",
+    "Customers frequently complain about long wait times for service or food, impacting their overall dining experience (13% of reviews).",
+    "A notable number of reviews indicate that customers find the pricing to be too high for the value received (11% of reviews)."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food, citing issues with taste, preparation, or freshness.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or issues with recipe execution and quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A significant number of reviews highlight negative experiences with staff attitude, including unfriendliness, lack of attentiveness, or poor service.",
+      "cause": "Lack of proper staff training in customer service, low staff morale, or insufficient staffing leading to overwhelmed employees.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several customers express concerns about the restaurant's cleanliness, including dirty tables, floors, or general unhygienic conditions.",
+      "cause": "Inadequate cleaning protocols, insufficient staff dedicated to cleaning, or lack of management oversight on hygiene standards.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers frequently complain about long wait times for service or food, impacting their overall dining experience.",
+      "cause": "Understaffing during peak hours, inefficient kitchen operations, or poor table management and order processing.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A notable number of reviews indicate that customers find the pricing to be too high for the value received.",
+      "cause": "Perceived poor value for money, possibly due to high prices combined with issues in food quality, portion sizes, or overall experience.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Several reviews mention general negative experiences or unspecified issues that contribute to overall dissatisfaction.",
+      "cause": "A combination of minor issues not fitting other categories, or general dissatisfaction stemming from multiple underlying problems that are not explicitly detailed.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Some customers are dissatisfied with the restaurant's atmosphere or environment, finding it unpleasant or uninviting.",
+      "cause": "Outdated decor, uncomfortable seating, excessive noise levels, or poor lighting/temperature control.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Substandard food quality (taste, preparation, freshness).",
+      "action": "Implement a comprehensive kitchen audit, standardize recipes, train chefs on consistency, and establish daily quality checks for ingredients and prepared dishes.",
+      "category": "food",
+      "expected_impact": "Significant improvement in customer satisfaction, reduced food waste, and increased repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff attitude and poor customer service.",
+      "action": "Develop and implement mandatory customer service training for all staff, conduct regular staff feedback sessions to address morale, and review staffing levels during peak hours to prevent overwhelm.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff retention, and a more positive restaurant atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Unhygienic restaurant conditions.",
+      "action": "Establish a detailed daily and weekly cleaning checklist for all areas, assign dedicated staff shifts for cleaning, and implement regular management inspections to ensure adherence to hygiene standards.",
+      "category": "operations",
+      "expected_impact": "Improved customer perception of hygiene and safety, leading to increased trust and comfort."
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times for service and food.",
+      "action": "Analyze peak hour traffic and sales data to optimize staffing levels in both front-of-house and kitchen, streamline kitchen workflow processes, and implement a more efficient table management and order processing system.",
+      "category": "operations",
+      "expected_impact": "Reduced customer frustration, improved dining flow, and increased table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Customers perceive pricing as too high for the value received.",
+      "action": "Conduct a competitive pricing analysis against similar establishments, review portion sizes and ingredient quality, and consider value-add promotions or menu adjustments to better justify price points.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, increased sales, and reduced price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "General unspecified customer dissatisfaction.",
+      "action": "Implement a proactive customer feedback system (e.g., digital surveys, comment cards, direct manager check-ins) to identify specific recurring minor issues not captured by other categories.",
+      "category": "operations",
+      "expected_impact": "Uncover hidden pain points, demonstrate responsiveness to customer concerns, and prevent minor issues from escalating."
+    },
+    {
+      "priority": 7,
+      "issue": "Unpleasant or uninviting restaurant atmosphere.",
+      "action": "Conduct a comprehensive walk-through audit of the dining area to identify specific issues such as outdated decor, uncomfortable seating, excessive noise levels, or poor lighting/temperature control, and plan for targeted improvements or minor renovations.",
+      "category": "operations",
+      "expected_impact": "Enhanced dining experience, increased customer comfort, and improved overall brand image."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on online customer reviews, which may not represent the entire customer base.",
+    "Review data is subjective and can be influenced by individual biases and expectations.",
+    "The sample size of 92 reviews, while indicative, may not capture all nuances of customer sentiment.",
+    "Lack of demographic information prevents segmentation of feedback by customer groups."
+  ],
+  "status": "success",
+  "error_detail": null
+}

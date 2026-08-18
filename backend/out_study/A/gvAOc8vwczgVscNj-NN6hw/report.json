@@ -1,0 +1,82 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Foodies Country Cafe",
+  "sample_size": 14,
+  "executive_summary": "An analysis of 14 customer reviews for Foodies Country Cafe reveals significant issues primarily concerning food quality and staff service. Customers also frequently report excessive wait times and general dissatisfaction. Key recommendations include implementing standardized food preparation, comprehensive staff training, and an operational audit to address systemic inefficiencies and improve the overall dining experience.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food.",
+    "Multiple reviews indicate issues with the staff's attitude or the quality of service provided.",
+    "A notable number of reviews mention general dissatisfaction or unspecified 'other' negative issues.",
+    "Customers experience excessive wait times for service or food.",
+    "The restaurant's atmosphere or environment is negatively perceived by customers."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation and quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Multiple reviews indicate issues with the staff's attitude or the quality of service provided.",
+      "cause": "Inadequate staff training or low staff morale.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A notable number of reviews mention general dissatisfaction or unspecified 'other' negative issues.",
+      "cause": "Systemic operational inefficiencies or a combination of multiple minor issues.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Customers experience excessive wait times for service or food.",
+      "cause": "Insufficient staffing or inefficient operational processes.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "The restaurant's atmosphere or environment is negatively perceived by customers.",
+      "cause": "Outdated or poorly maintained interior design.",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation and quality control.",
+      "action": "Implement standardized recipes and portion controls, conduct daily taste tests for all menu items, and provide refresher training for kitchen staff on preparation techniques and plating standards.",
+      "category": "food",
+      "expected_impact": "Significantly improve the consistency and overall quality of food, leading to higher customer satisfaction and fewer complaints related to taste and presentation."
+    },
+    {
+      "priority": 2,
+      "issue": "Inadequate staff training or low staff morale.",
+      "action": "Develop and implement a comprehensive customer service training program focusing on positive attitude, conflict resolution, and proactive guest engagement. Additionally, conduct anonymous staff surveys to identify morale issues and implement recognition programs.",
+      "category": "service",
+      "expected_impact": "Enhance the professionalism and positive attitude of the service staff, resulting in a more pleasant dining experience and improved customer perception of service quality."
+    },
+    {
+      "priority": 3,
+      "issue": "Systemic operational inefficiencies or a combination of multiple minor issues leading to general dissatisfaction.",
+      "action": "Conduct a thorough operational audit across all departments (kitchen, front-of-house, inventory) and implement a detailed customer feedback collection system (e.g., digital surveys, comment cards) to pinpoint specific, recurring 'minor' issues.",
+      "category": "operations",
+      "expected_impact": "Uncover underlying inefficiencies and specific pain points contributing to general dissatisfaction, allowing for targeted improvements that collectively boost overall customer experience."
+    },
+    {
+      "priority": 4,
+      "issue": "Insufficient staffing or inefficient operational processes leading to excessive wait times.",
+      "action": "Analyze peak hour customer traffic and staffing levels. Optimize kitchen workflow, table turnover processes, and server sections. Consider implementing a reservation system or pre-ordering options during busy periods.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times for seating, ordering, and food delivery, improving the dining flow and overall customer satisfaction, especially during busy periods."
+    },
+    {
+      "priority": 5,
+      "issue": "Outdated or poorly maintained interior design negatively impacting the restaurant's atmosphere.",
+      "action": "Allocate budget for a phased refresh of the dining area, focusing on updated decor, improved lighting, comfortable seating, and regular maintenance checks for cleanliness and wear-and-tear.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting, comfortable, and modern dining environment, enhancing the overall customer experience and potentially attracting new clientele."
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a small sample size of 14 reviews, which may not fully represent the entire customer base or all operational issues."
+  ],
+  "status": "success",
+  "error_detail": null
+}

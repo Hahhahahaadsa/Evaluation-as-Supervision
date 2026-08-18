@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality (taste, preparation, freshness) due to inconsistent cooking standards, poor ingredient sourcing, lack of quality control, or untrained kitchen staff.",
+      "action": "Implement a mandatory daily taste test and quality control checklist for all dishes before service. Conduct weekly training sessions for kitchen staff on consistent preparation techniques, portion control, and proper ingredient handling and storage.",
+      "category": "Food",
+      "expected_impact": "Significant improvement in dish consistency and overall food quality, leading to higher customer satisfaction, reduced complaints, and enhanced reputation."
+    },
+    {
+      "priority": 2,
+      "issue": "Frequent complaints about staff attitude (rudeness, unhelpfulness, inattentiveness) stemming from inadequate staff training, low staff morale, insufficient staffing, or poor management oversight.",
+      "action": "Introduce a comprehensive customer service training program focusing on empathy, active listening, and proactive service. Implement a staff recognition program for excellent service and conduct regular one-on-one check-ins to address morale and potential burnout. Ensure adequate staffing levels to prevent overload.",
+      "category": "Service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more positive dining atmosphere, leading to better reviews and increased customer loyalty."
+    },
+    {
+      "priority": 3,
+      "issue": "Long wait times for seating, ordering, and food delivery caused by understaffing, inefficient order processing, poor kitchen workflow, or inadequate capacity management during peak hours.",
+      "action": "Optimize kitchen workflow by reviewing station layouts and prep procedures. Implement a digital order management system to streamline communication between front-of-house and kitchen. Cross-train front-of-house staff to assist with basic tasks during peak hours, and consider dynamic staffing adjustments based on predicted demand.",
+      "category": "Operations",
+      "expected_impact": "Reduced customer wait times, improved table turnover, and a smoother overall dining experience, especially during busy periods, leading to higher customer satisfaction."
+    },
+    {
+      "priority": 4,
+      "issue": "Perception of high or unfair pricing for the quality or quantity of food/service received, indicating pricing not aligned with perceived value or lack of competitive pricing strategy.",
+      "action": "Conduct a competitive pricing analysis of similar restaurants in the area. Review menu item costs and portion sizes to ensure perceived value aligns with price. Consider introducing value-added options (e.g., combo deals, loyalty programs) or clearly communicating the quality and sourcing of ingredients used.",
+      "category": "Pricing",
+      "expected_impact": "Increased customer satisfaction with value for money, potentially attracting a broader customer base and reducing price-related complaints."
+    },
+    {
+      "priority": 5,
+      "issue": "Recurring unspecified negative experiences that don't fit into other categories, suggesting vague operational issues or specific isolated incidents.",
+      "action": "Implement a structured feedback collection system (e.g., QR code surveys, comment cards, direct manager check-ins) to capture more specific details about 'other' negative experiences. Train staff to probe gently for specifics when customers express general dissatisfaction.",
+      "category": "Customer Feedback",
+      "expected_impact": "A clearer understanding of diverse customer pain points, enabling targeted solutions and proactive issue resolution, and preventing minor issues from escalating."
+    },
+    {
+      "priority": 6,
+      "issue": "Occasional issues with restaurant cleanliness, such as dirty tables or restrooms, due to inadequate cleaning protocols, insufficient cleaning staff, or lack of regular maintenance.",
+      "action": "Establish and enforce a detailed daily and weekly cleaning checklist for all areas, including restrooms, dining surfaces, and kitchen. Assign specific staff members responsibility for cleanliness checks throughout shifts, especially during peak hours, and provide necessary cleaning supplies.",
+      "category": "Operations",
+      "expected_impact": "A consistently clean and hygienic environment, improving customer comfort, overall perception of the restaurant, and compliance with health standards."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "General operational problems or dissatisfaction with non-specific aspects.",
+      "action": "Implement a daily 'Manager's Walk-Through' checklist covering all customer-facing areas and back-of-house, focusing on identifying and rectifying minor issues before they escalate. This should include a brief daily team huddle to address findings.",
+      "category": "operations",
+      "expected_impact": "Improve overall operational consistency, proactively address minor issues, and enhance the general customer experience across all touchpoints, leading to fewer miscellaneous complaints."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff attitude (rudeness, unhelpfulness).",
+      "action": "Launch a mandatory, comprehensive customer service training program for all front-of-house staff, focusing on empathy, active listening, conflict resolution, and clear service standards. Simultaneously, review and adjust staffing levels during peak hours to alleviate employee stress and burnout.",
+      "category": "service",
+      "expected_impact": "Significantly improve staff-customer interactions, reduce negative reviews related to service, and foster a more welcoming and professional environment."
+    },
+    {
+      "priority": 3,
+      "issue": "Restaurant cleanliness.",
+      "action": "Develop and strictly enforce a detailed daily, weekly, and monthly cleaning schedule for all areas (dining room, restrooms, kitchen, entrance), assigning specific staff responsibilities and requiring manager sign-offs for completion.",
+      "category": "operations",
+      "expected_impact": "Drastically improve the restaurant's hygiene standards, enhancing customer comfort, perception of quality, and overall dining experience."
+    },
+    {
+      "priority": 4,
+      "issue": "Negative ambience.",
+      "action": "Conduct a professional ambience audit to identify specific areas for improvement (e.g., lighting, music volume/genre, seating comfort, minor decor updates) and create a phased plan for targeted upgrades to enhance the dining environment.",
+      "category": "operations",
+      "expected_impact": "Create a more inviting, comfortable, and pleasant dining atmosphere, encouraging longer stays, repeat visits, and positive word-of-mouth."
+    },
+    {
+      "priority": 5,
+      "issue": "High pricing / poor value for money.",
+      "action": "Perform a competitive pricing analysis against local rivals and re-evaluate menu item costs and perceived value. Consider introducing a 'value menu' or special promotions (e.g., lunch specials, happy hour) to offer more accessible price points without compromising quality.",
+      "category": "pricing",
+      "expected_impact": "Align pricing with customer expectations and market value, potentially increasing customer traffic and satisfaction with perceived value."
+    },
+    {
+      "priority": 6,
+      "issue": "Long wait times for service or food.",
+      "action": "Implement a system to monitor and optimize kitchen workflow and table turnover during peak hours. This could include pre-shift briefings, adjusting staffing levels based on demand forecasts, or utilizing a digital table management system to streamline seating and order flow.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improve operational efficiency, and enhance the overall dining experience, especially during busy periods."
+    },
+    {
+      "priority": 7,
+      "issue": "Inconsistent food quality.",
+      "action": "Establish and enforce strict quality control protocols for ingredient sourcing, food preparation, and plating consistency. Conduct regular taste tests and chef training refreshers to ensure all staff adhere to established recipes and presentation standards.",
+      "category": "food",
+      "expected_impact": "Ensure a consistently high standard of food quality, leading to improved customer satisfaction, positive culinary reviews, and increased customer loyalty."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

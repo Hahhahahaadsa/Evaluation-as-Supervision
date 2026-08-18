@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality (taste, preparation, freshness).",
+      "action": "Implement a standardized recipe and preparation guide for all dishes, conduct daily taste tests by a senior chef, and review ingredient suppliers for freshness and quality.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food consistency and overall customer satisfaction with taste and freshness."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff attitude (rudeness, unhelpfulness, lack of attentiveness).",
+      "action": "Develop and implement a mandatory customer service training program focusing on attentiveness, problem-solving, and positive communication. Increase management presence on the floor during peak hours for immediate feedback and support.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and reduction in negative service-related reviews."
+    },
+    {
+      "priority": 3,
+      "issue": "Pricing perceived as too high or poor value for money.",
+      "action": "Conduct a competitive pricing analysis and re-evaluate menu item pricing. Consider offering value-added options (e.g., combo deals, larger portions for certain items) or clearly communicating the quality/sourcing of ingredients to justify prices.",
+      "category": "pricing",
+      "expected_impact": "Improved perception of value, potentially increasing customer loyalty and reducing price-related complaints."
+    },
+    {
+      "priority": 4,
+      "issue": "Frequent negative experiences related to unclassified aspects.",
+      "action": "Implement a customer feedback survey (e.g., QR code on tables, online form) specifically asking for open-ended comments on overall experience to identify recurring 'other' issues. Review detailed negative reviews for common themes not captured by existing categories.",
+      "category": "operations",
+      "expected_impact": "Uncover specific, hidden pain points to address, leading to a more comprehensive understanding of customer dissatisfaction."
+    },
+    {
+      "priority": 5,
+      "issue": "Long wait times for seating, ordering, or receiving food.",
+      "action": "Optimize kitchen workflow and station assignments. Review staffing levels during peak hours and adjust schedules as needed. Implement a reservation system or a more efficient host stand process.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, leading to a smoother dining experience and improved operational efficiency."
+    },
+    {
+      "priority": 6,
+      "issue": "Dissatisfaction with restaurant atmosphere or physical environment.",
+      "action": "Conduct a thorough review of the dining area's physical condition, including lighting, decor, and seating arrangements. Schedule regular maintenance and consider minor aesthetic upgrades to enhance comfort and appeal.",
+      "category": "operations",
+      "expected_impact": "A more pleasant and inviting dining environment, contributing to a better overall customer experience."
+    },
+    {
+      "priority": 7,
+      "issue": "Issues with restaurant cleanliness.",
+      "action": "Establish a detailed daily and weekly cleaning checklist for all areas (dining room, restrooms, kitchen). Assign specific staff responsibilities and implement regular management spot checks.",
+      "category": "operations",
+      "expected_impact": "A noticeably cleaner environment, improving customer comfort and perception of hygiene standards."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

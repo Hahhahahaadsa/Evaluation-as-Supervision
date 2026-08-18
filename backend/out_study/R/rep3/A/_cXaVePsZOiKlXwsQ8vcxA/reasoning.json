@@ -1,0 +1,134 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report dissatisfaction with the quality of the food.",
+      "aspect": "food_quality",
+      "frequency": 0.47,
+      "evidence_review_ids": [
+        "5q8emsh_D_y5eN70R7yheA",
+        "AVmA4GdbBGji5mH8fNzh5g",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GB3DBfxLpq542Uje7sOQPA",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "h7tdi4NUlWOH-r3h0-DM9Q",
+        "w3vM0_C7xCc_e2MbwDjtrw",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "A significant number of reviews highlight negative experiences with staff attitude, including unfriendliness or unhelpfulness.",
+      "aspect": "staff_attitude",
+      "frequency": 0.41,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "3JZKiIPR5XJK7aDWjkaOnQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "8Hb9IwXRdLXZoeZHwTw-QA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA",
+        "h7tdi4NUlWOH-r3h0-DM9Q"
+      ]
+    },
+    {
+      "description": "Customers consistently complain about excessive wait times for service or food.",
+      "aspect": "wait_time",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "ASy1okqMEczBRPY5z0azMA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "P0REzIg3ndSVthg8M8mOuA",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA"
+      ]
+    },
+    {
+      "description": "Several reviews indicate that pricing is perceived as too high or not offering good value for money.",
+      "aspect": "pricing",
+      "frequency": 0.21,
+      "evidence_review_ids": [
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "A notable number of reviews mention various 'other' negative issues, suggesting general operational or experience problems not fitting other categories.",
+      "aspect": "other",
+      "frequency": 0.15,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w"
+      ]
+    },
+    {
+      "description": "Some reviews point out issues with the restaurant's cleanliness.",
+      "aspect": "cleanliness",
+      "frequency": 0.06,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AVmA4GdbBGji5mH8fNzh5g"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or lack of attention to detail in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A significant number of reviews highlight negative experiences with staff attitude, including unfriendliness or unhelpfulness.",
+      "cause": "Insufficient staff training, low staff morale, or understaffing leading to burnout and poor service.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers consistently complain about excessive wait times for service or food.",
+      "cause": "Understaffing during peak hours, inefficient kitchen operations, or poor table management.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews indicate that pricing is perceived as too high or not offering good value for money.",
+      "cause": "Menu prices are not aligned with the perceived quality, portion sizes, or overall dining experience provided.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A notable number of reviews mention various 'other' negative issues, suggesting general operational or experience problems not fitting other categories.",
+      "cause": "General operational inefficiencies or specific unclassified service failures.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Some reviews point out issues with the restaurant's cleanliness.",
+      "cause": "Inadequate cleaning protocols or insufficient staff dedicated to maintaining hygiene standards.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

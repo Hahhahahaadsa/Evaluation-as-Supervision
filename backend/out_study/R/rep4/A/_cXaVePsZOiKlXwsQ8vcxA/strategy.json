@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of low-quality ingredients, or issues with recipe execution leading to dissatisfaction.",
+      "action": "Conduct a comprehensive audit of all recipes and ingredient suppliers. Implement standardized portioning and cooking procedures, and provide refresher training for kitchen staff on consistency and quality control. Consider sourcing higher-quality local ingredients where feasible.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food taste, presentation, and consistency, leading to higher customer satisfaction and repeat visits."
+    },
+    {
+      "priority": 2,
+      "issue": "Lack of proper staff training, insufficient staffing leading to burnout, or poor management oversight causing negative interactions.",
+      "action": "Implement mandatory customer service training focused on empathy, conflict resolution, and proactive service. Review staffing levels during peak hours to prevent burnout and ensure adequate support. Conduct regular performance reviews and provide constructive feedback, with management leading by example.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience through friendly and helpful staff, reducing negative reviews and fostering a more positive dining atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Understaffing, inefficient kitchen operations, poor table management, or inadequate capacity during peak hours causing long wait times.",
+      "action": "Analyze peak hour traffic patterns and adjust staffing schedules for both front-of-house and kitchen staff accordingly. Optimize kitchen workflow and station assignments. Implement a reservation system or a more efficient table turnover process. Consider technology solutions like kitchen display systems (KDS) to streamline order flow.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times for seating, ordering, and food delivery, improving overall dining experience and operational efficiency."
+    },
+    {
+      "priority": 4,
+      "issue": "Customers perceive low value for money, pricing is not competitive, or portion sizes do not justify the cost.",
+      "action": "Conduct a competitive pricing analysis against similar local establishments. Evaluate current menu item costs and portion sizes to ensure they align with perceived value. Consider offering value-added options (e.g., combo deals, loyalty programs) or slightly adjusting portion sizes/ingredient quality to justify price points.",
+      "category": "pricing",
+      "expected_impact": "Customers will perceive better value for their money, reducing price-related complaints and potentially increasing sales volume."
+    },
+    {
+      "priority": 5,
+      "issue": "Vague or miscellaneous negative experiences that cannot be categorized further without more detailed review text.",
+      "action": "Implement a system for direct customer feedback (e.g., comment cards, QR code surveys) to gather more specific details on 'other' negative experiences. Train staff to actively listen and probe for details when customers express general dissatisfaction.",
+      "category": "service",
+      "expected_impact": "Gaining clearer insights into previously unidentifiable issues, allowing for targeted improvements and demonstrating responsiveness to customer concerns."
+    },
+    {
+      "priority": 6,
+      "issue": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance leading to cleanliness issues.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning checklist for all areas (dining room, restrooms, kitchen). Allocate dedicated staff time for cleaning tasks and conduct regular spot checks by management. Schedule professional deep cleaning services periodically.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner and more hygienic environment, enhancing customer comfort and perception of quality, and reducing health concerns."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

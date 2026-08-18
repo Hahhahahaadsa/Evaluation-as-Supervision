@@ -1,0 +1,134 @@
+[
+  {
+    "name": "schema_validity:analysis",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all valid"
+  },
+  {
+    "name": "schema_validity:reasoning",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "schema_validity:strategy",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "schema_validity:report",
+    "passed": true,
+    "score": null,
+    "detail": "valid"
+  },
+  {
+    "name": "groundedness:Poor food quality:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:Poor food quality:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "18/18 evidence reviews actually carry aspect 'food_quality'"
+  },
+  {
+    "name": "groundedness:Poor food quality:frequency",
+    "passed": true,
+    "score": 0.9996301369863014,
+    "detail": "claimed=0.301, recomputed=0.30 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:High prices:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:High prices:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "16/16 evidence reviews actually carry aspect 'pricing'"
+  },
+  {
+    "name": "groundedness:High prices:frequency",
+    "passed": true,
+    "score": 0.9996301369863014,
+    "detail": "claimed=0.301, recomputed=0.30 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:Long wait times:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:Long wait times:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "8/8 evidence reviews actually carry aspect 'wait_time'"
+  },
+  {
+    "name": "groundedness:Long wait times:frequency",
+    "passed": true,
+    "score": 0.999986301369863,
+    "detail": "claimed=0.137, recomputed=0.14 (tolerance=0.05)"
+  },
+  {
+    "name": "groundedness:Poor staff attitude:evidence_exists",
+    "passed": true,
+    "score": 1.0,
+    "detail": "all evidence ids found"
+  },
+  {
+    "name": "groundedness:Poor staff attitude:aspect_present",
+    "passed": true,
+    "score": 1.0,
+    "detail": "13/13 evidence reviews actually carry aspect 'staff_attitude'"
+  },
+  {
+    "name": "groundedness:Poor staff attitude:frequency",
+    "passed": true,
+    "score": 0.9995205479452055,
+    "detail": "claimed=0.205, recomputed=0.21 (tolerance=0.05)"
+  },
+  {
+    "name": "strategy_traceability:issue_traced",
+    "passed": true,
+    "score": 1.0,
+    "detail": "4/4 recommendation issues trace back to a reasoning pattern/root cause"
+  },
+  {
+    "name": "strategy_traceability:priority_order",
+    "passed": true,
+    "score": 1.0,
+    "detail": "3/3 adjacent priority pairs are frequency-ordered (higher priority = higher frequency)"
+  },
+  {
+    "name": "report_subset:root_causes",
+    "passed": true,
+    "score": 1.0,
+    "detail": "4/4 report root causes found verbatim upstream"
+  },
+  {
+    "name": "report_subset:recommendations",
+    "passed": true,
+    "score": 1.0,
+    "detail": "4/4 report recommendations found verbatim upstream"
+  },
+  {
+    "name": "report_subset:key_findings",
+    "passed": true,
+    "score": 1.0,
+    "detail": "4/4 key findings resemble an upstream pattern (soft check, threshold 0.35)"
+  },
+  {
+    "name": "completion_status",
+    "passed": true,
+    "score": 1.0,
+    "detail": "status=complete"
+  }
+]

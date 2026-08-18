@@ -1,0 +1,110 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Scarpetta",
+  "sample_size": 214,
+  "executive_summary": "An analysis of 214 customer reviews for Scarpetta reveals that the primary areas of concern are inconsistent food quality (40% of reviews) and unfriendly staff attitude (34%). These issues significantly contribute to a perception of high prices and poor value for money (28%), as well as long wait times (16%). Addressing these core operational and service deficiencies is crucial for improving customer satisfaction and overall business performance.",
+  "key_findings": [
+    "Inconsistent or poor food quality (40% of reviews).",
+    "Unfriendly or unhelpful staff attitude (34% of reviews).",
+    "Perceived high prices or poor value for money (28% of reviews).",
+    "Long wait times for service or food (16% of reviews).",
+    "Unpleasant or uninviting ambience (12% of reviews).",
+    "Issues with 'other' aspects (e.g., specific items not fitting other categories, general dissatisfaction) (11% of reviews).",
+    "Poor cleanliness (1% of reviews)."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Inconsistent or poor food quality.",
+      "cause": "Lack of standardized recipes or quality control in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Unfriendly or unhelpful staff attitude.",
+      "cause": "Insufficient staff training in customer service or low staff morale.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Perceived high prices or poor value for money.",
+      "cause": "Pricing strategy not aligned with perceived food quality/portion sizes or local market expectations.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Long wait times for service or food.",
+      "cause": "Understaffing during peak hours or inefficient kitchen/service workflow.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Unpleasant or uninviting ambience.",
+      "cause": "Outdated decor, poor maintenance, or inadequate lighting/seating arrangements.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Issues with 'other' aspects (e.g., specific items not fitting other categories, general dissatisfaction).",
+      "cause": "General operational inefficiencies or specific recurring minor issues not fitting other categories.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Poor cleanliness.",
+      "cause": "Inadequate cleaning protocols or insufficient staff for cleaning duties.",
+      "confidence": "high"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent or poor food quality.",
+      "action": "Develop and enforce detailed standardized recipes for all menu items. Implement a daily taste test and visual inspection protocol for dishes before they leave the kitchen, led by the head chef.",
+      "category": "food",
+      "expected_impact": "Significant improvement in dish consistency and overall customer satisfaction with food quality, leading to repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Unfriendly or unhelpful staff attitude.",
+      "action": "Implement a mandatory bi-weekly customer service training program focusing on active listening, problem-solving, and positive communication. Introduce a staff recognition program for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, increased positive reviews regarding service, and improved staff morale."
+    },
+    {
+      "priority": 3,
+      "issue": "Perceived high prices or poor value for money.",
+      "action": "Conduct a competitive pricing analysis of similar restaurants in the area. Evaluate current portion sizes against price points and consider introducing a 'value menu' or daily specials to offer perceived better value.",
+      "category": "pricing",
+      "expected_impact": "Better alignment of pricing with customer expectations, potentially increasing order volume and perceived value."
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times for service or food.",
+      "action": "Use POS data to identify peak hours and adjust staffing levels accordingly for both front-of-house and kitchen. Implement a kitchen display system (KDS) to streamline order flow and reduce communication errors.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, leading to higher satisfaction and improved table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Unpleasant or uninviting ambience.",
+      "action": "Allocate a budget for minor decor upgrades (e.g., fresh paint, new artwork, updated lighting fixtures). Create a weekly checklist for staff to ensure cleanliness, proper table settings, and comfortable temperature.",
+      "category": "operations",
+      "expected_impact": "A more welcoming and comfortable dining environment, encouraging longer stays and positive word-of-mouth."
+    },
+    {
+      "priority": 6,
+      "issue": "Issues with 'other' aspects (e.g., specific items not fitting other categories, general dissatisfaction).",
+      "action": "Implement a customer feedback system (e.g., QR code surveys, comment cards) to capture specific minor issues. Hold weekly team meetings to review feedback and brainstorm solutions for recurring 'other' issues.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of minor issues before they escalate, improving overall customer satisfaction."
+    },
+    {
+      "priority": 7,
+      "issue": "Poor cleanliness.",
+      "action": "Develop a comprehensive daily and weekly cleaning schedule for all areas (dining room, restrooms, kitchen). Assign specific staff members to cleaning duties with clear accountability and regular checks by management.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner establishment, enhancing customer comfort and perception of hygiene standards."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on publicly available customer reviews, which may not represent the entire customer base.",
+    "Sentiment and aspect detection are automated and may occasionally misinterpret nuanced language.",
+    "The frequency of issues reflects mentions in reviews, not necessarily the absolute number of customers affected."
+  ],
+  "status": "success",
+  "error_detail": null
+}

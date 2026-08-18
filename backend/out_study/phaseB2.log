@@ -1,0 +1,22 @@
+Phase B (enforce) — 5 target(s), 0 already done, 5 to run.
+[1/5] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 148.9s, would_retry=-
+[2/5] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 304.11s, would_retry=-
+[3/5] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 716.89s, would_retry=-
+[4/5] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 842.77s, would_retry=-
+[5/5] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+LLM API call failed on attempt 1: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+LLM API call failed on attempt 1: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+    ok: 214 reviews, 819.85s, would_retry=-
+
+Phase B finished. Checkpoint: out_study\B\checkpoint.jsonl

@@ -1,0 +1,150 @@
+{
+  "business_name": "Nomzilla! Sushi Et Cetera",
+  "business_id": "FnEWE7CdxTolKWEgVKAlsg",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "your previous output cited unverifiable evidence. pattern 'Customers frequently report dissatisfaction with the quality': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA'] | pattern 'Many customers report negative experiences with staff attitu': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA'] | pattern 'A significant number of reviews indicate that pricing is per': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA'] | pattern 'Customers frequently mention negative experiences related to': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA'] | pattern 'Customers frequently complain about long wait times for seat': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA'] | pattern 'Several reviews indicate dissatisfaction with the restaurant': evidence ids not found in the analysis output: ['E02DwAacaNvWgX-r7cIW7fA']",
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Customers frequently report dissatisfaction with the quality",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.2523364485981308,
+            "recomputed_frequency": 0.2523364485981308
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "Many customers report negative experiences with staff attitu",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.17757009345794392,
+            "recomputed_frequency": 0.17757009345794392
+          },
+          {
+            "index": 2,
+            "aspect": "pricing",
+            "description": "A significant number of reviews indicate that pricing is per",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.1542056074766355,
+            "recomputed_frequency": 0.1542056074766355
+          },
+          {
+            "index": 3,
+            "aspect": "other",
+            "description": "Customers frequently mention negative experiences related to",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.1261682242990654,
+            "recomputed_frequency": 0.1261682242990654
+          },
+          {
+            "index": 4,
+            "aspect": "wait_time",
+            "description": "Customers frequently complain about long wait times for seat",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0794392523364486,
+            "recomputed_frequency": 0.0794392523364486
+          },
+          {
+            "index": 5,
+            "aspect": "ambience",
+            "description": "Several reviews indicate dissatisfaction with the restaurant",
+            "missing_evidence_ids": [
+              "E02DwAacaNvWgX-r7cIW7fA"
+            ],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.04205607476635514,
+            "recomputed_frequency": 0.04205607476635514
+          },
+          {
+            "index": 6,
+            "aspect": "cleanliness",
+            "description": "A few customers reported issues with the cleanliness of the ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.018691588785046728,
+            "recomputed_frequency": 0.018691588785046728
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 805.08,
+  "stratum": "p90"
+}

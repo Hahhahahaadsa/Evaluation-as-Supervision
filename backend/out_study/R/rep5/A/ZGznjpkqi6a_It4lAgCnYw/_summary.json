@@ -1,0 +1,142 @@
+{
+  "business_name": "Izzo's Illegal Burrito",
+  "business_id": "ZGznjpkqi6a_It4lAgCnYw",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 92,
+        "n_success": 92,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 92,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "A significant number of customers consistently report dissat",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.478,
+            "recomputed_frequency": 0.5
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "Many reviews highlight negative interactions with staff, cit",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.337,
+            "recomputed_frequency": 0.33695652173913043
+          },
+          {
+            "index": 2,
+            "aspect": "cleanliness",
+            "description": "A notable portion of reviews express concerns about the rest",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.185,
+            "recomputed_frequency": 0.18478260869565216
+          },
+          {
+            "index": 3,
+            "aspect": "wait_time",
+            "description": "Customers frequently complain about long waiting periods for",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.13,
+            "recomputed_frequency": 0.13043478260869565
+          },
+          {
+            "index": 4,
+            "aspect": "pricing",
+            "description": "Several customers feel that the prices are too high, especia",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.109,
+            "recomputed_frequency": 0.10869565217391304
+          },
+          {
+            "index": 5,
+            "aspect": "other",
+            "description": "A number of reviews mention general negative experiences or ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.098,
+            "recomputed_frequency": 0.09782608695652174
+          },
+          {
+            "index": 6,
+            "aspect": "ambience",
+            "description": "Some customers found the restaurant's atmosphere or decor to",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.054,
+            "recomputed_frequency": 0.05434782608695652
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "these recommendation issues do not trace back to any reasoning pattern or root cause: ['Poor staff attitude and customer service.', 'Excessive customer wait times.', 'Perceived poor value for money.']",
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": [
+          "Poor staff attitude and customer service.",
+          "Excessive customer wait times.",
+          "Perceived poor value for money."
+        ]
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 345.72,
+  "stratum": "p75"
+}

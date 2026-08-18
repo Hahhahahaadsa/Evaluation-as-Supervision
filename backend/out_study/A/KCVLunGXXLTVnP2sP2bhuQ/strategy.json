@@ -1,0 +1,41 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation, potentially due to poor ingredients or recipe execution.",
+      "action": "Implement a daily kitchen quality control checklist for all dishes, conduct weekly taste tests with management, and review ingredient supplier contracts for higher quality options. Provide refresher training on recipe adherence for kitchen staff.",
+      "category": "food",
+      "expected_impact": "Significant improvement in dish consistency and taste, leading to higher customer satisfaction and fewer food-related complaints."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff interactions and service issues, stemming from inadequate training or oversight.",
+      "action": "Develop and implement a mandatory 2-hour customer service excellence training program for all front-of-house staff, focusing on empathy, active listening, and conflict resolution. Increase management presence on the floor during peak hours for real-time coaching and support.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more welcoming atmosphere, leading to better reviews and repeat business."
+    },
+    {
+      "priority": 3,
+      "issue": "Undefined operational inefficiencies leading to general negative experiences ('other' issues).",
+      "action": "Conduct a comprehensive 360-degree operational audit over two weeks, including staff interviews, customer journey mapping, and a cleanliness/maintenance check. Implement a suggestion box for both staff and customers to gather specific feedback on 'other' issues.",
+      "category": "operations",
+      "expected_impact": "Identification and resolution of hidden operational bottlenecks, leading to an overall smoother and more positive customer experience."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive customer wait times, indicating inefficiencies in service delivery or kitchen operations.",
+      "action": "Analyze sales data to identify peak hours and adjust staffing levels (both kitchen and front-of-house) accordingly. Implement a new kitchen display system (KDS) to streamline order flow and improve communication between FOH and BOH.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, improved table turnover, and increased operational efficiency during busy periods."
+    },
+    {
+      "priority": 5,
+      "issue": "Dissatisfaction with the restaurant's atmosphere or physical environment.",
+      "action": "Conduct a detailed walkthrough of the dining area, restrooms, and entrance. Prioritize and execute immediate repairs (e.g., lighting, wobbly tables) and plan for a minor decor refresh (e.g., new paint, updated artwork, comfortable seating options) within the next 3 months.",
+      "category": "operations",
+      "expected_impact": "A more inviting and comfortable dining environment, enhancing the overall customer experience and perception of the restaurant."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

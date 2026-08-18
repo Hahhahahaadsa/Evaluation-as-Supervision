@@ -1,0 +1,41 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and unmet taste expectations.",
+      "action": "Implement a comprehensive kitchen audit and standardization program. This includes reviewing all recipes for clarity and consistency, training kitchen staff on precise preparation techniques, and establishing strict quality checks for incoming ingredients and outgoing dishes.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food consistency and taste, leading to higher customer satisfaction and fewer complaints about dish quality."
+    },
+    {
+      "priority": 2,
+      "issue": "General, unspecified customer dissatisfaction.",
+      "action": "Implement a direct customer feedback mechanism (e.g., QR code surveys, comment cards, manager check-ins) to identify specific pain points contributing to general dissatisfaction. Analyze feedback weekly to uncover recurring 'other' issues.",
+      "category": "customer experience",
+      "expected_impact": "Uncover hidden operational issues and specific unmet expectations, allowing for targeted improvements and a reduction in general negative sentiment."
+    },
+    {
+      "priority": 3,
+      "issue": "Poor perceived value for money.",
+      "action": "Conduct a menu engineering analysis to evaluate profitability and popularity of dishes, and compare pricing against competitors and ingredient costs. Consider adjusting portion sizes, enhancing presentation, or introducing value-driven specials to better align price with perceived value.",
+      "category": "pricing",
+      "expected_impact": "Improve customer perception of value, potentially increasing sales and reducing complaints related to pricing."
+    },
+    {
+      "priority": 4,
+      "issue": "Negative or unhelpful staff attitude.",
+      "action": "Implement mandatory customer service training for all front-of-house staff, focusing on positive communication, problem-solving, and empathy. Ensure adequate staffing levels during peak hours and empower managers to provide immediate coaching and feedback.",
+      "category": "service",
+      "expected_impact": "Enhance the overall dining experience through improved staff interactions, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 5,
+      "issue": "Occasional long wait times.",
+      "action": "Review and optimize kitchen workflow and order management systems. Cross-train staff to assist in multiple areas during peak times, and consider implementing a table management system to better predict and manage flow.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times, improving efficiency and overall customer experience, especially during busy periods."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

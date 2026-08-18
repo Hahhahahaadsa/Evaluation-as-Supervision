@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Rude, unhelpful, or inattentive staff leading to poor customer service.",
+      "action": "Implement a mandatory, comprehensive customer service training program for all front-of-house staff, focusing on attentiveness, problem-solving, and positive communication. Simultaneously, review staffing levels during peak hours to ensure adequate coverage and reduce employee stress, and establish a clear management oversight process for daily service quality checks.",
+      "category": "service",
+      "expected_impact": "Significantly improve customer satisfaction, reduce negative service-related reviews, and foster a more positive dining experience, potentially increasing repeat business and tips."
+    },
+    {
+      "priority": 2,
+      "issue": "Unclean or unhygienic restaurant environment.",
+      "action": "Develop and enforce a detailed daily and weekly cleaning checklist for all areas (dining room, restrooms, kitchen, entrance). Conduct unannounced hygiene audits at least twice a week and provide refresher training to all staff on proper sanitation protocols and personal hygiene standards.",
+      "category": "operations",
+      "expected_impact": "Elevate the restaurant's overall cleanliness and hygiene perception, reduce health code risks, and enhance customer comfort and trust in the establishment."
+    },
+    {
+      "priority": 3,
+      "issue": "Unpleasant or lacking atmosphere/physical environment.",
+      "action": "Conduct a thorough facility audit to identify specific areas requiring decor updates, maintenance (e.g., lighting, paint, furniture repair), and noise reduction solutions (e.g., acoustic panels, background music adjustment). Prioritize improvements based on impact and budget, starting with high-visibility areas like the entrance and restrooms.",
+      "category": "environment",
+      "expected_impact": "Create a more inviting and comfortable dining atmosphere, encouraging longer stays and positive word-of-mouth, thereby improving the overall customer experience."
+    },
+    {
+      "priority": 4,
+      "issue": "High prices or poor value for money.",
+      "action": "Perform a competitive pricing analysis for similar dishes in the local market. Based on findings, either adjust menu prices to be more competitive, or enhance perceived value by increasing portion sizes, upgrading ingredient quality, or introducing value-added promotions (e.g., combo deals, loyalty programs) without compromising quality.",
+      "category": "pricing",
+      "expected_impact": "Align pricing with customer expectations and perceived value, reducing complaints about cost and potentially increasing sales volume and customer loyalty."
+    },
+    {
+      "priority": 5,
+      "issue": "Inconsistent or poor food quality (taste, preparation, freshness).",
+      "action": "Standardize all recipes with precise measurements and cooking instructions, implement a strict 'first-in, first-out' (FIFO) system for ingredients, and establish a multi-point quality control check for every dish before it leaves the kitchen. Provide ongoing culinary training and regular performance reviews for kitchen staff.",
+      "category": "food",
+      "expected_impact": "Ensure consistent, high-quality food output, leading to increased customer satisfaction, positive food reviews, and a stronger reputation for culinary excellence."
+    },
+    {
+      "priority": 6,
+      "issue": "Long wait times for seating or service.",
+      "action": "Analyze historical data to accurately forecast peak hours and adjust staffing schedules accordingly to ensure optimal coverage. Implement a digital waitlist or reservation system to manage guest flow efficiently, and train staff on effective table management and streamlined order processing techniques to reduce service delays.",
+      "category": "operations",
+      "expected_impact": "Reduce customer frustration due to waiting, improve table turnover rates, and enhance overall operational efficiency, allowing for more guests to be served during busy periods."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

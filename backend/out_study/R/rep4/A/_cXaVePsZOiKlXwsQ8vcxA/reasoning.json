@@ -1,0 +1,133 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report dissatisfaction with the quality of the food.",
+      "aspect": "food_quality",
+      "frequency": 0.4706,
+      "evidence_review_ids": [
+        "5q8emsh_D_y5eN70R7yheA",
+        "AVmA4GdbBGji5mH8fNzh5g",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GB3DBfxLpq542Uje7sOQPA",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "h7tdi4NUlWOH-r3h0-DM9Q",
+        "w3vM0_C7xCc_e2MbwDjtrw",
+        "wLo848NegdSUHd4E5-5Haw"
+      ]
+    },
+    {
+      "description": "Many reviews highlight negative interactions with staff, citing poor attitude or unhelpfulness.",
+      "aspect": "staff_attitude",
+      "frequency": 0.3824,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "3JZKiIPR5XJK7aDWjkaOnQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "8Hb9IwXRdLXZoeZHwTw-QA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "TiGjDdpKUcknIyFoMiz0wA",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA",
+        "h7tdi4NUlWOH-r3h0-DM9Q"
+      ]
+    },
+    {
+      "description": "Customers consistently experience long wait times for service or food.",
+      "aspect": "wait_time",
+      "frequency": 0.2941,
+      "evidence_review_ids": [
+        "1jJsrvtrglh2wGNyPOUzTQ",
+        "5q8emsh_D_y5eN70R7yheA",
+        "ASy1okqMEczBRPY5z0azMA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "KMSkEeMG8eRRuEFFr3EgnA",
+        "P0REzIg3ndSVthg8M8mOuA",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA",
+        "cCXsVIQzrncaV7oC3TRSMg",
+        "gEsJeywlD4AR9YdzuQpejA"
+      ]
+    },
+    {
+      "description": "A significant number of customers feel the prices are too high for the value received.",
+      "aspect": "pricing",
+      "frequency": 0.2059,
+      "evidence_review_ids": [
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "CFelBfQyUXm0gcfzt1HSdg",
+        "GCLeNoVEHdExbYbmHc2WKA",
+        "wLo848NegdSUHd4E5-5Haw",
+        "_ZDix5VCAanKkBG973rJoQ",
+        "a5OXQwSyoqZb_t2zfcbR6w",
+        "baTUJG2Chi_mpNP2Ua-cHA"
+      ]
+    },
+    {
+      "description": "Several reviews mention unspecified negative experiences or issues not fitting other categories.",
+      "aspect": "other",
+      "frequency": 0.1471,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AudFxyXs5Z-3Li1M5VuszA",
+        "QNRRvYe-AVdwvGx3YnqYjQ",
+        "Wtj5uCjuBI_fqf86aWhPdg",
+        "_ZDix5VCAanKkBG973rJoQ"
+      ]
+    },
+    {
+      "description": "Some customers have noted issues with the restaurant's cleanliness.",
+      "aspect": "cleanliness",
+      "frequency": 0.0588,
+      "evidence_review_ids": [
+        "ASy1okqMEczBRPY5z0azMA",
+        "AVmA4GdbBGji5mH8fNzh5g"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or issues with recipe execution.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Many reviews highlight negative interactions with staff, citing poor attitude or unhelpfulness.",
+      "cause": "Lack of proper staff training, insufficient staffing leading to burnout, or poor management oversight.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers consistently experience long wait times for service or food.",
+      "cause": "Understaffing, inefficient kitchen operations, poor table management, or inadequate capacity during peak hours.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A significant number of customers feel the prices are too high for the value received.",
+      "cause": "Perceived low value for money, pricing not competitive with similar establishments, or portion sizes not justifying the cost.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Several reviews mention unspecified negative experiences or issues not fitting other categories.",
+      "cause": "Vague or miscellaneous issues that cannot be categorized further without more detailed review text.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Some customers have noted issues with the restaurant's cleanliness.",
+      "cause": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

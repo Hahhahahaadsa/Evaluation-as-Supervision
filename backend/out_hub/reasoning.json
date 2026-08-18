@@ -1,0 +1,111 @@
+{
+  "patterns": [
+    {
+      "description": "Poor food quality",
+      "aspect": "food_quality",
+      "frequency": 0.301,
+      "evidence_review_ids": [
+        "13GY7_A4sD_VWmZDU_3Ofg",
+        "3HZztjYo-aurE5zh67kieg",
+        "8xBMXhSFsC9TMqkjtnMY9Q",
+        "GjZzf-pACE0ZDg4XHrL2QQ",
+        "LeWn7-W7KzbJA9-MAW183A",
+        "OgknhWhPJHvoHq6Q74raLA",
+        "P3caVQtdLE6bPkYsT5mzJg",
+        "PBoBfTmwRaTi5Q9WAvtrUg",
+        "SeJgkZ6dFimWxIx-EQkLGw",
+        "Wpe_V1fMop6DNOSEoFS8FA",
+        "X-mjAKtbt1CKg8NQQjoY8Q",
+        "YvhwgAz4HRtEc0T5m_Hp0g",
+        "dMXEOB36Q87fcfh31DLrjQ",
+        "fxNFxkhoNQu0aBsVFMkgNg",
+        "lg5A7ZvZMJAAr0E_NLd5OA",
+        "rI-3XpkuHmrt0Fwv6VihvA",
+        "s8sy0en3NfAZWmarWrFQuQ",
+        "uDt-Fo21jjCZIYtYBbggkg"
+      ]
+    },
+    {
+      "description": "High prices",
+      "aspect": "pricing",
+      "frequency": 0.301,
+      "evidence_review_ids": [
+        "0AFah_PMhWnUyTs__CdVnA",
+        "0o5AXfTRCdT8K0qtpLa4ww",
+        "3HZztjYo-aurE5zh67kieg",
+        "5UEt80m8K2zAIFRH_-5kxA",
+        "GjZzf-pACE0ZDg4XHrL2QQ",
+        "H2AhIzFFiEahXuj1no5e4w",
+        "LeWn7-W7KzbJA9-MAW183A",
+        "PBoBfTmwRaTi5Q9WAvtrUg",
+        "XBgc27ODx6RBDYaMO_nNtg",
+        "XIdkT3O2wgjbZoP_GCc9Og",
+        "XnR3WLnORsVzrRqRS3T2Qg",
+        "dMXEOB36Q87fcfh31DLrjQ",
+        "gxFLvH4Lw88yoEbfVwYqTw",
+        "jRrr09NQqJE8lujUkt6Mvw",
+        "pSfCcDMVPnkk2H9Med1kFA",
+        "zFgQ2sPP7bnR344Mz4BeAg"
+      ]
+    },
+    {
+      "description": "Long wait times",
+      "aspect": "wait_time",
+      "frequency": 0.137,
+      "evidence_review_ids": [
+        "OgknhWhPJHvoHq6Q74raLA",
+        "P3caVQtdLE6bPkYsT5mzJg",
+        "PBoBfTmwRaTi5Q9WAvtrUg",
+        "W32ENJmt28FPsMsO5HXIKw",
+        "Wpe_V1fMop6DNOSEoFS8FA",
+        "Y9UYeZ_aLMySJ8wqbaEUXw",
+        "lZ7dbnvF_zEKat0GEO2iLQ",
+        "yfMaYUwqmzlvJdBQWx3hbA"
+      ]
+    },
+    {
+      "description": "Poor staff attitude",
+      "aspect": "staff_attitude",
+      "frequency": 0.205,
+      "evidence_review_ids": [
+        "0AFah_PMhWnUyTs__CdVnA",
+        "3HZztjYo-aurE5zh67kieg",
+        "8xBMXhSFsC9TMqkjtnMY9Q",
+        "GypQea5Ck151F2W4nvkzrQ",
+        "IXCI1kMExOgX8cwQ_I3ktQ",
+        "LCQffWpvtgA_jjiNo64x8Q",
+        "W32ENJmt28FPsMsO5HXIKw",
+        "Wpe_V1fMop6DNOSEoFS8FA",
+        "XIdkT3O2wgjbZoP_GCc9Og",
+        "XnR3WLnORsVzrRqRS3T2Qg",
+        "Y9UYeZ_aLMySJ8wqbaEUXw",
+        "fxNFxkhoNQu0aBsVFMkgNg",
+        "lnuMAefJ_dAm1V73vB30bA"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Poor food quality",
+      "cause": "Inadequate food preparation or ingredient quality",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "High prices",
+      "cause": "Inefficient cost management or overpricing strategy",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Long wait times",
+      "cause": "Inadequate staffing or inefficient service processes",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Poor staff attitude",
+      "cause": "Inadequate staff training or poor management",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

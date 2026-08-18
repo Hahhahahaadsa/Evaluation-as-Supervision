@@ -1,0 +1,52 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report dissatisfaction with the quality of the food.",
+      "aspect": "food_quality",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "7Hd56iQEnpWBIxZJ8iQg4g",
+        "G9fYtyMol4Ibo7BxX34eew",
+        "N222fO6XYF0LqhAr0kDOYA",
+        "SwSP5XbVWTx1z4e_N1kNYA"
+      ]
+    },
+    {
+      "description": "Several reviews indicate that customers find the pricing to be too high or not offering good value.",
+      "aspect": "pricing",
+      "frequency": 0.14,
+      "evidence_review_ids": [
+        "7Hd56iQEnpWBIxZJ8iQg4g",
+        "G9fYtyMol4Ibo7BxX34eew"
+      ]
+    },
+    {
+      "description": "A recurring pattern of unspecified negative experiences categorized as 'other', suggesting issues not fitting into standard categories.",
+      "aspect": "other",
+      "frequency": 0.14,
+      "evidence_review_ids": [
+        "6tv9BLWC0lMSaiegoEda8Q",
+        "SwSP5XbVWTx1z4e_N1kNYA"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation, use of lower quality ingredients, or lack of attention to detail in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews indicate that customers find the pricing to be too high or not offering good value.",
+      "cause": "Pricing strategy not aligned with perceived value, or high operational costs being passed onto the customer.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A recurring pattern of unspecified negative experiences categorized as 'other', suggesting issues not fitting into standard categories.",
+      "cause": "Could be related to ambiance, cleanliness, noise levels, or specific incidents not covered by other categories, requiring further investigation into review content.",
+      "confidence": "low"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

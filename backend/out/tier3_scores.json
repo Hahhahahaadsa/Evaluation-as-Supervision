@@ -1,0 +1,118 @@
+{
+  
+  "judge_model": "gemini-pro-latest",
+  "pipeline_model": "gemini-2.5-flash",
+  "root_cause_plausibility": [
+    {
+      "target": {
+        "pattern": "Customers frequently report dissatisfaction with the quality of the food, indicating issues with taste, preparation, or ingredients.",
+        "cause": "Inconsistent food preparation, use of lower quality ingredients, or lack of attention to detail in the kitchen.",
+        "confidence": "high"
+      },
+      "score": 5,
+      "justification": "The root cause directly and logically explains the pattern of food quality dissatisfaction by pointing to preparation inconsistency and ingredient quality. The high confidence is well-calibrated given the direct correlation."
+    },
+    {
+      "target": {
+        "pattern": "A significant number of customers perceive the prices to be too high for the value received, leading to dissatisfaction with the cost.",
+        "cause": "Pricing strategy does not align with customer perception of food quality, portion sizes, or overall dining experience. Could also be due to increased ingredient costs not justified by the final product.",
+        "confidence": "high"
+      },
+      "score": 5,
+      "justification": "The root cause directly and logically explains the pattern of price dissatisfaction by linking it to the core components of dining value, such as quality, portion size, and experience. The explanation is highly plausible and the high confidence is well-calibrated."
+    },
+    {
+      "target": {
+        "pattern": "A notable portion of reviews mention unspecified negative experiences, suggesting broader operational or atmospheric issues not captured by specific categories.",
+        "cause": "This broad category could stem from a combination of factors like poor management, lack of atmosphere, or minor inconveniences that accumulate.",
+        "confidence": "medium"
+      },
+      "score": 4,
+      "justification": "{\n  \"score\": 4,\n  \"justification\": \"The cause provides a reasonable and well-calibrated explanation for the vague pattern of unspecified negative experiences. While inherently generic, it directly addresses the operational and atmospheric issues hinted at in the pattern.\""
+    },
+    {
+      "target": {
+        "pattern": "Customers frequently report negative interactions with staff, indicating issues such as rudeness, unhelpfulness, or lack of attentiveness.",
+        "cause": "Insufficient staff training in customer service, low staff morale, or understaffing leading to stress and poor interactions.",
+        "confidence": "high"
+      },
+      "score": 5,
+      "justification": "The proposed root causes (insufficient training, low morale, understaffing) directly and logically explain the pattern of negative staff interactions. A domain expert would agree these are the most likely explanations, and the high confidence level is well-calibrated."
+    },
+    {
+      "target": {
+        "pattern": "Several customers complain about excessive waiting periods for service or food.",
+        "cause": "Understaffing, inefficient kitchen operations, poor table management, or high customer volume without adequate resources.",
+        "confidence": "medium"
+      },
+      "score": 5,
+      "justification": "The proposed causes are highly plausible and directly address the pattern of excessive waiting periods. The medium confidence is well-calibrated since multiple potential operational bottlenecks are listed without definitive proof of one over the others."
+    }
+  ],
+  "recommendation_actionability": [
+    {
+      "target": {
+        "priority": 1,
+        "issue": "Inconsistent food preparation, use of lower quality ingredients, or lack of attention to detail in the kitchen.",
+        "action": "Implement a comprehensive kitchen audit, standardize recipes, conduct regular taste tests, and review ingredient suppliers for quality and consistency. Provide targeted training for kitchen staff on preparation techniques and quality control.",
+        "category": "food",
+        "expected_impact": "Significant improvement in food taste, consistency, and overall customer satisfaction, leading to repeat business and positive reviews."
+      },
+      "score": 4,
+      "justification": "The recommendation provides clear, relevant actions such as standardizing recipes, conducting taste tests, and reviewing suppliers. It scores a 4 because while highly actionable, it leaves specific ownership and exact implementation details to the operator."
+    },
+    {
+      "target": {
+        "priority": 2,
+        "issue": "Pricing strategy does not align with customer perception of food quality, portion sizes, or overall dining experience. Could also be due to increased ingredient costs not justified by the final product.",
+        "action": "Conduct a competitive pricing analysis and a cost-benefit analysis of current menu items. Consider adjusting prices, increasing portion sizes, or enhancing presentation/ingredient quality to justify existing prices. Clearly communicate value proposition.",
+        "category": "pricing",
+        "expected_impact": "Improved customer perception of value, reduced price-related complaints, and potentially increased sales volume or profit margins."
+      },
+      "score": 4,
+      "justification": "{\n  \"score\": 4,\n  \"justification\": \"The recommendation provides clear, relevant steps such as conducting a competitive pricing analysis and adjusting portion sizes or prices. However, it leaves some specifics up to the operator, such as how to clearly communicate the value proposition, making it a 4.\"\n}\n}"
+    },
+    {
+      "target": {
+        "priority": 3,
+        "issue": "This broad category could stem from a combination of factors like poor management, lack of atmosphere, or minor inconveniences that accumulate.",
+        "action": "Implement a customer feedback system (e.g., comment cards, QR code surveys) to gather specific details on 'unspecified negative experiences.' Conduct a thorough review of the dining environment (lighting, music, cleanliness, comfort) and overall operational flow to identify subtle pain points.",
+        "category": "operations",
+        "expected_impact": "Uncover hidden issues, improve overall dining ambiance and operational efficiency, leading to a more pleasant experience and fewer vague negative reviews."
+      },
+      "score": 5,
+      "justification": "The recommendation provides concrete, implementable steps such as setting up QR code surveys and reviewing specific environmental factors like lighting and music. A restaurant manager could easily assign and execute these tasks within a week."
+    },
+    {
+      "target": {
+        "priority": 4,
+        "issue": "Insufficient staff training in customer service, low staff morale, or understaffing leading to stress and poor interactions.",
+        "action": "Implement mandatory customer service training focusing on attentiveness, problem-solving, and positive interaction. Introduce regular team-building activities and review staffing levels to ensure adequate coverage and reduce stress. Consider incentive programs for excellent service.",
+        "category": "service",
+        "expected_impact": "Enhanced customer-staff interactions, improved service perception, higher staff morale, and a more welcoming atmosphere."
+      },
+      "score": 4,
+      "justification": "{\n  \"score\": 4,\n  \"justification\": \"The recommendation provides clear, relevant actions such as implementing specific training, reviewing staffing levels, and introducing team-building activities. However, it leaves specific details like the training curriculum, exact incentive structures, and ownership to the reader, preventing a perfect score.\"\n}\n}"
+    },
+    {
+      "target": {
+        "priority": 5,
+        "issue": "Understaffing, inefficient kitchen operations, poor table management, or high customer volume without adequate resources.",
+        "action": "Analyze peak hour operations to identify bottlenecks in kitchen workflow, order processing, and table turnover. Implement a reservation system if not already in place, optimize kitchen layout/equipment, and cross-train staff to assist during busy periods.",
+        "category": "operations",
+        "expected_impact": "Reduced customer wait times, improved table turnover, increased customer satisfaction, and potentially higher revenue during peak hours."
+      },
+      "score": 4,
+      "justification": "The recommendation provides clear, relevant actions such as implementing a reservation system and cross-training staff to address volume issues. However, suggestions like 'optimize kitchen layout/equipment' are broad and leave specific implementation details to the reader, preventing it from being a quick, directly actionable step for a manager to complete this week."
+    }
+  ],
+  "report_usefulness": {
+    "score": 5,
+    "justification": "The report is highly coherent, with findings, root causes, and recommendations logically linked and supported by specific data points like percentages. The executive summary is concise and accurate, and the recommendations provide actionable steps that would genuinely assist a restaurant owner. Limitations are also clearly and honestly stated."
+  },
+  "means": {
+    "root_cause_plausibility": 4.8,
+    "recommendation_actionability": 4.2,
+    "report_usefulness": 5
+  }
+}

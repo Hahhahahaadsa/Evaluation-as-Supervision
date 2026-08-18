@@ -1,0 +1,140 @@
+{
+  "business_name": "Ameristar Casino Resort Spa St. Charles",
+  "business_id": "o3hDZ2nv80tApZMNQw2aZA",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "staff_attitude",
+            "description": "Customers frequently report negative experiences with staff ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.34,
+            "recomputed_frequency": 0.35046728971962615
+          },
+          {
+            "index": 1,
+            "aspect": "other",
+            "description": "A variety of miscellaneous negative issues are reported, ind",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.4,
+            "recomputed_frequency": 0.4252336448598131
+          },
+          {
+            "index": 2,
+            "aspect": "cleanliness",
+            "description": "Customers frequently complain about the cleanliness of the r",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.2,
+            "recomputed_frequency": 0.20093457943925233
+          },
+          {
+            "index": 3,
+            "aspect": "ambience",
+            "description": "The restaurant's ambience is often described negatively, imp",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.19,
+            "recomputed_frequency": 0.19158878504672897
+          },
+          {
+            "index": 4,
+            "aspect": "pricing",
+            "description": "Many customers find the pricing to be too high or not offeri",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.15,
+            "recomputed_frequency": 0.1542056074766355
+          },
+          {
+            "index": 5,
+            "aspect": "food_quality",
+            "description": "There are recurring complaints about the quality of the food",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.08,
+            "recomputed_frequency": 0.0794392523364486
+          },
+          {
+            "index": 6,
+            "aspect": "wait_time",
+            "description": "Customers frequently experience long wait times for service ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.09,
+            "recomputed_frequency": 0.102803738317757
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "these recommendation issues do not trace back to any reasoning pattern or root cause: ['Negative ambience.']",
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": [
+          "Negative ambience."
+        ]
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 993.08,
+  "stratum": "p90"
+}

@@ -1,0 +1,97 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Izzo's Illegal Burrito",
+  "sample_size": 92,
+  "executive_summary": "An analysis of 92 customer reviews for Izzo's Illegal Burrito reveals significant issues primarily concerning food quality and staff attitude, followed by cleanliness, wait times, and pricing. Customers consistently report dissatisfaction with the taste and consistency of food, alongside negative interactions with staff. These issues are likely rooted in inconsistent operational standards, insufficient training, and potential understaffing. Urgent recommendations include implementing kitchen quality control, comprehensive staff training, and improved cleaning protocols to enhance the overall customer experience and address core operational deficiencies.",
+  "key_findings": [
+    "Consistent dissatisfaction with food quality, often cited as poor, inconsistent, or unappetizing.",
+    "Many customers report negative experiences with staff attitude, including unfriendliness, rudeness, or poor service.",
+    "Several reviews indicate issues with the restaurant's cleanliness, including dirty tables, floors, or general untidiness.",
+    "Customers frequently complain about long wait times for service or food, leading to frustration.",
+    "A notable number of customers find the pricing to be too high or not offering good value for the quality received."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Consistent dissatisfaction with food quality.",
+      "cause": "Inconsistent cooking standards, poor ingredient quality, or lack of attention to detail in food preparation.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Frequent complaints about negative staff attitude.",
+      "cause": "Insufficient staff training in customer service, low staff morale, or inadequate management oversight.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Recurring issues with restaurant cleanliness.",
+      "cause": "Inadequate cleaning protocols, insufficient staffing for cleaning, or lack of regular maintenance.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers experience long wait times.",
+      "cause": "Understaffing during peak hours, inefficient order processing, or kitchen delays.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Perception of high prices or poor value for money.",
+      "cause": "Pricing strategy not aligned with perceived food quality/service, or competitors offering better value.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "General dissatisfaction or multiple unspecified negative issues.",
+      "cause": "Overall operational inefficiencies, lack of attention to minor details, or a combination of smaller issues that accumulate.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent cooking standards, poor ingredient quality, or lack of attention to detail in food preparation.",
+      "action": "Implement a mandatory daily kitchen quality control checklist for all dishes, including taste tests and presentation checks by the head chef or kitchen manager. Simultaneously, review and standardize all core recipes with clear ingredient specifications and cooking procedures.",
+      "category": "food",
+      "expected_impact": "A significant and consistent improvement in food quality across all menu items, leading to higher customer satisfaction and positive reviews."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staff training in customer service, low staff morale, or inadequate management oversight.",
+      "action": "Launch a comprehensive customer service training program for all front-of-house staff, focusing on active listening, conflict resolution, and proactive guest engagement. Implement a weekly \"service excellence\" recognition program to boost morale.",
+      "category": "service",
+      "expected_impact": "A noticeable improvement in staff friendliness and attentiveness, resulting in a more welcoming atmosphere and enhanced customer experience."
+    },
+    {
+      "priority": 3,
+      "issue": "Inadequate cleaning protocols, insufficient staffing for cleaning, or lack of regular maintenance.",
+      "action": "Develop and enforce a detailed hourly cleaning schedule for high-traffic areas (tables, restrooms, floors) during operating hours, assigning specific staff members responsibility. Conduct a deep clean of the entire premises weekly.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner and more hygienic dining environment, improving customer comfort and perception of the restaurant's standards."
+    },
+    {
+      "priority": 4,
+      "issue": "Understaffing during peak hours, inefficient order processing, or kitchen delays.",
+      "action": "Conduct a staffing analysis to identify peak hours and adjust schedules to ensure adequate front-of-house and kitchen staff coverage. Implement a kitchen display system (KDS) to streamline order flow and reduce communication errors between front and back of house.",
+      "category": "operations",
+      "expected_impact": "Significantly reduced wait times for both seating and food delivery, leading to improved customer satisfaction and increased table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Pricing strategy not aligned with perceived food quality/service, or competitors offering better value.",
+      "action": "Perform a detailed competitive pricing analysis against 3-5 local competitors with similar offerings. Based on findings, either adjust menu prices to align with market value or enhance perceived value through improved portion sizes, ingredient quality, or unique presentation.",
+      "category": "pricing",
+      "expected_impact": "Customers will perceive better value for money, potentially increasing order frequency and attracting new customers who were previously deterred by price."
+    },
+    {
+      "priority": 6,
+      "issue": "Overall operational inefficiencies, lack of attention to minor details, or a combination of smaller issues that accumulate.",
+      "action": "Implement a continuous feedback loop by placing QR codes on tables linking to a short customer satisfaction survey. Hold weekly management meetings to review feedback, identify recurring minor issues, and assign specific team members to address them.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of various small issues that collectively detract from the customer experience, leading to a more polished overall operation."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on online reviews, which may not represent the entire customer base.",
+    "Sentiment and specific issues are inferred from text and may lack nuance.",
+    "The sample size of 92 reviews, while indicative, may not capture all possible issues or seasonal variations.",
+    "The analysis does not include internal operational data (e.g., sales, staff turnover) which could provide additional context."
+  ],
+  "status": "success",
+  "error_detail": null
+}

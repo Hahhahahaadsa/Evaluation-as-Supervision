@@ -1,0 +1,64 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Dragon City Chinese Restaurant",
+  "sample_size": 14,
+  "executive_summary": "Analysis of 14 customer reviews for Dragon City Chinese Restaurant reveals a primary concern with inconsistent food quality, frequently cited by customers. This suggests potential issues with preparation standards or ingredient sourcing. Additionally, a notable portion of reviews indicates general dissatisfaction not tied to a specific aspect. Recommendations focus on standardizing kitchen operations, improving ingredient quality control, and proactively addressing overall customer experience to enhance satisfaction.",
+  "key_findings": [
+    "Customers frequently report issues with the quality of the food, indicating potential inconsistencies in preparation or ingredients.",
+    "A notable number of reviews mention general dissatisfaction or unspecified negative experiences, categorized as 'other' issues."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report issues with the quality of the food, indicating potential inconsistencies in preparation or ingredients.",
+      "cause": "Inconsistent food preparation, varying ingredient quality, or lack of adherence to recipes/standards.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A notable number of reviews mention general dissatisfaction or unspecified negative experiences, categorized as 'other' issues.",
+      "cause": "Overall decline in customer experience not tied to a single specific aspect, or issues that are hard to categorize (e.g., ambiance, general feeling).",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation leading to varying dish quality.",
+      "action": "Conduct a comprehensive review and update of all recipe cards, ensuring precise measurements, cooking times, and plating instructions. Follow with mandatory retraining for all kitchen staff on these updated standards, including practical demonstrations and competency checks.",
+      "category": "Food, Operations",
+      "expected_impact": "Significant reduction in preparation variability, leading to more consistent and higher-quality dishes, directly addressing the most frequent complaint."
+    },
+    {
+      "priority": 2,
+      "issue": "Varying ingredient quality impacting the final dish.",
+      "action": "Audit current ingredient suppliers for key problematic items. Request samples from alternative suppliers and conduct blind taste tests to identify sources that consistently meet quality benchmarks. Renegotiate contracts or switch suppliers if necessary to secure consistent, high-quality ingredients.",
+      "category": "Food, Operations",
+      "expected_impact": "Improved baseline quality of raw materials, enhancing the overall taste and presentation of dishes."
+    },
+    {
+      "priority": 3,
+      "issue": "Lack of real-time quality control for prepared dishes.",
+      "action": "Implement mandatory daily taste tests and visual checks for all menu items before and during service, led by the Head Chef or a designated senior cook, to ensure consistency with established standards and immediate correction of deviations.",
+      "category": "Food, Operations",
+      "expected_impact": "Proactive identification and correction of quality issues before they reach the customer, acting as a critical safeguard."
+    },
+    {
+      "priority": 4,
+      "issue": "Unspecified negative experiences and general dissatisfaction.",
+      "action": "Implement a 'Manager Check-in' program where managers proactively visit each table during service to solicit feedback on the overall experience (beyond just food), allowing for immediate issue resolution and gathering specific insights into 'other' concerns.",
+      "category": "Service, Customer Experience",
+      "expected_impact": "Early detection and resolution of minor issues, preventing negative reviews, and collecting actionable data on previously unarticulated pain points."
+    },
+    {
+      "priority": 5,
+      "issue": "Overall decline in customer experience not tied to a single specific aspect.",
+      "action": "Conduct a 'Mystery Shopper' program for three consecutive weeks to gain an objective, holistic view of the entire customer journey, from booking to departure, identifying subtle points of friction or dissatisfaction related to ambiance, service flow, or general feeling.",
+      "category": "Operations, Customer Experience",
+      "expected_impact": "Uncovering systemic or subtle issues contributing to general dissatisfaction that might be missed by internal staff, leading to comprehensive experience improvements."
+    }
+  ],
+  "limitations": [
+    "The analysis is based on a small sample size (14 reviews), which may not fully represent the entire customer base or capture all potential issues."
+  ],
+  "status": "success",
+  "error_detail": null
+}

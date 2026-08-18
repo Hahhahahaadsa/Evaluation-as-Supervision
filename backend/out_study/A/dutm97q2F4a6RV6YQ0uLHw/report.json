@@ -1,0 +1,18 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Crush Bar and Tap",
+  "sample_size": 34,
+  "executive_summary": "A preliminary review of 34 customer reviews for Crush Bar and Tap was conducted. Due to the absence of detailed upstream analysis, specific insights and actionable recommendations cannot be provided at this time. Further in-depth analysis is required to identify key trends and areas for improvement.",
+  "key_findings": [
+    "No specific key findings could be extracted due to the lack of detailed upstream analysis outputs."
+  ],
+  "root_causes": [],
+  "recommendations": [],
+  "limitations": [
+    "The analysis is based on a small sample size of 34 reviews, which may not be representative of all customer experiences.",
+    "Detailed sentiment analysis, topic modeling, and root cause identification were not performed in the upstream process, limiting the depth of this report.",
+    "The absence of specific upstream analysis, reasoning, and recommendation outputs significantly limits the insights provided in this report."
+  ],
+  "status": "success",
+  "error_detail": null
+}

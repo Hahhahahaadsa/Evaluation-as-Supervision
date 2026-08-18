@@ -1,0 +1,112 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Greek Cafe Grill",
+  "sample_size": 214,
+  "executive_summary": "An analysis of 214 customer reviews for Greek Cafe Grill reveals significant dissatisfaction primarily concerning food quality, staff attitude, and restaurant ambience. Food quality issues are the most frequent complaint, followed by staff demeanor and the overall environment. Pricing and cleanliness are also notable concerns. Addressing these core areas through targeted improvements in kitchen operations, staff training, and facility upgrades is crucial for enhancing customer satisfaction and improving the restaurant's reputation.",
+  "key_findings": [
+    "A significant number of customers report dissatisfaction with the quality, taste, or preparation of the food (11.68% of reviews).",
+    "Customers frequently report issues with the staff's demeanor, politeness, or attentiveness (5.61% of reviews).",
+    "Several reviews mention negative aspects of the restaurant's atmosphere or environment (4.21% of reviews).",
+    "Customers report various unspecified negative experiences or general dissatisfaction not covered by other categories (3.74% of reviews).",
+    "A recurring concern among customers is that the prices are too high or do not offer good value for money (3.27% of reviews).",
+    "Some customers express concerns regarding the cleanliness of the restaurant (1.4% of reviews).",
+    "A small but recurring number of reviews indicate dissatisfaction with the waiting period for service or food (0.93% of reviews)."
+  ],
+  "root_causes": [
+    {
+      "pattern": "A significant number of customers report dissatisfaction with the quality, taste, or preparation of the food.",
+      "cause": "Inconsistent food preparation, use of lower quality ingredients, or issues with recipe execution.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Customers frequently report issues with the staff's demeanor, politeness, or attentiveness.",
+      "cause": "Insufficient staff training in customer service, understaffing leading to stress, or lack of management oversight.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several reviews mention negative aspects of the restaurant's atmosphere or environment.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, or excessive noise levels.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers report various unspecified negative experiences or general dissatisfaction not covered by other categories.",
+      "cause": "Broad operational inefficiencies, lack of attention to detail, or specific unaddressed customer needs.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "A recurring concern among customers is that the prices are too high or do not offer good value for money.",
+      "cause": "Menu prices not aligning with perceived value, portion sizes, or quality of food/service.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Some customers express concerns regarding the cleanliness of the restaurant.",
+      "cause": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A small but recurring number of reviews indicate dissatisfaction with the waiting period for service or food.",
+      "cause": "Inefficient kitchen operations, understaffing during peak hours, or poor table management.",
+      "confidence": "medium"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of lower quality ingredients, or issues with recipe execution.",
+      "action": "Conduct a comprehensive audit of all menu items, focusing on ingredient sourcing, standardizing recipes, and implementing daily taste tests by a senior chef. Provide immediate retraining for kitchen staff on critical dishes.",
+      "category": "food",
+      "expected_impact": "Significant improvement in taste, consistency, and overall food quality, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staff training in customer service, understaffing leading to stress, or lack of management oversight.",
+      "action": "Implement a mandatory bi-weekly customer service training program for all front-of-house staff, focusing on attentiveness, politeness, and conflict resolution. Increase management presence during peak hours to provide real-time coaching and support.",
+      "category": "service",
+      "expected_impact": "Enhanced customer interactions, improved staff morale, and a more welcoming dining experience."
+    },
+    {
+      "priority": 3,
+      "issue": "Outdated decor, poor lighting, uncomfortable seating, or excessive noise levels.",
+      "action": "Allocate budget for a phased refresh of the dining area, starting with improved lighting, comfortable seating upgrades, and sound-dampening solutions (e.g., acoustic panels, soft furnishings).",
+      "category": "operations",
+      "expected_impact": "A more pleasant and inviting dining environment, encouraging longer stays and positive word-of-mouth."
+    },
+    {
+      "priority": 4,
+      "issue": "Broad operational inefficiencies, lack of attention to detail, or specific unaddressed customer needs.",
+      "action": "Implement a daily 'manager walk-through' checklist covering all operational touchpoints (restrooms, table settings, music volume, temperature, staff appearance) and introduce a quick customer feedback survey (e.g., QR code) to identify specific pain points.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of minor issues before they escalate, leading to a smoother overall customer experience."
+    },
+    {
+      "priority": 5,
+      "issue": "Menu prices not aligning with perceived value, portion sizes, or quality of food/service.",
+      "action": "Review the menu pricing strategy against competitor offerings and ingredient costs. Consider adjusting portion sizes, enhancing presentation, or introducing value-driven specials to better align price with perceived value.",
+      "category": "pricing",
+      "expected_impact": "Increased customer perception of value for money, potentially leading to higher sales and reduced price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "Inadequate cleaning protocols, insufficient staff for cleaning, or lack of regular maintenance.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning checklist for all areas (kitchen, dining room, restrooms). Assign specific staff responsibilities and conduct daily spot checks by management.",
+      "category": "operations",
+      "expected_impact": "A consistently clean and hygienic environment, boosting customer confidence and comfort."
+    },
+    {
+      "priority": 7,
+      "issue": "Inefficient kitchen operations, understaffing during peak hours, or poor table management.",
+      "action": "Analyze kitchen workflow and staffing levels during peak hours using POS data. Implement a kitchen display system (KDS) for better order management and cross-train front-of-house staff to assist with minor tasks during rushes.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times for both service and food, improving overall dining flow and customer satisfaction."
+    }
+  ],
+  "limitations": [
+    "Analysis is based solely on online reviews, which may not represent the entire customer base.",
+    "Reviews are subjective and can be influenced by individual biases and expectations.",
+    "Lack of demographic information about reviewers limits insights into specific customer segments.",
+    "Sentiment analysis may not capture all nuances or sarcasm in customer feedback.",
+    "The sample size, while indicative, is not exhaustive of all potential customer experiences over time."
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality and preparation.",
+      "action": "Implement a mandatory daily taste-test and quality check for all menu items by the head chef. Standardize recipes with clear ingredient specifications and cooking procedures, and conduct weekly training refreshers for kitchen staff on these standards. Source higher-quality, fresh ingredients from new or existing suppliers.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food consistency, taste, and freshness, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Poor staff attitude and customer service.",
+      "action": "Launch a comprehensive customer service training program focusing on attentiveness, friendliness, and conflict resolution. Implement a staff recognition program for excellent service and review staffing levels during peak hours to ensure adequate coverage. Conduct regular 1-on-1 check-ins with staff to address morale.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more positive restaurant atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Substandard restaurant cleanliness and hygiene.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning checklist for all areas (dining room, restrooms, kitchen). Assign specific staff members to cleaning duties with regular spot checks by management. Schedule professional deep cleaning quarterly and address any visible maintenance issues promptly.",
+      "category": "operations",
+      "expected_impact": "A cleaner, more inviting environment, reducing health concerns and improving overall customer perception."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive customer wait times.",
+      "action": "Analyze peak hour traffic data to optimize staffing schedules for both front-of-house and kitchen. Implement a table management system to improve seating efficiency and consider pre-shift kitchen prep strategies to speed up order fulfillment. Train staff on efficient order taking and table turnover.",
+      "category": "operations",
+      "expected_impact": "Reduced wait times, improved customer flow, and increased table turnover, leading to higher customer satisfaction and potential revenue growth."
+    },
+    {
+      "priority": 5,
+      "issue": "Perceived poor value for money.",
+      "action": "Conduct a competitive pricing analysis of similar restaurants in the area. Evaluate current menu item costs and portion sizes. Consider offering value-added options (e.g., combo deals, loyalty programs) or slightly adjusting prices for specific items, ensuring the perceived value aligns with the price.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially increasing sales and reducing price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "General customer dissatisfaction from various minor issues.",
+      "action": "Implement a customer feedback system (e.g., digital surveys, comment cards) to capture specific details of 'other' issues. Conduct daily pre-shift meetings to review previous day's feedback and address any recurring minor operational glitches. Empower staff to resolve minor issues on the spot.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of minor issues, preventing them from escalating into significant dissatisfaction."
+    },
+    {
+      "priority": 7,
+      "issue": "Unappealing or uncomfortable restaurant ambience.",
+      "action": "Conduct a walk-through audit of the dining area to identify specific issues with decor, lighting, and seating comfort. Prioritize small, cost-effective improvements (e.g., new lighting fixtures, comfortable cushions, background music adjustment) and budget for a phased decor refresh.",
+      "category": "operations",
+      "expected_impact": "A more pleasant and inviting dining environment, enhancing the overall customer experience."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,41 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of lower quality ingredients, or lack of attention to detail in the kitchen.",
+      "action": "Implement a comprehensive kitchen audit, standardize recipes, conduct regular taste tests, and review ingredient suppliers for quality and consistency. Provide targeted training for kitchen staff on preparation techniques and quality control.",
+      "category": "food",
+      "expected_impact": "Significant improvement in food taste, consistency, and overall customer satisfaction, leading to repeat business and positive reviews."
+    },
+    {
+      "priority": 2,
+      "issue": "Pricing strategy does not align with customer perception of food quality, portion sizes, or overall dining experience. Could also be due to increased ingredient costs not justified by the final product.",
+      "action": "Conduct a competitive pricing analysis and a cost-benefit analysis of current menu items. Consider adjusting prices, increasing portion sizes, or enhancing presentation/ingredient quality to justify existing prices. Clearly communicate value proposition.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, reduced price-related complaints, and potentially increased sales volume or profit margins."
+    },
+    {
+      "priority": 3,
+      "issue": "This broad category could stem from a combination of factors like poor management, lack of atmosphere, or minor inconveniences that accumulate.",
+      "action": "Implement a customer feedback system (e.g., comment cards, QR code surveys) to gather specific details on 'unspecified negative experiences.' Conduct a thorough review of the dining environment (lighting, music, cleanliness, comfort) and overall operational flow to identify subtle pain points.",
+      "category": "operations",
+      "expected_impact": "Uncover hidden issues, improve overall dining ambiance and operational efficiency, leading to a more pleasant experience and fewer vague negative reviews."
+    },
+    {
+      "priority": 4,
+      "issue": "Insufficient staff training in customer service, low staff morale, or understaffing leading to stress and poor interactions.",
+      "action": "Implement mandatory customer service training focusing on attentiveness, problem-solving, and positive interaction. Introduce regular team-building activities and review staffing levels to ensure adequate coverage and reduce stress. Consider incentive programs for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer-staff interactions, improved service perception, higher staff morale, and a more welcoming atmosphere."
+    },
+    {
+      "priority": 5,
+      "issue": "Understaffing, inefficient kitchen operations, poor table management, or high customer volume without adequate resources.",
+      "action": "Analyze peak hour operations to identify bottlenecks in kitchen workflow, order processing, and table turnover. Implement a reservation system if not already in place, optimize kitchen layout/equipment, and cross-train staff to assist during busy periods.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, improved table turnover, increased customer satisfaction, and potentially higher revenue during peak hours."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

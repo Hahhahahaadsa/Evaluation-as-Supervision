@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food preparation, use of low-quality ingredients, or lack of attention to detail in the kitchen.",
+      "action": "Conduct a comprehensive audit of all kitchen processes, including ingredient sourcing, storage, preparation, and plating. Implement daily taste tests and quality checks by a senior chef or manager for all menu items before service and periodically during service. Retrain kitchen staff on standardized recipes and presentation.",
+      "category": "food",
+      "expected_impact": "Significantly improve food consistency and quality, leading to higher customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staff training, low staff morale, or understaffing leading to burnout and poor service.",
+      "action": "Implement mandatory customer service training focused on positive attitude, active listening, and conflict resolution for all front-of-house staff. Introduce a staff recognition program for excellent service and conduct anonymous surveys to gauge staff morale and address underlying issues. Review staffing levels during peak hours to prevent burnout.",
+      "category": "service",
+      "expected_impact": "Enhance the overall dining experience by fostering a more welcoming and helpful staff, improving customer perception and loyalty."
+    },
+    {
+      "priority": 3,
+      "issue": "Understaffing during peak hours, inefficient kitchen operations, or poor table management.",
+      "action": "Analyze peak hour traffic data to adjust staffing levels for both kitchen and front-of-house. Implement a kitchen display system (KDS) to streamline order flow and track preparation times. Train staff on efficient table turnover and seating management techniques.",
+      "category": "operations",
+      "expected_impact": "Reduce customer wait times for seating, ordering, and food delivery, leading to a smoother dining experience and increased table turnover."
+    },
+    {
+      "priority": 4,
+      "issue": "Menu prices are not aligned with the perceived quality, portion sizes, or overall dining experience provided.",
+      "action": "Conduct a competitive analysis of menu pricing against similar restaurants in the area. Evaluate portion sizes and ingredient costs to ensure fair value. Consider introducing a 'value' menu item or a loyalty program to enhance perceived value without drastically cutting prices across the board. Clearly communicate the quality of ingredients or unique aspects of dishes.",
+      "category": "pricing",
+      "expected_impact": "Align customer expectations with pricing, improving perceived value and reducing price-related complaints, potentially increasing sales."
+    },
+    {
+      "priority": 5,
+      "issue": "General operational inefficiencies or specific unclassified service failures.",
+      "action": "Review the specific 'other' feedback from customer reviews and internal incident reports to identify recurring themes or specific operational gaps not covered by other categories. Implement a feedback mechanism for staff to report operational issues they observe. Address the most frequent 'other' issues with targeted solutions.",
+      "category": "operations",
+      "expected_impact": "Uncover and resolve hidden operational inefficiencies or specific service failures, leading to a more polished and consistent overall customer experience."
+    },
+    {
+      "priority": 6,
+      "issue": "Inadequate cleaning protocols or insufficient staff dedicated to maintaining hygiene standards.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning checklist for all areas of the restaurant (dining room, restrooms, kitchen, entrance). Assign specific staff members responsibility for cleanliness checks throughout their shifts and provide necessary cleaning supplies and training.",
+      "category": "operations",
+      "expected_impact": "Improve the restaurant's hygiene standards, enhancing customer comfort and perception of quality, and reducing health code risks."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

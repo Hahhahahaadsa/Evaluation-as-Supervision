@@ -1,0 +1,34 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inadequate staff training and low morale causing negative staff attitude.",
+      "action": "Launch a mandatory 'Service Excellence' training program for all front-of-house staff, covering communication, empathy, and conflict resolution. Simultaneously, implement a bi-weekly anonymous feedback mechanism for staff and introduce a 'Star Performer' recognition program with tangible incentives.",
+      "category": "Service",
+      "expected_impact": "Immediate improvement in staff-customer interactions, higher customer satisfaction, and a boost in staff morale and retention."
+    },
+    {
+      "priority": 2,
+      "issue": "Insufficient staffing leading to stress and poor service during peak times.",
+      "action": "Review historical sales data and customer traffic patterns to create an optimized staffing model. Hire two additional part-time servers specifically for weekend dinner shifts and implement a flexible scheduling system to better match demand.",
+      "category": "Operations",
+      "expected_impact": "Reduced wait times, more attentive service, and decreased staff burnout, leading to a smoother operational flow and better customer experience."
+    },
+    {
+      "priority": 3,
+      "issue": "Outdated decor, poor lighting, and uncomfortable seating creating an uninviting atmosphere.",
+      "action": "Develop a phased renovation plan for the dining area, starting with replacing all overhead lighting with warmer, dimmable LED fixtures and upgrading 50% of the dining chairs to more ergonomic and modern designs within the next three months.",
+      "category": "Operations",
+      "expected_impact": "A significantly more comfortable and aesthetically pleasing environment, encouraging longer stays and positive word-of-mouth."
+    },
+    {
+      "priority": 4,
+      "issue": "General lack of upkeep contributing to a negative atmosphere.",
+      "action": "Implement a daily 'Opening/Closing Checklist' for all staff, including specific tasks for cleanliness, tidiness, and minor repairs (e.g., wiping down menus, checking restroom supplies, straightening tables). Assign a manager to conduct a weekly 'Ambience Audit'.",
+      "category": "Operations",
+      "expected_impact": "A consistently clean, well-maintained, and inviting restaurant space, enhancing the overall customer perception of quality and care."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

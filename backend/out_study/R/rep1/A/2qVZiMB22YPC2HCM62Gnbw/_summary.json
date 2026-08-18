@@ -1,0 +1,88 @@
+{
+  "business_name": "Scarpetta",
+  "business_id": "2qVZiMB22YPC2HCM62Gnbw",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 204,
+        "failure_ratio": 0.04672897196261682,
+        "failure_details": [
+          "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+          "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+          "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]"
+        ],
+        "contradiction_rate": 0.004901960784313725,
+        "contradictions": [
+          "review cFnRZ0K599YaBnsKLcomSg: 4 stars but labelled 'negative'"
+        ]
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+      "facts": {
+        "status_error": true,
+        "error_detail": "Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]",
+        "n_success": 204,
+        "patterns": []
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "retry",
+      "flags": [],
+      "retry_feedback": "the report must only restate upstream outputs. root causes not produced upstream: ['Upstream analysis did not provide detailed patterns or themes from customer reviews, preventing identification of specific root causes for Scarpetta.', 'Commonly, inconsistent food preparation or ingredient quality can lead to varied customer experiences.', 'General issues like inadequate staff training, understaffing, or lack of clear service protocols can impact customer satisfaction.'] | recommendations not produced upstream: ['Lack of specific customer insights from reviews', 'Insufficient actionable customer feedback channels', 'Potential service gaps or areas for enhancing customer interaction (pending analysis)']",
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [
+          "Upstream analysis did not provide detailed patterns or themes from customer reviews, preventing identification of specific root causes for Scarpetta.",
+          "Commonly, inconsistent food preparation or ingredient quality can lead to varied customer experiences.",
+          "General issues like inadequate staff training, understaffing, or lack of clear service protocols can impact customer satisfaction."
+        ],
+        "invented_recommendations": [
+          "Lack of specific customer insights from reviews",
+          "Insufficient actionable customer feedback channels",
+          "Potential service gaps or areas for enhancing customer interaction (pending analysis)"
+        ],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 911.49,
+  "stratum": "p90"
+}

@@ -1,0 +1,138 @@
+{
+  "business_name": "Greek Cafe Grill",
+  "business_id": "-uzQNt-3jsRK5okUuJiQLA",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 214,
+        "n_success": 214,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 214,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "A significant number of customers report dissatisfaction wit",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.1168,
+            "recomputed_frequency": 0.11682242990654206
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "Customers frequently report issues with the staff's demeanor",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0561,
+            "recomputed_frequency": 0.056074766355140186
+          },
+          {
+            "index": 2,
+            "aspect": "ambience",
+            "description": "Several reviews mention negative aspects of the restaurant's",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0421,
+            "recomputed_frequency": 0.037383177570093455
+          },
+          {
+            "index": 3,
+            "aspect": "other",
+            "description": "Customers report various unspecified negative experiences or",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0374,
+            "recomputed_frequency": 0.037383177570093455
+          },
+          {
+            "index": 4,
+            "aspect": "pricing",
+            "description": "A recurring concern among customers is that the prices are t",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0327,
+            "recomputed_frequency": 0.03271028037383177
+          },
+          {
+            "index": 5,
+            "aspect": "cleanliness",
+            "description": "Some customers express concerns regarding the cleanliness of",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.014,
+            "recomputed_frequency": 0.014018691588785047
+          },
+          {
+            "index": 6,
+            "aspect": "wait_time",
+            "description": "A small but recurring number of reviews indicate dissatisfac",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.0093,
+            "recomputed_frequency": 0.009345794392523364
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 456.55,
+  "stratum": "p90"
+}

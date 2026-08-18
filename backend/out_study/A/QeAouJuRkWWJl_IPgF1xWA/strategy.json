@@ -1,0 +1,48 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent or poor food quality.",
+      "action": "Implement a daily kitchen quality control checklist for all dishes, conduct mandatory refresher training for kitchen staff on recipes and plating standards, and establish a clear protocol for daily ingredient freshness checks.",
+      "category": "food",
+      "expected_impact": "Improved consistency and higher overall food quality, leading to increased customer satisfaction and repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative or unhelpful staff attitude.",
+      "action": "Launch a comprehensive customer service training program focusing on positive communication, conflict resolution, and proactive guest engagement. Implement a staff feedback mechanism and consider incentives for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, and a more welcoming restaurant atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Customers frequently experience long wait times.",
+      "action": "Conduct a peak-hour staffing analysis to ensure adequate coverage. Optimize kitchen workflow by reviewing station assignments and implementing a digital order management system to streamline processing.",
+      "category": "operations",
+      "expected_impact": "Reduced wait times, improved table turnover, and higher customer satisfaction during busy periods."
+    },
+    {
+      "priority": 4,
+      "issue": "Concerns about the restaurant's cleanliness.",
+      "action": "Develop and enforce a detailed daily, weekly, and monthly cleaning schedule for all areas (dining room, restrooms, kitchen). Assign specific staff responsibilities and conduct regular spot checks by management.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner and more hygienic environment, boosting customer confidence and comfort."
+    },
+    {
+      "priority": 5,
+      "issue": "Customers perceive the pricing as too high or not offering good value.",
+      "action": "Review menu pricing in conjunction with portion sizes and ingredient costs. Consider introducing value-oriented specials or combo deals, and ensure the perceived quality of food and service justifies current price points.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially increasing sales and reducing price-related complaints."
+    },
+    {
+      "priority": 6,
+      "issue": "General dissatisfaction or unspecified negative experiences.",
+      "action": "Implement a customer feedback system (e.g., digital surveys, comment cards) to gather more specific insights into overall dissatisfaction. Conduct a holistic operational audit to identify cumulative minor issues.",
+      "category": "operations",
+      "expected_impact": "Deeper understanding of customer pain points, enabling targeted improvements across various operational areas."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

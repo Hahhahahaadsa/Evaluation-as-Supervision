@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Kitchen and front-of-house appear understaffed during peak hours",
+      "action": "Address wait time: Kitchen and front-of-house appear understaffed during peak hours",
+      "category": "operations",
+      "expected_impact": "Reduce wait time complaints"
+    },
+    {
+      "priority": 2,
+      "issue": "Staff may be undertrained in customer service or overworked during rushes",
+      "action": "Address staff attitude: Staff may be undertrained in customer service or overworked during rushes",
+      "category": "service",
+      "expected_impact": "Reduce staff attitude complaints"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

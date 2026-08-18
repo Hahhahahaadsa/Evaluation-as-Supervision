@@ -1,0 +1,84 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report dissatisfaction with the quality of the food.",
+      "aspect": "food_quality",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "G0jj0BTXoDhFnRisqK5BBg",
+        "QT7HmP8cjq22Fd7a7ZFndA",
+        "SCsUpawaTvlZVFsEpAvT1A",
+        "j_AFoIOG91DcujHpWjzUSQ"
+      ]
+    },
+    {
+      "description": "Multiple reviews indicate issues with the staff's attitude or the quality of service provided.",
+      "aspect": "staff_attitude",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "G0jj0BTXoDhFnRisqK5BBg",
+        "QT7HmP8cjq22Fd7a7ZFndA",
+        "SCsUpawaTvlZVFsEpAvT1A",
+        "k1NoUYzSoEGxUBw5kvsuOg"
+      ]
+    },
+    {
+      "description": "A notable number of reviews mention general dissatisfaction or unspecified 'other' negative issues.",
+      "aspect": "other",
+      "frequency": 0.29,
+      "evidence_review_ids": [
+        "Fiqmd4Tr11qsYiy48PMQWA",
+        "G0jj0BTXoDhFnRisqK5BBg",
+        "jPWnGjaxI_bGbS_v7qAkAw",
+        "muCrEuuyEawse5jXyfGW0Q"
+      ]
+    },
+    {
+      "description": "Customers experience excessive wait times for service or food.",
+      "aspect": "wait_time",
+      "frequency": 0.14,
+      "evidence_review_ids": [
+        "G0jj0BTXoDhFnRisqK5BBg",
+        "k1NoUYzSoEGxUBw5kvsuOg"
+      ]
+    },
+    {
+      "description": "The restaurant's atmosphere or environment is negatively perceived by customers.",
+      "aspect": "ambience",
+      "frequency": 0.14,
+      "evidence_review_ids": [
+        "Fiqmd4Tr11qsYiy48PMQWA",
+        "k1NoUYzSoEGxUBw5kvsuOg"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food.",
+      "cause": "Inconsistent food preparation and quality control.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Multiple reviews indicate issues with the staff's attitude or the quality of service provided.",
+      "cause": "Inadequate staff training or low staff morale.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A notable number of reviews mention general dissatisfaction or unspecified 'other' negative issues.",
+      "cause": "Systemic operational inefficiencies or a combination of multiple minor issues.",
+      "confidence": "low"
+    },
+    {
+      "pattern": "Customers experience excessive wait times for service or food.",
+      "cause": "Insufficient staffing or inefficient operational processes.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "The restaurant's atmosphere or environment is negatively perceived by customers.",
+      "cause": "Outdated or poorly maintained interior design.",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,60 @@
+Phase A (observe) — 20 target(s), 2 already done, 18 to run.
+[1/18] p25 xjZHp1slZNUBJvQLuHSTTA Wawa ...
+Business has 14 reviews — randomly selected 14.
+    ok: 14 reviews, 62.85s, would_retry=-
+[2/18] p25 B0SPP0RsKkJxf6zK6mG9kw Dragon City Chinese Restaurant ...
+Business has 14 reviews — randomly selected 14.
+    ok: 14 reviews, 68.89s, would_retry=-
+[3/18] p25 QeAouJuRkWWJl_IPgF1xWA Steak ’n Shake ...
+Business has 14 reviews — randomly selected 14.
+    ok: 14 reviews, 65.32s, would_retry=-
+[4/18] p50 dutm97q2F4a6RV6YQ0uLHw Crush Bar and Tap ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 74.39s, would_retry=-
+[5/18] p50 _cXaVePsZOiKlXwsQ8vcxA Red Lobster ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 147.31s, would_retry=['strategy_agent']
+[6/18] p50 KCVLunGXXLTVnP2sP2bhuQ El Folklor Restaurant ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 103.71s, would_retry=-
+[7/18] p50 26FBIjrkQ9SH-JPvvr0PXA Shagor Indian Cuisine ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 149.07s, would_retry=-
+[8/18] p50 d1nD7knOKA5PzZK_HYG4JQ Tailgate Barbecue ...
+Business has 34 reviews — randomly selected 34.
+    ok: 34 reviews, 145.27s, would_retry=-
+[9/18] p75 i9R_CJQ5oN1tVglXpL-GCA Indy Asian Cuisine ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 271.19s, would_retry=-
+[10/18] p75 _pHMElutAeebkqmYYNeI6w Herban Quality Eats ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 270.3s, would_retry=-
+[11/18] p75 ZGznjpkqi6a_It4lAgCnYw Izzo's Illegal Burrito ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 285.84s, would_retry=['strategy_agent']
+[12/18] p75 8jbGUpLnTwt6eO36l5VYEQ Toni Rigatonis ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 256.05s, would_retry=-
+[13/18] p75 Fd-CY5oUjewSTawi-O5Bqw No. 1 Chinese ...
+Business has 92 reviews — randomly selected 92.
+    ok: 92 reviews, 241.13s, would_retry=-
+[14/18] p90 FnEWE7CdxTolKWEgVKAlsg Nomzilla! Sushi Et Cetera ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 671.33s, would_retry=['reasoning_agent']
+[15/18] p90 o3hDZ2nv80tApZMNQw2aZA Ameristar Casino Resort Spa St. Charles ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 993.08s, would_retry=['strategy_agent']
+[16/18] p90 gk3hzKydevLKZ2FVmJdt-A Nora Lee's ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 846.98s, would_retry=-
+[17/18] p90 -uzQNt-3jsRK5okUuJiQLA Greek Cafe Grill ...
+Business has 214 reviews — randomly selected 214.
+    ok: 214 reviews, 456.55s, would_retry=-
+[18/18] p90 2qVZiMB22YPC2HCM62Gnbw Scarpetta ...
+Business has 214 reviews — randomly selected 214.
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+LLM API call failed on attempt 0: Error code: 503 - [{'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}]
+    ok: 214 reviews, 728.77s, would_retry=['reasoning_agent', 'report_agent']
+
+Phase A finished. Checkpoint: out_study\A\checkpoint.jsonl
+  20 completed, 5 with a would-be retry -> Phase B will run 5 business(es).

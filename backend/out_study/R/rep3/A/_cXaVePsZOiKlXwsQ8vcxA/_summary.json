@@ -1,0 +1,129 @@
+{
+  "business_name": "Red Lobster",
+  "business_id": "_cXaVePsZOiKlXwsQ8vcxA",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 34,
+        "n_success": 34,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.0,
+        "contradictions": []
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 34,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "food_quality",
+            "description": "Customers frequently report dissatisfaction with the quality",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.47,
+            "recomputed_frequency": 0.47058823529411764
+          },
+          {
+            "index": 1,
+            "aspect": "staff_attitude",
+            "description": "A significant number of reviews highlight negative experienc",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.41,
+            "recomputed_frequency": 0.4117647058823529
+          },
+          {
+            "index": 2,
+            "aspect": "wait_time",
+            "description": "Customers consistently complain about excessive wait times f",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.29,
+            "recomputed_frequency": 0.29411764705882354
+          },
+          {
+            "index": 3,
+            "aspect": "pricing",
+            "description": "Several reviews indicate that pricing is perceived as too hi",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.21,
+            "recomputed_frequency": 0.20588235294117646
+          },
+          {
+            "index": 4,
+            "aspect": "other",
+            "description": "A notable number of reviews mention various 'other' negative",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.15,
+            "recomputed_frequency": 0.14705882352941177
+          },
+          {
+            "index": 5,
+            "aspect": "cleanliness",
+            "description": "Some reviews point out issues with the restaurant's cleanlin",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.06,
+            "recomputed_frequency": 0.058823529411764705
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 145.05,
+  "stratum": "p50"
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Restaurant Review Analysis Report",
+  "business_name": "Izzo's Illegal Burrito",
+  "sample_size": 92,
+  "executive_summary": "An analysis of 92 customer reviews for Izzo's Illegal Burrito reveals significant issues primarily concerning food quality and staff attitude. Customers frequently report dissatisfaction with taste and preparation, alongside negative experiences with staff behavior. Cleanliness and wait times are also notable concerns. Addressing these core issues through standardized food preparation, comprehensive staff training, and improved operational protocols is crucial for enhancing customer satisfaction and overall business performance.",
+  "key_findings": [
+    "Customers frequently report dissatisfaction with the quality of the food, indicating issues with taste, preparation, or ingredients.",
+    "A significant number of reviews highlight negative experiences with staff behavior, including rudeness, unhelpfulness, or poor service attitude.",
+    "Several customers expressed concerns regarding the cleanliness of the establishment, including tables, restrooms, or general dining areas.",
+    "Customers frequently complain about excessive wait times for seating, ordering, or receiving their food.",
+    "A notable number of reviews indicate a general negative experience not tied to specific categories, possibly encompassing overall dissatisfaction or minor issues.",
+    "Some customers perceive the pricing as too high or not offering good value for the quality and experience provided.",
+    "A few reviews mention a negative or unappealing atmosphere, impacting the overall dining experience."
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report dissatisfaction with the quality of the food, indicating issues with taste, preparation, or ingredients.",
+      "cause": "Inconsistent food preparation, use of low-quality ingredients, or lack of attention to detail in the kitchen.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A significant number of reviews highlight negative experiences with staff behavior, including rudeness, unhelpfulness, or poor service attitude.",
+      "cause": "Insufficient staff training, low employee morale, or understaffing leading to overwhelmed and stressed employees.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "Several customers expressed concerns regarding the cleanliness of the establishment, including tables, restrooms, or general dining areas.",
+      "cause": "Inadequate cleaning protocols, insufficient cleaning staff, or lack of regular maintenance and upkeep.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Customers frequently complain about excessive wait times for seating, ordering, or receiving their food.",
+      "cause": "Understaffing during peak hours, inefficient kitchen operations, or poor table management and customer flow.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "Some customers perceive the pricing as too high or not offering good value for the quality and experience provided.",
+      "cause": "Misalignment between the perceived value of the food/service and its cost, or pricing strategy not competitive with similar establishments.",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "A few reviews mention a negative or unappealing atmosphere, impacting the overall dining experience.",
+      "cause": "Outdated decor, poor lighting, uncomfortable seating, or a general lack of inviting ambiance.",
+      "confidence": "low"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent food quality, taste, and ingredient standards.",
+      "action": "Implement a comprehensive kitchen audit to standardize recipes, portioning, and preparation guidelines. Source higher-quality ingredients from reputable suppliers and conduct regular taste tests and staff training on new culinary standards.",
+      "category": "food",
+      "expected_impact": "Significantly improved customer satisfaction with food quality, leading to better reviews, increased repeat business, and a stronger brand reputation."
+    },
+    {
+      "priority": 2,
+      "issue": "Negative staff behavior, including rudeness, unhelpfulness, and poor service attitude.",
+      "action": "Implement mandatory customer service training focusing on empathy, effective communication, and conflict resolution. Introduce a staff recognition program to boost morale and review staffing levels during peak hours to prevent employee burnout and stress.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, improved staff morale, reduced negative interactions, and a more positive and welcoming dining atmosphere."
+    },
+    {
+      "priority": 3,
+      "issue": "Substandard cleanliness across the establishment (dining areas, restrooms, tables).",
+      "action": "Develop and strictly enforce a detailed daily, weekly, and monthly cleaning checklist for all areas. Allocate dedicated cleaning staff or clearly assign cleaning responsibilities to existing staff, and conduct regular management spot checks to ensure compliance.",
+      "category": "operations",
+      "expected_impact": "A more inviting and hygienic environment, reducing negative perceptions, improving overall customer comfort, and enhancing the restaurant's image."
+    },
+    {
+      "priority": 4,
+      "issue": "Excessive wait times for seating, ordering, and food delivery.",
+      "action": "Analyze peak hour traffic patterns and adjust staffing schedules for both front-of-house and kitchen accordingly. Implement a more efficient table management system and streamline kitchen workflows to reduce order-to-delivery time.",
+      "category": "operations",
+      "expected_impact": "Reduced customer frustration, improved table turnover rates, and a smoother, more efficient dining experience, especially during busy periods."
+    },
+    {
+      "priority": 5,
+      "issue": "Customer perception of high pricing or poor value for money.",
+      "action": "Conduct a competitive pricing analysis against similar establishments. Evaluate menu item costs and consider adjusting prices, enhancing portion sizes, or upgrading ingredient quality to better justify current pricing. Clearly communicate the value proposition of your offerings.",
+      "category": "pricing",
+      "expected_impact": "Improved customer perception of value, potentially increasing sales, reducing price-related complaints, and attracting a broader customer base."
+    },
+    {
+      "priority": 6,
+      "issue": "Unappealing or outdated dining atmosphere.",
+      "action": "Conduct a thorough walk-through to identify specific ambiance issues (e.g., outdated decor, poor lighting, uncomfortable seating). Prioritize small, cost-effective improvements such as updating lighting fixtures, adding plants, refreshing paint, or curating background music.",
+      "category": "facilities",
+      "expected_impact": "A more pleasant and inviting dining environment, enhancing the overall customer experience and encouraging longer stays and repeat visits."
+    }
+  ],
+  "limitations": [
+    "This analysis is based solely on customer reviews and may not capture all operational nuances or internal perspectives.",
+    "The sentiment and issues identified are subjective and represent the opinions of the reviewers.",
+    "The sample size of 92 reviews, while indicative, may not be fully representative of all customer experiences."
+  ],
+  "status": "success",
+  "error_detail": null
+}

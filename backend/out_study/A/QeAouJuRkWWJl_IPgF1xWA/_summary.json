@@ -1,0 +1,135 @@
+{
+  "business_name": "Steak ’n Shake",
+  "business_id": "QeAouJuRkWWJl_IPgF1xWA",
+  "run_config": {
+    "provider": "google-gemini (openai-compatible)",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/",
+    "primary_model": "gemini-2.5-flash",
+    "fallback_model": "gemini-2.5-flash"
+  },
+  "pipeline_status": "complete",
+  "skipped_agents": [],
+  "failed_agent": null,
+  "errors": {},
+  "retry_counts": {},
+  "flags": [
+    "low_confidence:n=14"
+  ],
+  "last_verdict": "proceed",
+  "observations": [
+    {
+      "stage": "analysis_agent",
+      "would_be_verdict": "proceed_with_warning",
+      "flags": [
+        "low_confidence:n=14"
+      ],
+      "retry_feedback": null,
+      "facts": {
+        "n_loaded": 14,
+        "n_success": 14,
+        "failure_ratio": 0.0,
+        "failure_details": [],
+        "contradiction_rate": 0.07142857142857142,
+        "contradictions": [
+          "review FnD5aJUFkwZd2wavUoEKew: 5 stars but labelled 'negative'"
+        ]
+      }
+    },
+    {
+      "stage": "reasoning_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "n_success": 14,
+        "patterns": [
+          {
+            "index": 0,
+            "aspect": "wait_time",
+            "description": "Customers frequently experience long wait times.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.357,
+            "recomputed_frequency": 0.35714285714285715
+          },
+          {
+            "index": 1,
+            "aspect": "food_quality",
+            "description": "Inconsistent or poor food quality is a recurring issue.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.357,
+            "recomputed_frequency": 0.35714285714285715
+          },
+          {
+            "index": 2,
+            "aspect": "staff_attitude",
+            "description": "Negative or unhelpful staff attitude is reported by multiple",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.357,
+            "recomputed_frequency": 0.35714285714285715
+          },
+          {
+            "index": 3,
+            "aspect": "cleanliness",
+            "description": "Concerns about the restaurant's cleanliness are noted.",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.286,
+            "recomputed_frequency": 0.2857142857142857
+          },
+          {
+            "index": 4,
+            "aspect": "other",
+            "description": "General dissatisfaction or unspecified negative experiences ",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.214,
+            "recomputed_frequency": 0.21428571428571427
+          },
+          {
+            "index": 5,
+            "aspect": "pricing",
+            "description": "Customers perceive the pricing as too high or not offering g",
+            "missing_evidence_ids": [],
+            "misaligned_evidence_ids": [],
+            "claimed_frequency": 0.143,
+            "recomputed_frequency": 0.14285714285714285
+          }
+        ]
+      }
+    },
+    {
+      "stage": "strategy_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "untraceable_issues": []
+      }
+    },
+    {
+      "stage": "report_agent",
+      "would_be_verdict": "proceed",
+      "flags": [],
+      "retry_feedback": null,
+      "facts": {
+        "status_error": false,
+        "error_detail": null,
+        "invented_root_causes": [],
+        "invented_recommendations": [],
+        "name_mismatch": false,
+        "size_mismatch": false
+      }
+    }
+  ],
+  "phase": "A",
+  "mode": "observe",
+  "wall_clock_s": 65.32,
+  "stratum": "p25"
+}

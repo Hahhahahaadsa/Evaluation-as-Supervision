@@ -1,0 +1,31 @@
+Judge: gemini-3.1-pro-preview (subject: gemini-2.5-flash) — 5 business(es) x 3 repetition(s)
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  [1] Nomzilla! Sushi Et Cetera  better=observe
+  [1] Izzo's Illegal Burrito     better=enforce
+  [1] Red Lobster                better=tie
+  [1] Ameristar Casino Resort Sp better=enforce
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  [2] Nomzilla! Sushi Et Cetera  better=observe
+  [2] ZGznjpkqi6a_It4lAgCnYw: FAILED APIConnectionError: Connection error.
+  [2] _cXaVePsZOiKlXwsQ8vcxA: FAILED APIConnectionError: Connection error.
+  [2] o3hDZ2nv80tApZMNQw2aZA: FAILED APIConnectionError: Connection error.
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  [3] FnEWE7CdxTolKWEgVKAlsg: FAILED APIConnectionError: Connection error.
+  [3] ZGznjpkqi6a_It4lAgCnYw: FAILED APIConnectionError: Connection error.
+  [3] _cXaVePsZOiKlXwsQ8vcxA: FAILED APIConnectionError: Connection error.
+  [3] o3hDZ2nv80tApZMNQw2aZA: FAILED APIConnectionError: Connection error.
+
+Done. Results: out_study\judge\results.jsonl
+Judge: gemini-3.1-pro-preview (subject: gemini-2.5-flash) — 5 business(es) x 3 repetition(s)
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  [2] Izzo's Illegal Burrito     better=enforce
+  [2] Red Lobster                better=tie
+  [2] Ameristar Casino Resort Sp better=observe
+  skip 2qVZiMB22YPC2HCM62Gnbw: report status observe=error enforce=success — pair excluded as infrastructure loss
+  [3] Nomzilla! Sushi Et Cetera  better=observe
+  [3] Izzo's Illegal Burrito     better=enforce
+  [3] Red Lobster                better=tie
+  [3] Ameristar Casino Resort Sp better=enforce
+
+Done. Results: out_study\judge\results.jsonl

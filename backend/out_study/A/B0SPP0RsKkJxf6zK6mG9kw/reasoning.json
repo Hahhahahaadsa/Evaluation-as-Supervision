@@ -1,0 +1,43 @@
+{
+  "patterns": [
+    {
+      "description": "Customers frequently report issues with the quality of the food, indicating potential inconsistencies in preparation or ingredients.",
+      "aspect": "food_quality",
+      "frequency": 0.5714,
+      "evidence_review_ids": [
+        "0581qKi3D23GCRaAQswdgA",
+        "3hTKFbmpZxW3Yp8f6Xp2Ng",
+        "LJARQd1cjNf9hrmflnu41A",
+        "UAoqNtwd6lY-0SD5-OEPXQ",
+        "YvfjSNizsY0S1QfM1X7BXA",
+        "cF_ei7PqkZXIAcjRscucYA",
+        "rpFigPwucEntrJRLo-zh2g",
+        "t3lo7BhFzxDqYL11yI-sVA"
+      ]
+    },
+    {
+      "description": "A notable number of reviews mention general dissatisfaction or unspecified negative experiences, categorized as 'other' issues.",
+      "aspect": "other",
+      "frequency": 0.2143,
+      "evidence_review_ids": [
+        "0581qKi3D23GCRaAQswdgA",
+        "UlUPRUvrZ7M8Q0iA1cRm4A",
+        "YvfjSNizsY0S1QfM1X7BXA"
+      ]
+    }
+  ],
+  "root_causes": [
+    {
+      "pattern": "Customers frequently report issues with the quality of the food, indicating potential inconsistencies in preparation or ingredients.",
+      "cause": "Inconsistent food preparation, varying ingredient quality, or lack of adherence to recipes/standards.",
+      "confidence": "high"
+    },
+    {
+      "pattern": "A notable number of reviews mention general dissatisfaction or unspecified negative experiences, categorized as 'other' issues.",
+      "cause": "Overall decline in customer experience not tied to a single specific aspect, or issues that are hard to categorize (e.g., ambiance, general feeling).",
+      "confidence": "medium"
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}

@@ -1,0 +1,55 @@
+{
+  "recommendations": [
+    {
+      "priority": 1,
+      "issue": "Inconsistent or poor food quality.",
+      "action": "Develop and enforce detailed standardized recipes for all menu items. Implement a daily taste test and visual inspection protocol for dishes before they leave the kitchen, led by the head chef.",
+      "category": "food",
+      "expected_impact": "Significant improvement in dish consistency and overall customer satisfaction with food quality, leading to repeat business."
+    },
+    {
+      "priority": 2,
+      "issue": "Unfriendly or unhelpful staff attitude.",
+      "action": "Implement a mandatory bi-weekly customer service training program focusing on active listening, problem-solving, and positive communication. Introduce a staff recognition program for excellent service.",
+      "category": "service",
+      "expected_impact": "Enhanced customer experience, increased positive reviews regarding service, and improved staff morale."
+    },
+    {
+      "priority": 3,
+      "issue": "Perceived high prices or poor value for money.",
+      "action": "Conduct a competitive pricing analysis of similar restaurants in the area. Evaluate current portion sizes against price points and consider introducing a 'value menu' or daily specials to offer perceived better value.",
+      "category": "pricing",
+      "expected_impact": "Better alignment of pricing with customer expectations, potentially increasing order volume and perceived value."
+    },
+    {
+      "priority": 4,
+      "issue": "Long wait times for service or food.",
+      "action": "Use POS data to identify peak hours and adjust staffing levels accordingly for both front-of-house and kitchen. Implement a kitchen display system (KDS) to streamline order flow and reduce communication errors.",
+      "category": "operations",
+      "expected_impact": "Reduced customer wait times, leading to higher satisfaction and improved table turnover."
+    },
+    {
+      "priority": 5,
+      "issue": "Unpleasant or uninviting ambience.",
+      "action": "Allocate a budget for minor decor upgrades (e.g., fresh paint, new artwork, updated lighting fixtures). Create a weekly checklist for staff to ensure cleanliness, proper table settings, and comfortable temperature.",
+      "category": "operations",
+      "expected_impact": "A more welcoming and comfortable dining environment, encouraging longer stays and positive word-of-mouth."
+    },
+    {
+      "priority": 6,
+      "issue": "Issues with 'other' aspects (e.g., specific items not fitting other categories, general dissatisfaction).",
+      "action": "Implement a customer feedback system (e.g., QR code surveys, comment cards) to capture specific minor issues. Hold weekly team meetings to review feedback and brainstorm solutions for recurring 'other' issues.",
+      "category": "operations",
+      "expected_impact": "Proactive identification and resolution of minor issues before they escalate, improving overall customer satisfaction."
+    },
+    {
+      "priority": 7,
+      "issue": "Poor cleanliness.",
+      "action": "Develop a comprehensive daily and weekly cleaning schedule for all areas (dining room, restrooms, kitchen). Assign specific staff members to cleaning duties with clear accountability and regular checks by management.",
+      "category": "operations",
+      "expected_impact": "A visibly cleaner establishment, enhancing customer comfort and perception of hygiene standards."
+    }
+  ],
+  "status": "success",
+  "error_detail": null
+}
